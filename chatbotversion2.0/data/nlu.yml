@@ -1,0 +1,3736 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hii
+    - hiie
+    - hey
+    - hey you
+    - hey you there
+    - hello Sevak
+    - hey Cu Sevak
+    - Cu-Sevak
+    - Sevak?
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+    - hi there
+    - hello there
+    - greetings
+    - Hi
+    - helo
+    - Hi!
+    - Hi'
+    - Hi,
+    - Hi, bot
+    - Hieee
+    - Hieeeeeeeeeeeee
+    - Hola
+    - What is up?
+    - Whats up
+    - Whats up my bot
+    - Whats up?
+    - ayyyy whaddup
+    - bonjour
+    - ey boss
+    - I said, helllllloooooO!!!!
+    - Well hello there ;)
+    - namaste
+    - namaskar
+- intent: song
+  examples: |
+    - from where did you get the song
+    - song
+    - tell me a song
+    - i want full lyrics of the song
+    - tell me who wrote that song
+    - did you wrote that song?
+    - music
+    - name of the song
+    - who is the writer of the song don't worry be happy
+    - name of the singer
+    - singer name please
+    - who wrote that song
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you around
+    - see you later
+    - see ya
+    - buh bye
+    - Bye
+    - Bye bye
+    - adios
+    - adios?
+    - bye :P
+    - bye bot
+    - bye bye
+    - bye bye bot
+    - bye for now
+    - bye udo
+    - bye was nice talking to you
+    - bye!
+    - byee
+    - catch you later
+    - ciao
+    - cya
+    - farewell
+    - good bye
+    - good bye rasa bot!
+    - good night
+    - goodbye.
+    - goodnight
+    - gotta go
+    - ok Bye
+    - ok bye
+    - ok, bye
+    - ok.bye
+    - see u later
+    - see you
+    - see you . bye
+    - take care
+    - then bye
+    - tlak to you later
+    - toodle-oo
+    - byr
+    - get out
+    - get the hell out
+    - good by
+    - cee you later
+    - have a nice day
+- intent: thank
+  examples: |
+    - wow
+    - thanks!
+    - thank you
+    - thanks a lot
+    - great thanks
+    - appreciate it
+    - cool thanks
+    - Cool. Thanks
+    - Great, thanks
+    - Thank you so much
+    - Thank's!
+    - Thanks bot
+    - Thanks for that
+    - Thanks!
+    - amazing, thanks
+    - cool thank you
+    - cool, thanks
+    - danke
+    - ok thanks
+    - ok thanks!
+    - perfect thank you
+    - thank u
+    - thank you anyways
+    - thanks
+    - thanks a bunch for everything
+    - thanks for the help
+    - thanks you
+    - thankyou
+    - thnks
+    - thx
+    - thanks for your information
+    - thanks f
+    - thankyou sevak
+    - thanks sevak
+    - thanks sevak ji
+    - dhanyawad sevak ji
+    - dhanyavaad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - hi, who are you ?
+    - hello , who are you ?
+    - who are you?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - you are a bot right
+    - aren't you a bot
+    - Are you a bot?
+    - are you cu sevak?
+    - you are sevak right?
+    - are you a BOT
+    - are you a chatbot
+    - are you a rasa bot?
+    - are you a real bot?
+    - are you a robot
+    - are you ai
+    - are you artificial
+    - are you artificial intelligence
+    - are you bot
+    - are you bot?
+    - are you rasa bot?
+    - are you real
+    - are you real lol
+    - are you really a bot
+    - are you robot
+    - are you sure that you're a bot?
+    - bot?
+    - cuz you are a bot
+    - i guess you are a chatbot
+    - oh are you chatbot?
+    - tell me, are you a bot?
+    - what are you, a bot?
+    - you are a robot
+    - you are ai
+    - you are chatbot
+    - you're a bot
+    - you robo
+    - real bot then?
+    - are you really a bbot?
+    - what is your name?
+    - your name is ?
+    - name
+    - bot
+    - what is your age?
+    - what is your size and whats is your figure?
+    - are you cu-sevak?
+    - are cu-sevak?
+- intent: affirm
+  examples: |
+    - yes
+    - ok
+    - okay
+    - yes please
+    - yes I would
+    - please do
+    - yup
+    - yep
+    - that's right
+    - indeed
+    - Yes, please
+    - yeah
+    - sure
+    - yes thank you
+    - That would be great
+    - YES
+    - YUP
+    - Yea
+    - Yeah
+    - Yeah sure
+    - Yep
+    - Yep that's fine
+    - Yep!
+    - Yepp
+    - Yes
+    - Yes I do
+    - Yes please
+    - Yes please!
+    - Yes, I accept
+- intent: ask_again
+  examples: |
+    - can i ask you a question?
+    - can i ask you another question?
+    - i have a question to ask
+    - i have a query
+    - i have a doubt
+    - may i ask you something
+- intent: discard
+  examples: |
+    - no
+    - nope
+    - no thanks
+    - not that one
+    - don't use that
+    - please no
+    - no don't do that
+    - no, use abraham.lincoln@example.com
+    - Neither
+    - Never
+    - Nevermind
+    - No thank you
+    - No, not really.
+    - No, thank you
+    - No.
+    - Nopes
+    - Not really
+    - absolutely not
+    - decline
+    - definitely not
+    - na
+    - nah
+    - nah I'm good
+    - nothing
+    - thats it
+- intent: human_handoff
+  examples: |
+    - I want a human
+    - can I speak to an agent
+    - real agent please
+    - real human
+    - can someone help me with this course?
+    - chat with a live agent
+    - give me a person please
+    - i want to talk to a human
+    - can you transfer me to a human?
+    - handoff
+    - talk to a human
+    - i need to talk to a human
+    - human please
+    - i need help from a human
+    - i need help from a real human
+    - give me a human
+    - i want to talk to human
+    - i want a representative
+    - i want to talk to a person
+    - I don't wanna talk to a bot
+    - I dont like to talk to a machine
+    - I want to talk to a human
+    - I want to talk to the founders
+    - are there also humans working for your company?
+    - can I speak to a person?
+    - can i please speak to a human?
+    - can you forward me to your team
+    - can you please connect me to a real rasa employee?
+    - can you put me in touch with a human?
+    - do you have human support ?
+    - gimme a proper human
+    - give me a human now
+    - human handoff
+    - i dont wanna talk to a bot
+    - i want to speak to a real person
+    - i want to speak to customer service
+    - i want to talk to someone at rasa
+    - i want to talk to someone else
+    - i want to talk to someone who is smarter than you
+    - i would like to speak to a person
+    - i'd rather speak with a real rasa employee
+    - id like to talk to a real rasa employee
+    - let me speak with a real person please
+    - let me talk to a human
+    - let me talk to a real person
+    - please give me a human
+    - service agent
+    - someone from customer care
+    - speak to a real person
+    - talking to a bot is stupid
+    - that's annoying I'd like to speak to someone real
+    - thats not helping, can i talk to human?
+    - wrong i want to speak to a human
+    - can i speak to human
+    - can i speak to your human
+    - i want to chat with human
+    - How do I talk to a human
+    - talk with a human
+    - Can i talk to a human instead
+    - nevermind.... you're not human ... I need to talk to a live person
+    - Can you get a human to assist me?
+    - Can i talk to a human?
+    - Can I talk to a human
+    - Can I speak to a human?
+    - can i speak to a human
+    - no, i want to talk to human
+    - can you hand a conversation over to a human?
+    - can I talk to human?
+    - can I talk to human
+    - talk to human
+    - i want human :(
+    - can i talk to human
+    - i want to speak to human
+    - can i talk to a real person?
+    - connect me to a real person
+    - I need a real person
+    - can i took with a real person
+    - let me speak to a real person
+    - let me speak to a real person please
+    - i want to talk to a real person
+    - call me
+    - connect me to an agent
+    - call me back
+    - can you make a call
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - fine
+    - i m good
+    - i m fine
+    - i m
+    - I am doing fine
+    - I am fine, thank you for asking
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - good
+    - awesome
+    - normal
+    - yeah good, thanks
+    - working fine
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - i am just okay
+    - just fine
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - i m not fine , today
+    - i am not well
+    - bad
+    - makes me sick
+    - i'm sick
+    - im not feeling good today
+    - im not feeling well
+    - i'm hurt today
+    - stress
+    - fear
+    - not fine
+- intent: help
+  examples: |
+    - I need help
+    - what can you help me with
+    - can you help me
+    - what can you do
+    - I need some help
+    - help me
+    - can you please help me
+    - problem
+    - big problem
+    - How can you help me
+    - How you help me?
+    - What are my options
+    - What are you able to do?
+    - What can I ask you?
+    - What can I do?
+    - What can you demo
+    - What can you do for me?
+    - What can you do?
+    - What can you tell me?
+    - What do you do
+    - anything els
+    - are there any other options?
+    - can I ask you anything else?
+    - can you do anything else?
+    - can you help me?
+    - come back
+    - cool! can I do something else here?
+    - hello what can you do for me
+    - help
+    - help please
+    - help pls
+    - help?
+    - hep me
+- intent: out_of_scope
+  examples: |
+    - what is the square root of 5
+    - I want to know the weather
+    - what is the meaning of life.
+    - Fridge Isn't Running
+    - my tv isn't working
+    - my washing machine isn't working
+    - what year is it
+    - what is the weather today
+    - what is the weather
+    - how old are you?
+    - add two plus two
+    - Hdjejene
+    - asd
+    - title
+    - how about the forecast
+    - foolish
+    - joke
+    - Can YouTube talk?
+    - Can you call me back ?
+    - Can you give me your datacenter's password
+    - Can you give me your datacenter's password?
+    - Can you please send me an uber
+- intent: greet_user
+  examples: |
+    - my name is parth
+    - my name is ravi
+    - my name is aakash
+    - my name is rajat
+    - ashish is my name
+    - ashish this side
+    - people call me tony
+    - people call me adam
+    - people call me arav
+    - sandeep
+    - jimmy
+    - saurav
+    - karan
+    - ashish
+    - This is subhash
+    - This is harpreet
+    - This is sanjana
+    - This is ragini
+    - seema this side
+    - sandeep this side
+    - Anil this side
+    - Amit here
+    - Satnam Singh Sandhu is my name
+- intent: greet_bot
+  examples: |
+    - hello Cu-Sevak,how are you?
+    - hello Sevak, how are you?
+    - how are you?
+    - how do you do?
+    - how's you?
+    - how are you doing?
+    - what are you doing?
+    - im doing fine, what about you
+    - i m good, how about you
+    - good, how do you do
+    - what about you, what are you doing
+- intent: aboutcu
+  examples: |
+    - cu
+    - chandigarh university
+    - what is cu
+    - who is cu
+    - tell me about cu
+    - about chandigarh university
+    - about university
+    - do you know cu
+    - what do you know about chandigarh university
+    - when it was established?
+    - when it was founded?
+    - provide me details about chandigarh university
+    - details about cu
+    - about cu
+    - aboutcu
+- intent: official_website
+  examples: |
+    - what is the official website for cu
+    - cuchd
+    - cuchd.in
+    - tell me the website of cu
+    - do you know any official website of chandigarh university
+- intent: CU_CONTACT
+  examples: |
+    - where is cu?
+    - where is the chandigarh university?
+    - what's the address for cu?
+    - can you tell me address and the contact number of the university?
+    - contact number please?
+    - cu contact number
+    - how do i get in touch with the university?
+    - can i speak to someone from the university?
+    - contact university
+    - is there any whatsapp number
+    - whatsapp
+    - whatspp number for cu
+    - cu address
+    - what is the official e-mail id of chandigarh university
+    - email id of cu
+    - e-mail of cu
+    - university email
+    - how will i get in touch with cu?
+    - how do i contact cu?
+    - how do i reach to cu?
+    - helpline number
+    - customer care
+    - customer care number
+    - emergency contact number
+    - toll free number
+    - admission contact number
+    - admission toll free number
+- intent: ODL
+  examples: |
+    - ODL Programs
+    - ODL
+    - Open and Distance Learning Programs
+    - Distance programs
+    - Is there any distance programs in cu?
+    - How many ODL programs are there in cu ?
+    - odl programs in chandigarh university
+    - total idol programs in cu?
+    - what are idol  programs?
+    - what are open distance learning programs?
+    - website for iodl program
+    - link to visit distance open program
+    - website for distance and open learning
+    - distance learning programs
+    - distance learning
+    - tell me about odl courses
+    - tell me open and distance course
+    - do you know any odl courses
+    - distance education admission
+- intent: BA_ODL
+  examples: |
+    - BA open and distance learning Program
+    - ba odl
+    - ba distance learning program eligibility
+    - am I eligible for ba open and distance program
+    - is ba program open distance
+    - what is a ba odl program
+    - what is ba odl distance learning
+    - ba open distance learning in cu
+    - is BA odl offered by cu?
+    - information about ba odl
+    - eligibility criteria about ba open and distance
+- intent: BBA_ODL
+  examples: |
+    - BBA open and distance learning
+    - bba odl
+    - bba distance learning
+    - is ba program open distance?
+    - bachelor of business administration open distance learning in cu
+    - what is the fee for bba in open and distance learning
+    - how can i apply for bba distance learning
+    - tell me about bba distance learning
+    - distance learning in bba
+- intent: BCOM_ODL
+  examples: |
+    - bcom iodl
+    - bcom odl
+    - bachelor of commerce distance learning
+    - B.com distance learning
+    - bcom distance learning from cu
+    - bcom from open and distance
+    - commerce
+    - distance learning commerce
+    - bcom distance learning program eligibility
+    - am I eligible for bcom program distance learning
+    - is bcom program open distance
+    - what is a bcom  distance learning program
+    - what is bcom odl
+    - bcom open distance learning in cu
+    - is BCOM open and distance offered by cu?
+    - can you tell me about B.com course distance learning
+    - Tell me about bcom program
+    - fee for bcom  distance learning program
+    - how do i apply for bcom  distance learning course
+- intent: BCA_ODL
+  examples: |
+    - I need to know about bca distance learning
+    - Bachelor of Computer Application Open and Distance
+    - Computer Application distance learning
+    - bca odl program eligibility
+    - am I eligible for bca open and distance program
+    - is bca program open distance?
+    - what is a bca open and distance
+    - what is bca-odl
+    - bca open distance learning in cu
+    - is distance learning BCA offered by cu?
+    - Tell me about bca program open and distance
+    - fee for bca distance learning
+- intent: MA(E)_ODL
+  examples: |
+    - MA English Program
+    - M.A. English open and distance
+    - MASTERS OF ARTS(ENGLISH) DISTANCE  LEARNING
+    - ma english distance learning program eligibility
+    - am I eligible for ma program
+    - is ma program open distance
+    - what is a ma program
+    - what is ma(e) distance learning
+    - is ma open distance learning in cu
+    - is MA english distance learning offered by cu?
+    - can you tell me about MA course
+    - Tell me about ma in english program
+    - ma distance learning
+    - ma english distance learning
+    - open and distance ma english
+- intent: MAPSYCH_ODL
+  examples: |
+    - M.A. in Psychology odl
+    - ma pscyology
+    - Master of Arts in Psychology
+    - ma psychology program eligibility
+    - am I eligible for mapsych program
+    - what is ma(p)
+    - is ma pyschology open distance learning in cu
+    - is MA PYSCHOLOGY offered by cu?
+    - can you tell me about MA in psycology course
+    - Tell me about bca program
+- intent: MBA_ODL
+  examples: |
+    - Master of Business Administration (MBA) distance learning program
+    - mba  program eligibility for distance learning
+    - am I eligible for mba open and distance learning program
+    - what is mba distance learning
+    - is mba  open distance learning in cu
+    - is distance MBA  offered by cu?
+    - can you tell me about MBA from distance course
+    - Tell me about distance MBA program
+    - how to enroll for distance learning
+- intent: MCOM_ODL
+  examples: |
+    - mcom program eligibility distance learning
+    - am I eligible for mcom distance learning program
+    - what is m.com distance distance learning
+    - is M.com  open distance learning in cu
+    - is M.COM distance learning offered by cu?
+    - mcom odl
+    - open and distance mcom
+    - how to enroll for mcom distance learning
+    - fee for mcom distance learning
+- intent: MCA_ODL
+  examples: |
+    - mca ODL program eligibility
+    - am I eligible for mca program open and distance
+    - is mca open distance learning in cu?
+    - is MCA ODL offered by cu?
+    - can you tell me about MCA course
+    - Tell me about mca program open and distance
+    - mca odl
+    - master in computer application open and distance.
+    - details about distance mca
+    - am i eligible for distance mca
+    - how do i apply for distance mca
+    - what is the fee for distance mca
+- intent: Courses_cu
+  examples: |
+    - what programs do cu offer?
+    - programs in chandigarh university?
+    - list of courses we have ?
+    - total programs we offer?
+    - courses in cu
+    - what courses are running in cu
+    - tell me about the programs running in cu?
+- intent: ask_which_course
+  examples: |
+    - bachelors programs in chandigarh university
+    - masters programs in cu
+    - bachelors courses offered by cu
+    - masters courses in cu
+    - bachelors degree program
+    - masters degree program
+    - masters programs
+    - master's programs
+    - bachelor's programs
+    - master's
+    - bachelor's
+- intent: online_cu_programs
+  examples: |
+    - Online Programs in cu
+    - online
+    - online cu
+    - cu online
+    - is there online courses available in cu
+    - online courses  available in cu
+    - can you tell me about online courses available in chandigarh university
+    - is there any online courses after 12th
+    - +2 courses available
+    - online cu programs after graduation
+    - I need to search for online courses in cu
+    - help me with some online in courses
+    - online courses
+    - courses online in cu
+    - list of  online courses available in cu
+    - can you suggest me any online courses in cu
+    - provide me details about online programs
+    - online cu programs
+    - online programs
+    - courses online
+    - tell me about online courses offered online in cu
+- intent: bachelor_iodl_prog
+  examples: |
+    - bachelor open and distance programs
+    - after 12th open distance programs
+    - odl bachelor degree programs
+    - bachelor degree open and distance programs in cu
+    - bachelors distance programs
+    - after 10+2 bachelors programs
+    - open and distance bachelors programs
+- intent: bachelor_online
+  examples: |
+    - bachelor online programs in cu
+    - after 12th online programs in cu
+    - bachelor online course
+    - bachelor degree online in cu
+    - bachelors online
+    - online bachelors programs
+- intent: masters_iodl_prog
+  examples: |
+    - masters distance learning programs in cu
+    - after graduation open and distance programs in cu
+    - masters open and distance course
+    - masters open and distance learning
+    - masters degree iodl program in cu
+    - master degree open and distance programs in cu
+    - master distance programs
+    - open and distance masters programs
+    - masters odl
+- intent: masters_online
+  examples: |
+    - masters online programs in cu
+    - after graduation online programs in cu
+    - masters online degree
+    - masters degree online in cu
+    - masters online courses
+    - masters online
+    - masters online programs
+- intent: how_to_apply
+  examples: |
+    - how to apply
+    - how to apply for cu courses
+    - how i applying programs
+    - apply for programs
+    - apply
+    - enroll
+    - how do i enroll for this program
+    - i want to enroll for course
+    - i want to study from cu
+    - how do i enroll for courses in cu
+    - how can i apply for courses in cu
+    - enroll in programs
+    - I want to take admission in cu
+    - admission
+    - whats the procedure for taking admission in cu
+    - how do i take admission chandigarh university
+    - how do i take admission in cu
+    - how do i enroll myself in cu , what's the procedure
+    - can you tell me , how take admission in cu
+    - what are the steps for taking admission in cu
+    - admission Procedure
+    - Counseling Procedure
+    - Admission Offices
+- intent: bajmc_online
+  examples: |
+    - BA in Journalism & Mass Communication online learning Program
+    - ba in Journalism & Mass Communication online
+    - BA Journalism & Mass Communication Journalism & Mass Communication online
+    - bachelor of arts Journalism & Mass Communication online programs  in cu
+    - ba in Journalism & Mass Communication online program eligibility
+    - am I eligible for ba Journalism & Mass Communication online program
+    - is ba Journalism & Mass Communication program online
+    - what is a ba Journalism & Mass Communication online program
+    - what is ba Journalism & Mass Communication online  learning
+    - ba Journalism & Mass Communication online learning in cu
+    - is BA Journalism & Mass Communication online offered by cu?
+    - information about ba Journalism & Mass Communication online
+    - eligibility criteria about ba Journalism & Mass Communication
+- intent: bba_online
+  examples: |
+    - BBA online learning Program
+    - bba online
+    - bachelor of Business Administration online programs in cu
+    - bba online program eligibility
+    - am I eligible for bba online program
+    - is bba program online
+    - what is a bba online program
+    - what is bba online  learning
+    - bba online learning in cu
+    - is BBA online offered by cu?
+    - information about bba online
+    - eligibility criteria for bba online
+- intent: bca_online
+  examples: |
+    - BCA online learning Program
+    - bca online
+    - Bachelor of Computer Applications (BCA) online programs in cu
+    - bca online program eligibility
+    - am I eligible for bca online program
+    - is bca program online
+    - what is a bca online program
+    - what is bca online  learning
+    - bca online learning in cu
+    - is BCA online offered by cu?
+    - information about bca online
+    - eligibility criteria for bca
+    - what is the fee for bca online course
+- intent: MAJMC_online
+  examples: |
+    - MA JMC online learning Program
+    - MA JMC online
+    - Master of Arts - Journalism & Mass Communication (MA-JMC) online programs in cu
+    - masters in journalism online
+    - am I eligible for MA JMC online program
+    - is MAJMC program online
+    - what is a MA JMC online program
+    - what is MAJMC online  learning
+    - MA-JMC online learning in cu
+    - is MA-JMC online offered by cu?
+    - information about MA-JMC online
+    - eligibility criteria for MA-JMC
+- intent: mcom_online
+  examples: |
+    - M.COM online learning Program
+    - MCOM online
+    - Master of Commerce online in cu
+    - mcom online program eligibility
+    - am I eligible for mcom online program
+    - is mcom program online
+    - what is a mcom online program
+    - what is mcom online learning
+    - mcom online learning in cu
+    - is mcom online offered by cu?
+    - information about mcom online
+    - eligibility criteria for mcom
+    - mcom online
+- intent: mba_online
+  examples: |
+    - MBA online learning Program
+    - MBA online
+    - Master of Business Administration in cu
+    - mba online program eligibility
+    - am I eligible for mba online program
+    - is mba program online
+    - what is a mba online program
+    - what is mba online  learning
+    - mba online learning in cu
+    - is mba online offered by cu?
+    - information about mba online
+    - eligibility criteria for mba online
+    - fee for online mba
+    - mba in hr online
+    - mba in human resource online
+    - specialization in mba online
+    - admission process for mba online
+    - how many specialization are there in online mba
+    - international business in online mba
+    - mba  online in Entrepreneurship
+    - online mba in Finance
+    - online mba in Marketing
+- intent: mscmaths_online
+  examples: |
+    - M.sc in maths online learning course
+    - MSC Maths online learning Program
+    - MSC in Maths online
+    - Master of science in maths in cu
+    - msc maths online program eligibility
+    - am I eligible for msc in maths online program
+    - is msc maths program online
+    - what is a msc maths online program
+    - what is msc maths online  learning
+    - msc maths online learning in cu
+    - is msc maths online offered by cu?
+    - information about msc-mathematics online
+    - eligibility criteria for msc-maths
+- intent: ma_eng_online
+  examples: |
+    - Ma English online learning Program
+    - MA ENGLISH online
+    - Master of Arts English online in cu
+    - ma-english online program eligibility
+    - am I eligible for ma-english online program
+    - is ma english program online
+    - what is a ma english online program
+    - what is ma english online  learning
+    - ma english online learning in cu
+    - is ma english online offered by cu?
+    - information about ma english online
+    - eligibility criteria for ma english
+- intent: MAECO_online
+  examples: |
+    - MA Economics online learning Program
+    - MA Economics online
+    - Master of Arts - economics online programs in cu
+    - ma economics online program eligibility
+    - am I eligible for MA ECONOMICS online program
+    - is MA ECONOMICS program online
+    - what is a MA ECO online program
+    - what is MA ECOnomics online  learning
+    - MA_ECONOMICS online learning in cu
+    - is MA-ECONOMICS online offered by cu?
+    - information about MA-ECONOMICS online
+    - eligibility criteria for ma-economics
+- intent: mca_online
+  examples: |
+    - MCA online learning Program
+    - MCA online
+    - Master of Computer Applications in cu
+    - MCA online program eligibility
+    - am I eligible for MCA online program
+    - is MCA program online
+    - what is a MCA online program
+    - what is MCA online  learning
+    - MCA online learning in cu
+    - is MCA online offered by cu?
+    - information about MCA online
+    - eligibility criteria for MCA
+    - what is the fee for mca online
+    - mca online fee structure
+    - online mca fee
+    - how can i apply for online degree in mca
+- intent: mscdsc_online
+  examples: |
+    - M.sc in Data Science online learning course
+    - Master of Science Data Science online learning Program
+    - MSC in data science online
+    - Master of science in data science in cu
+    - msc data science online program eligibility
+    - am I eligible for msc in data science online program
+    - is msc data science program online
+    - what is a msc data science online program
+    - what is msc data science online  learning
+    - msc data science  online learning in cu
+    - is msc data science online offered by cu?
+    - information about msc-data science  online
+    - eligibility criteria for msc data science
+    - for msc in data science online
+    - how to enroll for msc in data science online
+    - data science online master's program
+    - ma in data science online
+- intent: ba_online
+  examples: |
+    - BA online learning Program
+    - ba online
+    - bachelor of arts online
+    - BA jmc
+    - ba in journalism
+    - journalism
+    - bachelor of arts online programs in cu
+    - ba online program eligibility
+    - am I eligible for ba online program
+    - is ba program online
+    - what is a ba online program
+    - what is ba online  learning
+    - ba online learning in cu
+    - is BA online offered by cu?
+    - information about ba online
+    - eligibility of ba online
+    - Online Bachelor Of Arts - Journalism & Mass Communication
+    - bachelors in journalism and mass communication online
+- intent: MAPSYCH_online
+  examples: |
+    - M.A PSYCHOLOGY online learning Program
+    - MA PSYCHOLOGY online
+    - Master of Arts -PSYCHOLOGY online programs in cu
+    - ma psychology online program eligibility
+    - am I eligible for MA PSYCHOLOGY online program
+    - is M.A PSYCHOLOGY program online
+    - what is a M.A PSYCHOLOGY online program
+    - what is MA PSYCHOLOGY online  learning
+    - M.A PSYCHOLOGY online learning in cu
+    - is M.A PSYCHOLOGY online offered by cu?
+    - information about M.A PSYCHOLOGY online
+    - eligibility criteria for ma psychology
+- intent: scope_12th
+  examples: |
+    - what are my options after 12th?
+    - I have completed my 12th , is there any online course available in cu?
+    - can you suggest me any open and distance courses after 12th ?
+    - what can do after my 12th?
+    - can you tell any online course available after 12th?
+    - I am a non medical student, are there any online course
+    - I am a computer science student , is there any oline course available in cu?
+    - tell me some undergraduate programs in cu?
+    - tell me course after plus 2 in cu?
+    - I am an undergraduate student suggest me some undergraduate courses.
+    - career after 12th
+- intent: do_you_know
+  examples: |
+    - Do you know me?
+    - you who i am ?
+    - tell me my name?
+    - tell who am i ?
+    - do you who you are chatting to?
+    - can you tell me my name?
+    - tell me if you know me?
+    - whats my name?
+    - what is my name?
+    - what do people call me?
+    - what about me?
+    - tell about me
+    - say my name
+    - do you remember me ?
+    - what do you know about me ?
+- intent: regular_courses
+  examples: |
+    - regular courses in cu
+    - regular programs available in cu
+    - regular programs
+    - regular courses
+    - regular_courses
+    - list of regular programs
+    - tell me about regular programs in cu
+    - do we have offline courses available
+    - offline regular programs
+    - offline regular courses available
+    - eligibility for the regular courses
+- intent: place
+  examples: |
+    - placement in cu
+    - placement
+    - is there any placement in cu
+    - will i be placed
+    - will i be getting any job
+    - is there a placement scope in cu
+    - whats the rate of placement in cu
+    - can i student be sitting in the placement
+    - how about the placement in cu
+    - whats the placement criteria
+    - plcament
+    - is there campus placement
+    - is there placement in online course from cu
+    - when will be getting placement
+    - jobs
+    - do you think , i can get a job from cu?
+    - highest offer received from cu
+    - campus placement
+    - jobs jobs
+    - Department of Career Planning & Development
+    - career planning & development
+    - how do i plan my career?
+    - can you help in career development
+    - i need a career counselor
+    - placement on opportunities  after graduation
+    - will i be getting placed
+    - placement opportunities
+    - will be getting any placement after my graduation
+    - is there any placement after doing ma from cu
+    - i have completed my graduation , how do i apply for placement
+    - can you help me getting placed
+    - whats the minimum salary package you offer?
+    - is there a job fair in cu
+    - I am passed out from cu , but didn't know about the placement
+    - how can i sit in the placement
+    - best placement
+    - placement chart
+    - placement tracker
+    - records of placement
+    - how many student get placement previous year
+    - how much in placement will get in engineering
+- intent: LEET_Programs
+  examples: |
+    - LEET programs
+    - LEET
+    - leet
+    - search for leet programs in cu
+    - what leet programs in cu
+    - lateral entry in cu
+    - lateral entry programs after 12th
+    - lateral entry programs in cu
+    - eligibility criteria for leet programs
+    - details of leet programs
+    - how many leet programs are there in cu
+    - lateral entry
+    - lateral entry courses
+- intent: apply_leet
+  examples: |
+    - how do i apply for leet programs
+    - apply for leet in cu
+    - how enroll in leet cu
+    - i want to study leet in cu
+    - what steps do i need to follow for leet
+    - i want to do the lateral entry after 12th
+    - how can i apply for leet programs
+- intent: leet_engg
+  examples: |
+    - list of leet engg programs in cu
+    - total leet programs that cu offer
+    - do we have lateral entry in cu
+    - how many engineering programs do we have in lateral entry
+    - do we have lateral entry engineering programs
+    - tell me about lateral entry engineering course
+    - lateral entry engineering courses
+- intent: BELEET
+  examples: |
+    - Bachelor of Engineering Lateral Entry Program
+    - About Bachelor of Engineering Lateral Entry Program
+    - Bachelors of Engineering (BE) Lateral Entry
+    - be leet
+    - engineering lateral entry
+    - am i eligible for be-leet
+    - be-leet
+    - be leet course
+    - beeleet
+    - eligibility criteria for be-leet
+    - eligibility for bachelor of engineering lateral entry
+- intent: BAELEET
+  examples: |
+    - Bachelor of Aerospace Engineering Lateral Entry Program College
+    - Aerospace Engineering Lateral Entry
+    - BAELEET
+    - BAE LEET
+    - BAE-LEET
+    - eligibility criteria for be BAE-LEET
+    - Bachelor of Aerospace Engineering Lateral Entry Program
+    - lateral entry in aerospace engineering
+- intent: BCELEET
+  examples: |
+    - Bachelor of Chemical Engineering Lateral Entry Program
+    - Chemical Engineering Lateral Entry Program
+    - lateral entry in chemical engineering
+    - BCELEET
+    - BCE-LEET
+    - eligibility criteria for be BCE-LEET
+    - fee for Chemical Engineering Lateral Entry Program
+- intent: BGELEET
+  examples: |
+    - Bachelor of Graphics and Gaming Engineering Lateral Entry Program
+    - Graphics and Gaming Engineering Lateral Entry Program
+    - is there Bachelor of Graphics and Gaming Engineering Lateral Entry Program
+    - BGELEET
+    - BGE-LEET
+    - eligibility criteria for be BGE-LEET
+    - fee for Graphics and Gaming Engineering Lateral Entry
+- intent: BCSLEET
+  examples: |
+    - Bachelors of Engineering in Computer Science Lateral Entry
+    - Engineering in Computer Science Lateral Entry
+    - Computer Science Lateral Entry
+    - BCSLEET
+    - BCS-LEET
+    - eligibility criteria for be BCS-LEET
+    - fee for Engineering in Computer Science Lateral Entry
+    - is there Bachelors of Engineering in Computer Science Lateral Entry Program
+- intent: leet_pharma
+  examples: |
+    - Bachelor of Pharmacy (Lateral Entry)
+    - lateral entry in pharmacy
+    - how can i apply for lateral entry in pharmacy
+    - pharma sciences leet programs
+    - lateral entry in pharma
+    - pharma
+    - pharma course
+    - lateral entry iin pharma
+- intent: leet_aps
+  examples: |
+    - lateral entry in Applied Science programs
+    - applied science programs
+    - applied science course
+    - APPLIED HEALTH SCIENCES
+    - applied health science courses in cu
+    - list the applied health science programs in cu
+    - can i do lateral entry in applied health science
+    - applied health science
+- intent: BOPLEET
+  examples: |
+    - Bachelor of Optometry
+    - Bachelor of Optometry Lateral Entry
+    - Lateral entry in Bachelor of Optometry
+    - BACHELOR-OF-OPTOMETRY-LEET
+    - how can i apply for Bachelor of Optometry program in cu
+    - eligibility criteria for BOP-LEET
+    - BOPLEET
+- intent: BOMLEET
+  examples: |
+    - Bachelor of Medical Lab Technology
+    - lateral entry in Bachelor of Medical Lab Technology
+    - BOM-LEET
+    - eligibility criteria for BOM-LEET
+    - is there any leet course in medical lab tech
+- intent: MOFLEET
+  examples: |
+    - Master of Forensic Science Lateral Entry
+    - lateral entry in Forensic Science
+    - eligibility criteria for MOFLEET
+    - is there any leet masters course in cu
+    - do we have lateral entry in masters course
+    - lateral entry in master course
+    - Forensic Science Lateral Entry
+- intent: bbaa_online
+  examples: |
+    - Online BBA - Business Analytics Degree Program
+    - BBA business analytics
+    - online business Analytics Degree Program
+    - online business Analytics course
+    - online bba in Business Analytics
+    - do we have course related business analytics
+    - fee for bba business analytics program
+    - business analytics program bba
+- intent: BBAACCA
+  examples: |
+    - Online Bachelor Of Business Administration (With ACCA)
+    - Bachelor Of Business Administration (With ACCA) online course
+    - bba in administration
+    - bba with acca
+    - online bba administration course
+    - do we have  online course related to business administration
+    - bba acca
+- intent: mcomacca_online
+  examples: |
+    - Online Masters Of Commerce (With ACCA)
+    - Online mcom  With ACCA
+    - online masters in commerce with ACCA
+    - mcom online with ACCA
+    - do we have online course related to mcom with acca
+    - online mcom with acca
+    - masters of commerce acca online
+- intent: online_option
+  examples: |
+    - two types of online course in cu
+    - tell me both bachelors and masters online course in cu
+- intent: odl_option
+  examples: |
+    - two types of open and distance  course in cu
+    - tell me both bachelors and masters odl course in cu
+- intent: engg_regu
+  examples: |
+    - regular engineering
+    - engineering regular
+    - btech regular
+    - regular engineering courses
+    - regular engineering programs
+    - do cu offer regular engineering program
+    - engineering offline
+    - offline course available in engineering
+    - tell me about offline engineering courses
+    - is there any offline engineering course available
+    - tell me about regular engineering courses
+    - bachelor engineering programs
+    - offline bachelor engineering programs
+- intent: regu_aero_engg
+  examples: |
+    - aerospace engineering
+    - aerospace engineering regular program
+    - aero engineering regular
+    - how do i apply for aerospace regular course
+    - is there any aerospace regular program in cu?
+    - tell me about aerospace program
+    - do you know anything about aerospace engineering
+    - what is the fee of aerospace engineering
+    - whats the eligibility for aerospace engineering
+- intent: regu_auto_engg
+  examples: |
+    - automobile engineering regular
+    - automobile engineering regular program
+    - automobile engineering
+    - how do i apply for automobile engineering regular course
+    - tell me about automobile engineering
+    - do you know anything about automobile engineering
+    - what is the fee of automobile engineering
+    - whats the eligibility for automobile engineering
+- intent: regu_bio_engg
+  examples: |
+    - BioTechnology Engineering
+    - biotechnology engineering regular program
+    - biotechnology engineering regular
+    - how do i apply for bioTechnology engineering course
+    - is there any bioTechnology engineering in cu?
+    - tell me about bioTechnology engineering program
+    - do you know anything about bioTechnology engineering
+    - what is the fee of bioTechnology engineering
+    - whats the eligibility for bioTechnology engineering
+- intent: regu_chem_enggi
+  examples: |
+    - Chemical Engineering
+    - chemical engineering regular program
+    - chemical engineering  regular
+    - how do i apply for chemical engineering course
+    - is there any chemical engineering in cu?
+    - tell me about chemical engineering program
+    - do you know anything about Chemical Engineering
+    - what is the fee of chemical engineering
+    - whats the eligibility for chemical engineering
+- intent: regu_civil_engg
+  examples: |
+    - civil Engineering
+    - Civil Engineering regular program
+    - Civil Engineering  regular
+    - how do i apply for civil engineering course
+    - is there any civil engineering in cu?
+    - tell me about civil engineering program
+    - do you know anything about civil engineering
+    - what is the fee of civil engineering
+    - whats the eligibility for civil engineering
+- intent: regu_cse
+  examples: |
+    - Computer Science & Engineering
+    - cse engineering
+    - cse regular in cu
+    - cse regular
+    - CComputer Science & Engineering regular program
+    - Computer Science & Engineering  regular
+    - how do i apply for Computer Science & Engineering course
+    - is there any Computer Science & Engineering in cu?
+    - tell me about Computer Science & Engineering program
+    - do you know anything about Computer Science & Engineering
+    - what is the fee of Computer Science & Engineering
+    - whats the eligibility for Computer Science & Engineering
+- intent: regu_ee
+  examples: |
+    - Electrical Engineering
+    - Electrical Engineering regular program
+    - Electrical Engineering  regular
+    - how do i apply for Electrical Engineering course
+    - is there any electrical engineering in cu?
+    - ee course
+    - ee program
+    - tell me about Electrical Engineering
+    - do you know anything about Electrical Engineering
+    - what is the fee of Electrical Engineering
+    - whats the eligibility for Electrical Engineering
+    - bachelor of electrical engineering
+- intent: regu_ece
+  examples: |
+    - Electronics and Communication Engineering
+    - Electronics and Communication Engineering regular program
+    - Electronics and Communication Engineering  regular
+    - how do i apply for electronics and communication engineering course
+    - is there any Electronics and Communication Engineering in cu?
+    - ece course
+    - ece
+    - tell me about Electronics and Communication Engineering
+    - do you know anything about electronics engineering
+    - what is the fee of Electronics and Communication Engineering
+    - whats the eligibility for electronics and communication engineering
+- intent: regu_me
+  examples: |
+    - Bachelor of Engineering Mechanical Engineering
+    - Bachelor of Engineering mechanical engineering regular program
+    - Mechanical Engineering regular
+    - how do i apply for mechanical  engineering course
+    - is there any mechanical engineering in cu?
+    - mechanical course
+    - mechanical engineering
+    - tell me about mechanical engineering regular
+    - do you know anything about mechanical engineering
+    - what is the fee of mechanical engineering
+    - whats the eligibility for mechanical engineering
+- intent: regu_mechonicse
+  examples: |
+    - Bachelor of Engineering (Mechatronics)
+    - Bachelor of Engineering Mechatronics regular program
+    - mechatronics  regular
+    - how do i apply for mechatronics engineering course
+    - is there any mechatronics engineering in cu?
+    - mechatronics course
+    - mechatronics engineering
+    - tell me about mechatronics regular
+    - do you know anything about mechatronics engineering
+    - what is the fee of mechatronics engineering
+    - whats the eligibility for mechatronics engineering
+- intent: regu_r&a_engg
+  examples: |
+    - B.E. Robotics & Automation regular
+    - Bachelor of Engineering Robotics and  Automation
+    - Bachelor of Engineering Robotics and  Automation regular program
+    - Robotics and  Automation  regular
+    - how do i apply for Robotics and  Automation engineering course
+    - is there any Robotics and  Automation engineering in cu?
+    - engineering in Robotics and  Automation
+    - Robotics and  Automation engineering
+    - tell me about Robotics and  Automation regular
+    - do you know anything about Robotics and  Automation
+    - what is the fee of Robotics and  Automation
+    - whats the eligibility for Robotics and  Automation engineering
+- intent: regu_iiot_engg
+  examples: |
+    - B.E. Industrial Internet of Things regular
+    - Bachelor of Engineering Industrial Internet of Things
+    - Bachelor of Engineering Industrial Internet of Things regular program
+    - Industrial Internet of Things  regular
+    - how do i apply for Industrial Internet of Things engineering course
+    - is there any Industrial Internet of Things engineering in cu?
+    - engineering in Industrial Internet of Things
+    - Robotics and  Industrial Internet of Things
+    - tell me about Industrial Internet of Things regular
+    - do you know anything about Industrial Internet of Things
+    - what is the fee ofIndustrial Internet of Things
+    - whats the eligibility for Industrial Internet of Things engineering
+- intent: regu_fte
+  examples: |
+    - Bachelor of Engineering (Food Technology)
+    - Bachelor of Engineering Food Technology regular program
+    - Food Technology  regular
+    - how do i apply for Food Technology engineering course
+    - is there any food technology engineering in cu?
+    - engineering in food Technology
+    - food technology engineering
+    - tell me about food technology regular
+    - do you know anything about food engineering
+    - what is the fee of food engineering
+    - whats the eligibility for food engineering
+- intent: regu_aids_engg
+  examples: |
+    - B.E. Artificial Intelligence and Data Science regular
+    - Bachelor of Engineering Artificial Intelligence and Data Science regular program
+    - Artificial Intelligence and Data Science  regular
+    - how do i apply for Artificial Intelligence and Data Science engineering course
+    - is there any Artificial Intelligence and Data Science engineering in cu?
+    - engineering in Artificial Intelligence and Data Science
+    - Artificial Intelligence and Data Science engineering
+    - tell me about Artificial Intelligence and Data Science regular
+    - do you know anything about Artificial Intelligence and Data Science
+    - what is the fee of Artificial Intelligence and Data Science
+    - whats the eligibility for Artificial Intelligence and Data Science
+- intent: regu_it
+  examples: |
+    - Information Technology
+    - Information Technology regular program
+    - Information Technology regular
+    - how do i apply for Information Technology course
+    - is there any Information Technology in cu?
+    - tell me about Information Technology program
+    - do you know anything about Information Technology
+    - what is the fee of Information Technology
+    - whats the eligibility for Information Technology
+- intent: reg_ugic
+  examples: |
+    - Under-Graduate Interdisciplinary Courses
+    - under graduate interdisciplinary programs
+    - ugic program
+    - bachelors interdisciplinary programs
+    - bachelors interdisciplinary courses
+- intent: ugc_regu
+  examples: |
+    - Under-Graduate Engineering Courses
+    - ugc regular engineering course
+    - under graduate Engineering Courses
+    - ugc course
+    - ugc programs
+    - bachelors engineering regular programs
+    - bachelors engineering courses
+- intent: pgc_regu
+  examples: |
+    - Post-Graduate Engineering Courses
+    - post graduate engineering courses
+    - post graduation in engineering
+    - is there any post graduation program running?
+    - post graduation programs
+    - masters of engineering courses in cu
+    - masters in engineering in regular
+    - masters courses in engineering regular
+    - regular engineering master programs in cu
+- intent: me_cse_cc_regu
+  examples: |
+    - Master of Engineering cloud computing
+    - M.E. CSE Cloud Computing with Virtusa
+    - Master of Engineering CSE Cloud Computing in Collaboration with Virtusa
+    - M.E. CSE Cloud Computing
+    - cse cloud computing
+    - virtusa collaborating wih cloud computing
+- intent: me_ae_regu
+  examples: |
+    - M.E. Automobile Engineering
+    - Master of Engineering (AME) with specialization in Automobile Engineering
+    - AME masters in cu
+    - Automobile Engineering regular course in cu
+    - Automobile Engineering
+    - masters in automobile engineering
+    - masters programs for auto-mobile engineering
+- intent: me_cse_regu
+  examples: |
+    - M.E. Computer Science & Engineering
+    - Masters in  Computer Science & Engineering
+    - Master of Engineering Computer Science Engineering
+    - how to apply for masters programs in cse
+    - how do i enroll in masters programs in computer science engineering
+- intent: me_ece_regu
+  examples: |
+    - M.E. Electronics and Communication Engineering
+    - M.E. ece regular
+    - Masters in  Electronics and Communication Engineering regular program in cu
+    - Master of Engineering (ECE) regular
+    - how to apply for masters programs in ece for regular
+    - how do i enroll in masters programs in electronics and communication science engineering
+- intent: me_ee_regu
+  examples: |
+    - M.E. Electrical Engineering
+    - Master of Engineering (M.E.) Electrical Engineering
+    - masters course engineering in electrical
+    - masters program regular in electrical
+    - how to apply for masters programs in ee for regular
+    - how to apply for masters programs in electrical engineering  for regular
+    - how do i enroll in masters programs in electrical engineering
+    - what is the fee for masters in electrical engineering
+- intent: me_me_regu
+  examples: |
+    - M.E. Mechanical Engineering
+    - masters in mechanical engineering
+    - regular course for M.E. Mechanical Engineering
+    - Master of Engineering (ME)
+    - Master of Engineering (ME) with specialization in Thermal Engineering, CAD/CAM Robotics and Production Engineering
+    - how to apply for masters programs in me for regular
+    - how to apply for masters programs in mechanical engineering  for regular
+    - how do i enroll in masters programs in mechanical engineering
+    - what is the fee for masters in mechanical engineering
+- intent: me_aiml_regu
+  examples: |
+    - M.E. Artificial Intelligence and Machine Learning
+    - Master of Engineering (M.E.) in CSE Artificial Intelligence and Machine Learning
+    - engineering artificial intelligence and machine learning
+    - engineering ai ml course in cu
+    - engineering ai ml programs in cu
+    - engineering artificial intelligence
+    - engineering in machine learning course in cu
+    - how to apply for masters programs in Artificial Intelligence and Machine Learning for regular
+    - how to apply for masters programs in Artificial Intelligence and Machine Learning  for regular
+    - how do i enroll in masters programs in Artificial Intelligence and Machine Learning
+- intent: me_ee_ev_regu
+  examples: |
+    - M.E. Electrical Engineering (Electric Vehicles)
+    - Master of Engineering (M.E.) in Electric Vehicles
+    - masters in engineering in electrical vehicles
+    - how to apply for electrical engineering in electric vehicles
+    - how do i enroll for electric engineering program in electric vehicles
+    - how to apply for masters programs in Electrical Engineering (Electric Vehicles) for regular
+    - how do i enroll in masters programs in Electrical Engineering (Electric Vehicles) regular
+- intent: me_te_regu
+  examples: |
+    - M.E. Transportation Engineering
+    - Master of Engineering (M.E.) in Transportation Engineering
+    - transportation engineering
+    - regular course for transportation engineering
+    - how to apply for transportation engineering in chandigarh university
+    - how do i enroll for transportation engineering
+- intent: me_ge_regu
+  examples: |
+    - M.E. Geotechincal engineering
+    - Master of Engineering (M.E.) Geotechnical Engineering
+    - masters in geotechnical engineering
+    - regular course for masters in geotechnical engineering
+    - how to apply for masters geotechnical engineering in chandigarh university
+    - how do i enroll for geotechnical engineering
+    - what is the fee for geotechnical course in chandigarh university
+- intent: me_ctme_regu
+  examples: |
+    - Master of Engineering (M.E.) Construction Technology and Management Engineering
+    - Masters in construction technology and management engineering
+    - M.E in construction technology and management engineering
+    - regular course for masters in construction technology and management engineering
+    - how to apply for masters in construction technology and management in chandigarh university
+    - how do i enroll for construction and technology engineering
+    - what is the fee for masters in construction and management in chandigarh university
+- intent: me_se_regu
+  examples: |
+    - Master of Engineering (M.E.) Structural Engineering
+    - Masters in structural engineering
+    - M.E in structural engineering
+    - regular course for masters in structural engineering
+    - how to apply for masters in structural engineering in chandigarh university
+    - how do i enroll for structural engineering
+    - what is the fee for masters in structural engineering in chandigarh university
+- intent: me_partime
+  examples: |
+    - part time course in chandigarh university
+    - is there any part time course in engineering in cu
+    - how to apply for part time course in cu
+    - tell me some part time masters courses in chandigarh university
+    - do we have part time master course available
+- intent: me_fulltime
+  examples: |
+    - full time course in chandigarh university
+    - is there any full time course in engineering in cu
+    - how to apply for full time course in cu
+    - tell me some full time masters courses in chandigarh university
+    - do we have full time master course available
+- intent: me_id_pt
+  examples: |
+    - Master of Engineering (M.E.) Infrastructure Development - Part Time
+    - Masters in infrastructure development part time
+    - is Master of Engineering (M.E.) Infrastructure Development
+    - M.E in infrastructure development
+    - regular course for masters in infrastructure development
+    - how to apply for masters infrastructure development in chandigarh university
+    - how do i enroll for infrastructure development engineering
+    - what is the fee for masters in infrastructure development chandigarh university
+- intent: me_hsee_regu
+  examples: |
+    - Master of Engineering (M.E.) Health Safety and Environment Engineering
+    - Masters in health safety and environment engineering
+    - is Master of Engineering (M.E.) health safety and environment engineering
+    - M.E in health safety and environment engineering
+    - part time course for health safety and environment engineering
+    - how to apply for masters health safety environment chandigarh university
+    - how do i enroll for health and safety environment engineering
+    - what is the fee for Masters in health safety and environment engineering in chandigarh university
+- intent: me_rsgise_regu
+  examples: |
+    - Master of Technology (Remote Sensing and Geographic Information System)
+    - Masters in remote sensing and geographic information system
+    - is Master of Engineering (M.E.) Remote Sensing and Geographic Information System engineering
+    - M.E in Remote Sensing and Geographic engineering
+    - how to apply for masters Remote Sensing and Geographic engineering in chandigarh university
+    - how do i enroll for Remote Sensing and Geographic engineering
+    - what is the fee for Remote Sensing and Geographic engineering in chandigarh university
+    - Remote Sensing and Geographic
+    - Remote Sensing
+- intent: me_env_regu
+  examples: |
+    - Master of Engineering (M.E.) Environmental Engineering regular
+    - Masters in Environmental Engineering regular
+    - is Master of Engineering (M.E.)Environmental Engineering regular
+    - M.E in environmental Engineering regular
+    - how to apply for masters environmental engineering regular
+    - how do i enroll for environmental engineering regular
+    - what is the fee for environmental engineering in chandigarh university
+- intent: me_env_pt
+  examples: |
+    - Master of Engineering (M.E.) Environmental Engineering part time
+    - Masters in Environmental Engineering part time
+    - is Master of Engineering (M.E.)Environmental Engineering
+    - M.E in environmental Engineering part time
+    - how to apply for masters environmental engineering part time
+    - how do i enroll for environmental engineering part time
+    - what is the fee for environmental engineering  part time in chandigarh university
+- intent: me_AI_regu
+  examples: |
+    - Master of Engineering (M.E.) Artificial Intelligence
+    - Masters in Artificial Intelligence regular
+    - is Master of Engineering Artificial Intelligence
+    - M.E in Artificial Intelligence regular
+    - how to apply for masters Artificial Intelligence regular
+    - how do i enroll for Artificial Intelligence regular
+    - what is the fee for Artificial Intelligence engineering in chandigarh university
+- intent: me_ra_regu
+  examples: |
+    - Master of Engineering with specialization in Robotics and Automation
+    - Masters in Robotics and Automation regular
+    - is Master of engineering in  Robotics and Automation
+    - M.E in Robotics and Automation regular
+    - how to apply for masters Robotics and Automation regular
+    - how do i enroll for Robotics and Automation regular
+    - what is the fee for Robotics and Automation engineering in chandigarh university
+- intent: engineering
+  examples: |
+    - engineering in cu
+    - do we have engineering subject in chandigarh university
+    - tell me about engineering courses in cu
+    - how to apply for engineering in cu
+    - engineering in chandigarh university
+    - engineering available
+    - whats the fee for engineering course
+    - eligibility for engineering course
+    - how much do you charge for engineering in cu
+    - can you tell me about the fee for engineering in cu
+    - bachelors engineering programs
+    - masters engineering  programs
+    - masters of engineering
+    - bachelors of engineering
+    - engineering
+    - what is engineering?
+    - how many engineering courses are there in cu?
+    - bachelors' of engineering
+    - master's of engineering
+    - bachelor's of engg
+    - master's of engg
+    - engg
+    - btech
+    - BTECH
+    - BTECh in cu
+    - M.tech
+    - mtech
+- intent: cse
+  examples: |
+    - computer science and engineering courses
+    - CSE Specialization Programs
+    - cse courses
+    - computer science programs with specialization
+    - cse specialization in cu
+    - how to apply for cse specialization in chandigarh university
+    - computer science courses in cu with specialization
+    - how many specialization  courses running in cu
+- intent: cse_gg
+  examples: |
+    - Bachelor of Engineering Computer Science Engineering (Graphic & Gaming)
+    - Bachelor of Engineering in  Computer Science engineering Graphic & Gaming regular program
+    - Bachelor of Engineering Graphic & Gaming
+    - how do i apply for Graphic & Gaming
+    - is there any Graphic & Gaming specialization  in cu?
+    - graphic & gaming specialization
+    - graphic & gaming special engineering offline
+    - tell me about graphic & gaming regular course
+    - do you know anything about graphic design Engineering
+    - what is the fee of Graphic & Gaming engineering
+    - whats the eligibility for graphic & Gaming Engineering
+    - bachelor of graphic & gaming engineering
+    - gaming and graphic
+- intent: cse_bt
+  examples: |
+    - Bachelor of Engineering Computer Science and Engineering with specialization in Blockchain Technology
+    - Computer Science engineering with specialization in Blockchain Technology regular program
+    - Bachelor of Engineering with specialization in Blockchain Technology
+    - Blockchain Technology
+    - how do i apply for specialization in Blockchain Technology
+    - is there any specialization in Blockchain Technology  in cu?
+    - specialization in Blockchain Technology
+    - Blockchain Technology special engineering offline
+    - tell me about specialization in Blockchain Technology regular course
+    - do you know anything about Blockchain Technology
+    - what is the fee of Blockchain Technology
+    - whats the eligibility forin Blockchain Technology Engineering
+    - bachelor of Blockchain Technology
+- intent: cse_csbs
+  examples: |
+    - Bachelor of Engineering Computer Science Engineering In association with TCS
+    - B.E. Computer Science Engineering and Business Systems In association with TCS
+    - Bachelor of Engineering with specialization in computer science
+    - Computer Science Engineering In association with TCS
+    - how do i apply for specialization in Computer Science Engineering In association with TCS
+    - is there any specialization in Computer Science Engineering In association with TCS  in cu?
+    - specialization in Computer Science Engineering In association with TCS
+    - Business Systems special engineering offline
+    - tell me about specialization in Computer Science Engineering In association with TCS regular course
+    - do you know anything about Computer Science Engineering In association with TCS
+    - what is the fee of Computer Science Engineering In association with TCS
+    - whats the eligibility for in computer Science Engineering and Business Systems engineering
+    - cse in business systems tcs
+- intent: cse_dev
+  examples: |
+    - Bachelor of Engineering Computer Science Engineering with specialization in DevOps
+    - Bachelor of Engineering with specialization in DevOps regular program
+    - Bachelor of Engineering with specialization in DevOps
+    - B.E. specialization in DevOps
+    - how do i apply for specialization in DevOps
+    - is there any specialization in DevOps  in cu?
+    - specialization in DevOps Technology
+    - DevOps Technology special engineering offline
+    - tell me about specialization in DevOps regular course
+    - do you know anything about DevOps
+    - what is the fee of DevOps in engineering
+    - whats the eligibility for in DevOps engineering
+    - bachelor of DevOps
+- intent: Doc_prog
+  examples: |
+    - Doctorate Programs
+    - doctorate courses in cu
+    - phd programs
+    - do cu have Doctorate Programs?
+    - how can i apply for doctorate courses
+    - can i do phd from chandigarh university
+    - how can i apply for PHD programs
+    - i wish to apply for phd programs
+    - phd courses
+    - P.H.D  in engineering
+    - PHD
+    - higher studies like phd in cu
+    - phd
+    - how many doctorate courses in cu have
+    - doctorate level studies in chandigarh university
+    - offline doctorate
+    - regular doctorate
+    - can we go for higher studies in engineering
+    - can we do phd in engineering ?
+    - phd engineering
+    - doctorate engineering
+- intent: dp_ee
+  examples: |
+    - Doctor of Philosophy (Electrical Engineering)
+    - doctorate in electrical engineering
+    - Doctor of Philosophy Electrical Engineering program
+    - Doctor of Philosophy Electrical Engineering
+    - doctor of Philosophy Electrical Engineering course
+    - how do i apply for Doctor of Philosophy Electrical Engineering
+    - electrical Technology special engineering offline
+    - tell me about Doctor of Philosophy Electrical Engineering regular course
+    - do you know anything about Doctor of Philosophy Electrical Engineering
+    - what is the fee of Doctor of Philosophy Electrical Engineering
+    - whats the eligibility for in Doctor of Philosophy Electrical Engineering
+    - phd in electrical engineering
+- intent: dp_civil
+  examples: |
+    - Doctor of Philosophy Civil Engineering
+    - doctorate in civil engineering
+    - Doctor of Philosophy Civil Engineering program
+    - doctor of Philosophy Civil Engineering  course
+    - how do i apply for Doctor of Philosophy Civil Engineering
+    - is there any specialization in Civil Engineering in cu?
+    - tell me about Doctor of Philosophy civil Engineering regular course
+    - do you know anything about Doctor of Philosophy civil Engineering
+    - what is the fee of Doctor of Philosophy civil Engineering
+    - whats the eligibility for in Doctor of Philosophy civil Engineering
+    - Doctor of Philosophy civil Engineering
+    - phd in civil engineering
+- intent: dp_me
+  examples: |
+    - Doctor of Philosophy (Mechanical Engineering)
+    - Doctor of Philosophy Mechanical Engineering program
+    - Doctor of Philosophy mechanical Engineering
+    - doctorate in mechanical Engineering
+    - doctor of Philosophy mechanical Engineering course
+    - how do i apply for Doctor of Philosophy mechanical Engineering
+    - is there any specialization in doctor of philosophy  in cu?
+    - tell me about Doctor of Philosophy mechanical Engineering regular course
+    - do you know anything about Doctor of Philosophy mechanical Engineering
+    - what is the fee of Doctor of Philosophy mechanical Engineering
+    - whats the eligibility for in Doctor of Philosophy mechanical Engineering
+    - phd in mechanical engineering
+- intent: dp_ece
+  examples: |
+    - Doctor of Philosophy (Electronics & Communication Engineering)
+    - doctorate in Electronics & Communication engineering
+    - doctor in  philosophy in ece
+    - doctor in ece
+    - phd in ece
+    - Doctor of Philosophy Electronics & Communication Engineering program
+    - Doctor of Philosophy Electronics & Communication Engineering
+    - doctor of Philosophy Electronics & Communication Engineering course
+    - how do i apply for Doctor of Philosophy Electronics & Communication Engineering
+    - Electronics & Communication Technology special engineering offline
+    - tell me about Doctor of Philosophy Electronics & Communication Engineering regular course
+    - do you know anything about Doctor of Philosophy Electronics & Communication Engineering
+    - what is the fee of Doctor of Philosophy Electronics & Communication Engineering
+    - whats the eligibility for in Doctor of Philosophy Electronics & Communication Engineering
+    - phd in Electronics & Communication engineering
+- intent: dp_cse
+  examples: |
+    - Doctor of Philosophy (Computer Science Engineering)
+    - doctorate in Doctor of Philosophy Computer Science Engineering
+    - doctor in Computer Science Engineering
+    - doctor in cse
+    - phd in cse
+    - Doctor of Philosophy Computer Science Engineering program
+    - Doctor of Philosophy Computer Science Engineering
+    - doctor of Philosophy Computer Science Engineering course
+    - how do i apply for Doctor of Philosophy EComputer Science Engineering
+    - Computer Science Technology special engineering offline
+    - tell me about Doctor of Philosophy Computer Science Engineering regular course
+    - do you know anything about Doctor of Philosophy Computer Science Engineering
+    - what is the fee of Doctor of Philosophy Computer Science Engineering
+    - whats the eligibility for in Doctor of Philosophy Computer Science Engineering
+    - phd in Computer Science engineering
+- intent: ba
+  examples: |
+    - ba
+    - ba in cu
+    - i want to apply for ba in cu
+    - i want to enroll in ba programming
+    - bachelors of arts
+    - bachelor of ARTS
+    - BA
+    - ba programming
+    - bachelors of arts eligibility
+    - what will be fee for ba programming
+    - how can i apply for ba in chandigarh university
+    - how many ba programs in cu
+    - bachelor's of arts
+    - ba course
+    - enroll in ba
+- intent: bba
+  examples: |
+    - bba
+    - bba in cu
+    - i want to apply for bba in cu
+    - i want to enroll in bba programming
+    - bachelor of Business administration
+    - bachelor of Business administration in chandigarh university
+    - BBA
+    - details bba
+    - bachelors of business administrations eligibility
+    - what will be fee for bba programming
+    - how can i apply for bba in chandigarh university
+    - how many bba programs in cu
+    - bachelor of Business administration in cu
+    - bba course
+    - enroll in bba
+    - tell me how much for bba
+- intent: bca
+  examples: |
+    - bca
+    - bca in cu
+    - i want to apply for bca in cu
+    - i want to enroll in bca programming
+    - bachelor of Computer Application
+    - bachelor of Computer Application in chandigarh university
+    - details bca
+    - bachelor of Computer Application eligibility
+    - what will be fee for bca programming
+    - how can i apply for bca in chandigarh university
+    - how many bca programs in cu
+    - bachelor of Computer Application in cu
+    - bca course
+    - enroll in bca
+    - tell me how much for bca
+    - BCA
+- intent: ma
+  examples: |
+    - ma
+    - ma in cu
+    - i want to apply for ma in cu
+    - i want to enroll in ma programming
+    - master of arts
+    - master's of ARTS
+    - MA
+    - Ma programming
+    - masters of arts eligibility
+    - what will be fee for ma programming
+    - how can i apply for ma in chandigarh university
+    - how many ma programs in cu
+    - masters of arts
+    - ma course
+    - enroll in ma
+    - ma english
+    - MA Enlgish
+    - MA in ENglish
+    - wish to apply for ma english
+- intent: mcom
+  examples: |
+    - details about M.COM
+    - MCOM in cu
+    - i want to apply for MCOM in cu
+    - i want to enroll in mcom programme
+    - master's of commerce
+    - MCOM course
+    - masters of commerce eligibility
+    - what will be fee for mcom programming
+    - how can i apply for MCOM in chandigarh university
+    - how many MCOM programs in cu
+    - masters of commerce
+    - enroll in mcom
+    - MCOM
+    - M.COM
+    - wish to apply for mcom
+- intent: mba
+  examples: |
+    - details about MBA
+    - MBA in cu
+    - i want to apply for MBA in cu
+    - i want to enroll in MBA programme
+    - Master Of Business Administration
+    - MBA course
+    - Master Of Business Administration eligibility
+    - what will be fee for mba programming
+    - how can i apply for mba in chandigarh university
+    - how many mba programs in cu
+    - master Of business administration
+    - MBA
+    - enroll in MBA
+    - apply for mba
+    - fee for mba
+    - wish to apply for mba program from cu
+    - how to enroll for mba
+    - how do i take admission in mba program
+    - i wish take admission in mba
+    - Master of Business Administration in HR Finance
+    - Master of Business Administration in HR Marketing
+    - Master of Business Administration in International Business
+    - Master of Business Administration in Entrepreneurship
+    - mba in HR Finance
+    - mba in HR Marketing
+    - mba in International Business
+    - mba in HR Entrepreneurship
+    - mba
+    - mba from chandigarh university
+- intent: msc
+  examples: |
+    - msc
+    - masters of science
+    - details about msc
+    - MSC in cu
+    - i want to apply for msc in cu
+    - i want to enroll in MSC programme
+    - Master Of Science
+    - Master Of Science degree
+    - master's in science
+    - Master Of Science course
+    - m.sc course
+    - m.sc
+    - m.s.c
+    - msc program
+    - Master Of Science eligibility
+    - what will be fee for msc programming
+    - how can i apply for msc in chandigarh university
+    - how many msc programs in cu
+    - enroll in M.SC
+    - apply for msc
+    - fee for msc
+    - wish to apply for msc program from cu
+    - how to enroll for msc
+- intent: mca
+  examples: |
+    - mca
+    - Master Of Computer Applications Degree Program
+    - details about mca
+    - mca in cu
+    - i want to apply for mca in cu
+    - i want to enroll in MCA programme
+    - Master Of Computer Application
+    - master's in computer application
+    - master' in computer application
+    - Master Of Computer Applications Degree course
+    - m.ca course
+    - m.ca
+    - m.c.a
+    - MCA program
+    - Master Of Computer Application eligibility
+    - what will be fee for mca programming
+    - how can i apply for mca in chandigarh university
+    - how many mca programs in cu
+    - enroll in MCA
+    - apply for mca
+    - fee for mca
+    - wish to apply for mca program from cu
+    - how to enroll for mca
+- intent: academic_calender
+  examples: |
+    - Start of Odd Semester For Batch 1 2023 intake
+    - TechInvent 2023 till 16.9.2023
+    - Fresher's Party Razzmatazz 2023
+    - when will be the Fresher's Party Razzmatazz 2023
+    - Orientation and Induction for 2023 intake Batch 1 till 11.8.2023
+    - Ist Hourly Test 2nd Year Onwards  Duration 1 Hr Syllabus Unit-01
+    - academic calender
+    - odd semester
+    - Practical MST All Batches till 9.10.2023
+    - even semester
+    - Abhivyakti National Literary Fest
+    - National Literary Fest
+    - International Folklore Festival
+    - Last Teaching Day (All Batches)
+    - session end date
+    - All Batches - End Semester External Practical Exams- Regular & Reappear End-term Evaluation for Projects by evaluation panel
+    - odd academic calender
+    - Start of Winning BootCamp
+    - winning bootcamp
+    - Start of Registration for Even Semester
+    - ODD Semester Ends
+    - Evoke: National Youth Day
+    - Start of Even Semester For All Branches - 3rd Year Engineering, and Batches from MBA, MCA involved in Winning Bootcamp
+    - even semester calender
+    - CU Fest National Cultural Fest
+    - cu fest
+    - Start of Summer Term Start of Summer Internships
+    - summer internship
+    - International Faculty Development Program
+    - tell me the last date of semester Fee payment through CUIMS
+    - last date of payment through cuims
+    - payment date
+    - due date for payment for the semester fee
+    - what is my due date for mba semester fee
+    - due date
+    - semester registration date
+    - when i can do the semester registration
+    - whats the deadline for semester registration date
+    - registration  date
+    - whats the date 2023 semester registration date
+    - student induction programme e- deeksharambh for all UG/PG programmes weekend  only
+    - when is the student induction programme starting
+    - till when the student induction programme will be commencing
+    - what is the starting and ending date for deeksharambh programme
+    - deeksharambh program
+    - deeksharamabh
+    - orientation/hands on - learning management date
+    - when is orientation of LMS
+    - date for hands for lms
+    - duration for lms
+    - starting and ending for orientation for LMS
+    - when will be the new semester starting ?
+    - next semester starting date
+    - next semester starting and ending date
+    - when will next semester be starting?
+    - next semester date?
+    - when will be the semester starting?
+    - next semester date
+    - whats the date of starting of new semester
+    - date for next semester
+    - date for second semester
+    - when will my semester be starting
+    - Release of Academic Content (As per Quadrant Approach) in LMS on a weekly basis for all UG/PG Programmes
+    - when will the academic content be released for online classes
+    - when academic content will be provided
+    - when will live classes be uploaded
+    - live classes upload date
+    - live classes upload
+    - live session
+    - live classes
+    - live lectures
+    - when will be the Online Academic Live Sessions
+    - when will be the Corporate Talks starting?
+    - when will be Mentor Mentee sessions along with Co-Curricular activities
+    - can you tell me about the mentor mentee sessions be running along with Co-Curricular activities ?
+    - Release of Graded Assignments in LMS for all UG/PG Programmes
+    - when will be the release of assignment be available on portal?
+    - when will be the assignments and study material be uploaded over portal?
+    - when can i get access to my study material and assignments over portal ?
+    - academic calander
+- intent: academic_cal_gen
+  examples: |
+    - academic calender for regular students
+    - general academic calender for regular
+    - regular students academic calender
+- intent: academic_cal_odl
+  examples: |
+    - academic calender for distance learning students
+    - academic calender for open and distance learning
+- intent: academic_cal_onln
+  examples: |
+    - academic calender for online learning students
+    - academic calender for online learning candidate
+- intent: academic_cal_gen_even
+  examples: |
+    - academic calender for even semester regular students
+    - academic calender for even semester regular candidate
+- intent: academic_cal_gen_odd
+  examples: |
+    - academic calender for odd semester regular students
+    - academic calender for odd semester regular candidate
+- intent: adm_Pro
+  examples: |
+    - admission procedure for regular courses in cu
+    - whats the admission procedure for taking admission in cu
+- intent: adm_ofc
+  examples: |
+    - admission offices of chandigarh university
+    - where are the admission office of cu for regular courses
+- intent: con_pro
+  examples: |
+    - counseling procedure of chandigarh university for regular courses
+    - how is the counseling procedure regular courses in cu
+- intent: apply_odl
+  examples: |
+    - how to apply for distance learning courses
+    - apply for open and distance programs
+    - apply for odl
+- intent: apply_online
+  examples: |
+    - how to apply for online learning courses
+    - apply for online  programs
+    - apply online
+- intent: apply_regu
+  examples: |
+    - to apply for regular courses
+    - how to apply for regular programs from cu
+- intent: bba_onln_op
+  examples: |
+    - bba online courses
+    - how many bba online course available
+    - list various bba online courses
+- intent: business
+  examples: |
+    - how many business programs in cu
+    - Industry Aligned University School of Business Programs
+    - regular business programs offered by cu
+- intent: contact_onln_odl
+  examples: |
+    - contact number of online and distance learning team
+    - how to contact for online and distance learning
+- intent: cse_ibm
+  examples: |
+    - computer science engineering programs collaboration with IBM
+    - cse with ibm
+- intent: dept_devp
+  examples: |
+    - career and development in cu
+    - career and development placement  offered
+- intent: place_track
+  examples: |
+    - placement tracker in cu
+    - about placement tracker
+- intent: jt_pt
+  examples: |
+    - joint placement program in cu
+    - joint placement program from chandigarh university
+- intent: engg_place
+  examples: |
+    - placement in engineering courses offered by cu
+    - placement in engineering
+- intent: mange_place
+  examples: |
+    - placement in management courses offered by cu
+    - placement in management
+- intent: hotel_place
+  examples: |
+    - placement in hotel management courses offered by cu
+    - placement in hotel management
+- intent: phar_place
+  examples: |
+    - placement in pharma science courses offered by cu
+    - placement in pharma science
+- intent: phy_place
+  examples: |
+    - placement in physics courses offered by cu
+    - placement in physics
+- intent: place_day
+  examples: |
+    - placement day
+    - when is the placement day
+- intent: lead_recuit
+  examples: |
+    - who are our lead recruiters
+    - which company comes in cu for placement
+    - how many companies offered jobs in cu
+    - placement companies names
+- intent: odl_evaluation_sys
+  examples: |
+    - distance learning evaluation program
+    - Evaluation System Guidelines for Distance Learning
+- intent: odl_admission_pol
+  examples: |
+    - Admission Policies for Distance Learning
+    - what are the admission policies of distance learning
+- intent: odl_admission_gui
+  examples: |
+    - Admission Guidelines for Distance Learning
+    - tell me the admission guidelines of distance learning
+- intent: msc_onln_op
+  examples: |
+    - msc online options
+    - list of all msc online programs offered by cu
+- intent: ma_odl_op
+  examples: |
+    - ma distance learning options
+    - list of all ma distance learning programs offered by cu
+- intent: ma_onln_op
+  examples: |
+    - ma online options
+    - list of all ma online learning programs offered by cu
+- intent: mcom_onln_op
+  examples: |
+    - mcom online options
+    - list of all mcom online learning programs offered by cu
+- intent: leet_ibm
+  examples: |
+    - lateral entry in engineering with IBM
+    - leet programs with ibm
+    - leet with IBM
+- intent: inte_be_me_ibm
+  examples: |
+    - IBM Integrated Engineering Program with be and me
+    - list of all integrated programs with  be and me collaboration with ibm
+    - IBM Integrated Engineering Program
+- intent: doc_business_regu
+  examples: |
+    - Doctorate Programs of Business from cu
+    - phd in commerce from cu
+    - doctorate in commerce from cu
+- intent: helpdesk
+  examples: |
+    - helpdesk
+    - fee payment
+    - how can i pay my fee ?
+    - can i pay in installments ?
+    - can i do the google pay
+    - is there paytm available?
+    - i would like to delay my fee payment
+    - i unable to pay my fee for this semester
+    - can i pay half fee for this semester
+    - is there any installment scheme for fee payment
+    - i would like to take a refund
+    - I have took admission in my course but i would like to take a refund?
+    - i would like to withdraw my admission from online course
+    - my CUIMS credentials  are not working
+    - can you reset my LMS credentials
+    - i forgot my LMS password, can i reset my password ?
+    - what is the file status?
+    - I have applied for the course but didn't know the  update
+    - whats the update on my application
+    - whats the update on my application , I have applied for the distance course
+    - can you tell me status of my admission , have applied for this course
+    - please reset my outlook credentials
+    - my outlook id password not working
+    - i have forgot the id password for my outlook
+    - outlook
+    - file status
+    - refund
+    - refund for online course
+    - refund for distance learning
+- intent: helpdesk_academics
+  examples: |
+    - when will be the result be declared for my online course?
+    - when will be the result be declared for my distance learning course?
+    - I wish to know my result
+    - can you tell me the result please
+    - what's my course result?
+    - whats my result?
+    - can you tell me the result, my roll number is
+    - i would like to know my semester result?
+    - tell me my result?
+    - what's my exam slot?
+    - can you change my exam slot please?
+    - how can i change my exam slot
+    - exam slot
+    - exam link is not working
+    - the exam link is not opening
+    - exam link issue
+    - exam link
+- intent: slm
+  examples: |
+    - slm
+    - slm support
+    - what is slm
+    - where is my slm?
+    - where is my study material ?
+    - i didn't receive my self learning material?
+    - can you post my slm to this address?
+    - can you post my self learning material to this address?
+    - I have paid for the SLM but didn't received it yet?
+    - how much do you charge for slm?
+    - self learning material
+    - courier slm
+    - can you chane my postal address for the slm?
+- intent: dmc
+  examples: |
+    - please provide the dmc
+    - dmc please
+    - dmc for my semester
+    - dmc for semester
+    - dmc semester
+    - detailed markesheet
+    - detailed mark sheet
+    - my name is incorrect , how can i change in the dmc
+    - i am a passout student , can you post the dmc
+    - change my dmc
+    - the name is incorrect in the dmc
+    - who can i contact for dmc
+    - where's my marksheet
+    - mark sheet
+    - marksheet
+    - give me the mark sheet
+    - detailed mark sheet can be edited
+    - details of the marksheet
+    - where i can take my marksheet
+    - where is my DMC
+    - please post my dmc to this address
+    - can i change my delivery address for dmc?
+    - from where i can collect my dmc?
+- intent: enquiry
+  examples: |
+    - I wish to give the enquiry for this course
+    - enquiry please
+    - enquiry
+    - can i send you my details, so you can call me back
+    - can i do enquiry?
+    - how can i do the enquiry?
+    - i have some questions related to this course?
+    - am i eligible for this course?
+    - i have completed my 12th, am i eligible for this course?
+    - how much % do i need to have this course?
+    - how much should be the CGPA for this course
+    - I have got 80% , am i eligible for this course
+    - i wish to do the post enquiry
+    - enquiry form please
+    - can you take my details?
+    - post enquiry
+- intent: inte_regu
+  examples: |
+    - is there any integrated courses available in cu?
+    - tell me about integrated  courses in chandigarh university
+    - integrated offline
+    - integrated
+    - integrated courses
+    - integrated programs
+    - integrated programs in cu
+    - how many integrated programs in cu
+    - list all integrated courses in cu
+    - bachelors + masters courses
+    - can i do bachelors and masters's courses simultaneously
+    - both bachelors and masters courses
+    - 5 years integrated course
+- intent: inte_be_me_regu
+  examples: |
+    - bachelor of engineering in addition with masters of engineering
+    - b.E + M.E
+    - integrated engineering courses
+    - integrated engineering programs
+    - integration of bachelors and masters engineering
+    - what will be the fee for integrated engineering courses
+    - fee for integrated programs be and me
+    - BE with ME
+- intent: inte_be_me_ae
+  examples: |
+    - B.E. + M.E. (Aerospace Engineering) Integrated
+    - integrated course of aerospace engineering
+    - bachelor and both masters in aerospace engineering
+    - how to apply for B.E + M.E aerospace engineering prgram
+    - what is the fee for B.E + M.E  aerospace engineering prgram
+    - what will be the duration for integrated aerospace engineering
+- intent: inte_be_me_civil
+  examples: |
+    - B.E. + M.E. (Civil Engineering) Integrated
+    - integrated course of Civil engineering
+    - bachelor and both masters in Civil engineering
+    - how to apply for B.E + M.E Civil engineering prgram
+    - what is the fee for B.E + M.E  Civil engineering prgram
+    - what will be the duration for integrated Civil engineering
+- intent: inte_be_me_ece
+  examples: |
+    - B.E. + M.E. (Electronics and Communication Engineering) Integrated
+    - integrated course of Electronics and Communication engineering
+    - bachelor and both masters in Electronics and Communication engineering
+    - integrated course of Electronics engineering
+    - how to apply for B.E + M.E Electronics and Communication engineering prgram
+    - what is the fee for B.E + M.E  Electronics and Communication engineering prgram
+    - what will be the duration for integrated Electronics and Communication engineering
+    - B.E. + M.E. ECE Integrated
+- intent: inte_be_me_ee
+  examples: |
+    - B.E. + M.E. (Electrical Engineering) Integrated
+    - B.E + M.E electrical engineering integrated
+    - bachelor and both masters in electrical engineering
+    - integrated course of electrical engineering
+    - how to apply for B.E + M.E electrical engineering prgram
+    - what is the fee for B.E + M.E  electrical engineering prgram
+    - what will be the duration for integrated electrical engineering
+    - B.E. + M.E. ee Integrated
+- intent: inte_be_me_me
+  examples: |
+    - B.E. + M.E. (Mechanical Engineering) Integrated
+    - B.E + M.E Mechanical engineering integrated
+    - bachelor and both masters in Mechanical engineering
+    - integrated course of Mechanical engineering
+    - how to apply for B.E + M.E Mechanical engineering prgram
+    - what is the fee for B.E + M.E  Mechanical engineering prgram
+    - what will be the duration for Mechanical engineering
+    - B.E. + M.E. me Integrated
+- intent: inte_be_me_cse
+  examples: |
+    - B.E. + M.E. (Computer Science & Engineering) Integrated
+    - B.E + M.E computer science engineering integrated
+    - bachelor and both masters in computer science engineering
+    - integrated course of computer science engineering
+    - how to apply for B.E + M.E computer science engineering prgram
+    - what is the fee for B.E + M.E  computer science engineering prgram
+    - what will be the duration for computer science engineering
+    - B.E. + M.E. cse Integrated
+- intent: inte_be_me_cse_is_ibm
+  examples: |
+    - B.E. + M.E. (Computer Science and Engineering - Hons) (Information Security in association with IBM) Integrated
+    - B.E + M.E computer science engineering information security with IBM integrated
+    - bachelor and both masters in computer science Information Security in association with IBM engineering
+    - integrated course of computer science Information Security in association with IBM engineering
+    - how to apply for B.E + M.E computer science engineering IBM  prgram
+    - what is the fee for B.E + M.E  computer science engineering IBM prgram
+    - what will be the duration for computer science IBM engineering
+    - B.E. + M.E. cse IBM Integrated
+- intent: inte_be_me_cse_ai_ibm
+  examples: |
+    - B.E. + M.E. (Computer Science and Engineering - Hons) (IArtificial Intelligence & Machine Learning in association with IBM) Integrated
+    - B.E + M.E computer science engineering Artificial Intelligence & Machine Learning with IBM integrated
+    - bachelor and both masters in computer science Artificial Intelligence & Machine Learning in association with IBM engineering
+    - integrated course of computer science Artificial Intelligence & Machine Learning in association with IBM engineering
+    - how to apply for B.E + M.E computer science engineering Artificial Intelligence & Machine Learning IBM  prgram
+    - what is the fee for B.E + M.E  computer science engineering Artificial Intelligence & Machine Learning IBM prgram
+    - what will be the duration for computer science Artificial Intelligence & Machine Learning IBM engineering
+    - B.E. + M.E. cse IBM Artificial Intelligence & Machine Learning Integrated
+- intent: inte_be_me_cse_cc_virtusa
+  examples: |
+    - B.E. + M.E. (Computer Science and Engineering) (Hons) (Cloud Computing) (In collaboration with Virtusa) (Integrated)
+    - B.E + M.E computer science engineering Cloud Computing with virtusa integrated
+    - bachelor and both masters in computer science Cloud Computing association virtusa engineering
+    - integrated course of computer science Cloud Computing association virtusa engineering
+    - how to apply for B.E + M.E computer science engineering Cloud Computing association virtusa prgram
+    - what is the fee for B.E + M.E computer science engineering Cloud Computing association virtusa prgram
+    - what will be the duration for computer science Cloud Computing association virtusaengineering
+    - B.E. + M.E. cse Cloud Computing association with virtusa
+- intent: inte_me_phd
+  examples: |
+    - Integrated M.E. + Ph.D. Program Offered
+    - integrated program of masters with Phd
+    - do we have an integrated program of masters with PHD
+    - can i do masters and phd simultaneously
+    - me + phd
+    - M.E + PHD
+    - masters of engineering along with phd
+    - what will be the fee for M.E + PHD
+    - what will be the duration for M.E + PHD
+    - what will be the fee for masters of engineering along with phd
+    - what will be the duration masters of engineering along with phd
+    - m.e + ph.D
+    - masters and Phd courses in cu
+    - what is the fee for ME with Phd
+    - whats the duration for M.E with ph.D
+    - how to apply for ME with Phd
+- intent: IBM
+  examples: |
+    - IBM engineering programs
+    - IBM
+    - IBM courses
+    - collaboration of programs with IBM
+    - engineering with IBM
+    - IBM affiliated programs
+    - ibm
+    - ibm programs
+    - ibm courses fee
+- intent: be_cse_bda_ibm
+  examples: |
+    - B.E. Computer Science and Engineering (CSE) Big Data and Analytics in collaboration with IBM
+    - Big Data and Analytics with IBM
+    - Big Data course with ibm
+    - big data ibm
+    - big data and analytics
+    - Computer Science and Engineering (CSE) in Big Data
+    - cse in big data and analytics regular program
+    - Computer Science and Engineering in bigdata and analytics
+    - how do i apply for big data ibm regular course
+    - is there any big data ibm regular program in cu?
+    - tell me about big data ibm program
+    - do you know anything about big data  engineering
+    - what is the fee of big data and analytics
+    - whats the eligibility for Big Data
+- intent: be_cse_cc_ibm
+  examples: |
+    - Bachelor of Engineering in Computer Science and Engineering (Hons.) IBM Cloud Computing
+    - cloud computing engineering with IBM
+    - cloud computing with IBM
+    - cloud computing course with ibm
+    - cloud computing ibm
+    - cse in cloud computing in collaboration with IBM
+    - Computer Science and Engineering (CSE) in cloud computing
+    - cse in big cloud computing regular program
+    - Computer Science and Engineering in cloud computing with IBM
+    - how do i apply for cloud computing ibm regular course
+    - is there any cloud computing ibm regular program in cu?
+    - tell me about cloud computing ibm program
+    - do you know anything about cloud computing  engineering
+    - what is the fee of cloud computing
+    - whats the eligibility for cloud computing with IBM
+- intent: be_cse_is_ibm
+  examples: |
+    - Bachelor of Engineering in Computer Science and Engineering (Hons.) IBM  Information Security
+    - Information Security engineering with IBM
+    - Information Security with IBM
+    - Information Security course with ibm
+    - Information Security ibm
+    - cse in Information Security in collaboration with IBM
+    - Computer Science and Engineering (CSE) in Information Security
+    - cse in Information Security regular program
+    - Computer Science and Engineering in Information Security with IBM
+    - how do i apply for Information Security ibm regular course
+    - is there any Information Security ibm regular program in cu?
+    - tell me about information security ibm program
+    - do you know anything about information security  engineering
+    - what is the fee of information security
+    - whats the eligibility for information security with IBM
+- intent: be_cse_saiml_ibm
+  examples: |
+    - B.E. CSE (Hons.) with Specialization in Artificial Intelligence and Machine Learning in association with IBM
+    - Specialization in Artificial Intelligence and Machine Learning engineering with IBM
+    - Artificial Intelligence and Machine Learning with IBM
+    - Artificial Intelligence and Machine Learning course with ibm
+    - Artificial Intelligence and Machine Learning ibm
+    - cse in Artificial Intelligence and Machine Learning in collaboration with IBM
+    - Computer Science and Engineering (CSE) in Artificial Intelligence and Machine Learning
+    - cse in Artificial Intelligence and Machine Learning regular program
+    - Computer Science and Engineering in Artificial Intelligence and Machine Learning with IBM
+    - how do i apply for Artificial Intelligence and Machine Learning ibm regular course
+    - is there any Artificial Intelligence and Machine Learning ibm regular program in cu?
+    - tell me about Artificial Intelligence and Machine Learning ibm program
+    - do you know anything about Artificial Intelligence and Machine Learning engineering
+    - what is the fee of Artificial Intelligence and Machine Learning
+    - whats the eligibility for Artificial Intelligence and Machine Learning with IBM
+- intent: be_cse_iot_ibm
+  examples: |
+    - B.E. CSE (Hons.) with Specialization in Internet of Things in association with IBM
+    - Specialization in internet of Things engineering with IBM
+    - internet of Things with IBM
+    - internet of Things with ibm
+    - internet of Things ibm
+    - cse in internet of Things in collaboration with IBM
+    - Computer Science and Engineering (CSE) in internet of Things
+    - cse in internet of Things regular program
+    - Computer Science and Engineering in internet of Things with IBM
+    - how do i apply for internet of Things ibm regular course
+    - is there any internet of Things ibm regular program in cu?
+    - tell me about internet of Things ibm program
+    - do you know anything about internet of Things engineering
+    - what is the fee of internet of Things
+    - whats the eligibility for internet of things with IBM
+- intent: be_cse_bda_leet_ibm
+  examples: |
+    - Bachelor of Engineering in Computer Science and Engineering (Hons.) IBM Big Data Analytics (Lateral Entry)
+    - Lateral Entry Big Data and Analytics with IBM
+    - Lateral Entry Big Data course with ibm
+    - big data ibm Lateral Entry
+    - Lateral Entry in big data and analytics
+    - Lateral Entry in Computer Science and Engineering (CSE) in Big Data
+    - Lateral Entry in cse in big data and analytics regular program
+    - Lateral Entry in Computer Science and Engineering in bigdata and analytics
+    - how do i apply for Lateral Entry in big data ibm regular course
+    - is there any Lateral Entry in big data ibm regular program in cu?
+    - tell me about Lateral Entry in big data ibm program
+    - do you know anything about Lateral Entry in big data  engineering
+    - what is the fee of Lateral Entry in big data and analytics
+    - whats the eligibility for Lateral Entry in Big Data
+    - Lateral Entry in Big Data
+- intent: be_cse_leet_cc_ibm
+  examples: |
+    - Bachelor of Engineering in Computer Science and Engineering (Hons.) IBM cloud computing (Lateral Entry)
+    - Lateral Entry cloud computing with IBM
+    - Lateral Entry cloud computing course with ibm
+    - cloud computing ibm Lateral Entry
+    - Lateral Entry in cloud computing
+    - Lateral Entry in Computer Science and Engineering (CSE) in cloud computing
+    - Lateral Entry in cse in cloud computing regular program
+    - Lateral Entry in Computer Science and Engineering in cloud computing
+    - how do i apply for Lateral Entry in cloud computing ibm regular course
+    - is there any Lateral Entry in cloud computing ibm regular program in cu?
+    - tell me about Lateral Entry in cloud computing ibm program
+    - do you know anything about Lateral Entry in cloud computing engineering
+    - what is the fee of Lateral Entry in cloud computing
+    - whats the eligibility for Lateral Entry in cloud computing
+    - lateral entry cse cloud computing
+- intent: be_cse_leet_is_ibm
+  examples: |
+    - Bachelor of Engineering in Computer Science and Engineering (Hons.) IBM Information Security (Lateral Entry)
+    - Lateral Entry Information Security with IBM
+    - Lateral Entry Information Security with ibm
+    - Information Security ibm Lateral Entry
+    - Lateral Entry in Information Security
+    - Lateral Entry in Computer Science and Engineering (CSE) in Information Security
+    - Lateral Entry in cse in Information Security regular program
+    - Lateral Entry in Computer Science and Engineering in Information Security
+    - how do i apply for Lateral Entry in Information Security ibm regular course
+    - is there any Lateral Entry in Information Security ibm regular program in cu?
+    - tell me about Lateral Entry in Information Security ibm program
+    - do you know anything about Lateral Entry in Information Security  engineering
+    - what is the fee of Lateral Entry in Information Security and analytics
+    - whats the eligibility for Lateral Entry in Information Security
+- intent: be_cse_leet_aiml_ibm
+  examples: |
+    - Bachelor of Engineering in Computer Science and Engineering (Hons.) IBM Artificial Intelligence and Machine Learning (Lateral Entry)
+    - Lateral Entry in Artificial Intelligence and Machine Learning with IBM
+    - Lateral Entry Artificial Intelligence and Machine Learning with ibm
+    - Artificial Intelligence and Machine Learning ibm Lateral Entry
+    - Lateral Entry in Artificial Intelligence and Machine Learning
+    - Lateral Entry in Computer Science and Engineering (CSE) in Artificial Intelligence and Machine Learning
+    - Lateral Entry in cse in big Artificial Intelligence and Machine Learning regular program
+    - Lateral Entry in Computer Science and Engineering in Artificial Intelligence and Machine Learning
+    - how do i apply for Lateral Entry in Artificial Intelligence and Machine Learning ibm regular course
+    - is there any Lateral Entry in Artificial Intelligence and Machine Learning ibm regular program in cu?
+    - tell me about Lateral Entry in Artificial Intelligence and Machine Learning ibm program
+    - do you know anything about Lateral Entry in Artificial Intelligence and Machine Learning engineering
+    - what is the fee of Lateral Entry in Artificial Intelligence and Machine Learning
+    - whats the eligibility for Lateral Entry in Artificial Intelligence and Machine Learning
+- intent: be_cse_leet_iot_ibm
+  examples: |
+    - Bachelor of Engineering in Computer Science and Engineering (Hons.) IBM Internet of Things (Lateral Entry)
+    - Lateral Entry Internet of Things with IBM
+    - Lateral Entry Internet of Things course with ibm
+    - Internet of Things ibm Lateral Entry
+    - Lateral Entry in Internet of Things
+    - Lateral Entry in Computer Science and Engineering (CSE) in Internet of Things
+    - Lateral Entry in cse in Internet of Things regular program
+    - Lateral Entry in Computer Science and Engineering in Internet of Things
+    - how do i apply for Lateral Entry in Internet of Things ibm regular course
+    - is there any Lateral Entry in Internet of Things ibm regular program in cu?
+    - tell me about Lateral Entry in Internet of Things ibm program
+    - do you know anything about Lateral Entry in Internet of Things  engineering
+    - what is the fee of Lateral Entry in Internet of Things
+    - whats the eligibility for Lateral Entry in Internet of Things
+- intent: management_courses
+  examples: |
+    - list all management courses
+    - list all management courses in cu
+    - management courses
+    - management programs
+    - how many management courses in cu
+    - types of management courses in cu
+    - management
+- intent: bachelor_management
+  examples: |
+    - Under Graduate Management Courses
+    - bachelor's management programs
+    - ugc management course
+    - under graduate management
+    - list all Under Graduate Management Courses
+    - how many Under Graduate management courses in cu
+- intent: post_grad_management
+  examples: |
+    - Post Graduate Management Courses
+    - master's management programs
+    - master management course
+    - master's graduate management
+    - list all Post Graduate Management Courses
+    - how many Post Graduate management courses in cu
+- intent: Industry_Collab_management
+  examples: |
+    - management courses in ibm
+    - management with sbi tally
+    - management with fintech nse academy
+    - management with sas
+    - Industry Collaborated Courses in management
+- intent: doc_management
+  examples: |
+    - doctorate in management
+    - phd in management
+    - PHD in management
+    - higher studies in management
+    - apply for phd in management
+- intent: bba_regu
+  examples: |
+    - BBA regular learning Program
+    - bba regular
+    - bachelor of Business Administration regular programs in cu
+    - bba regular program eligibility
+    - am I eligible for bba regular program
+    - is bba program regular
+    - what is a bba regular program
+    - what is bba regular  learning
+    - bba regular learning in cu
+    - is BBA regular offered by cu?
+    - information about bba regular
+    - eligibility criteria for bba offline
+    - bba offline
+    - specialization in bba regular
+    - apply for bba regular program
+    - apply for bba regular course
+- intent: bba_am_regu
+  examples: |
+    - Bachelor of Business Administration in Advertising & Marketing
+    - bba in Advertising & Marketing
+    - Advertising & Marketing management program
+    - bachelor of Business Administration in Advertising & Marketing regular programs in cu
+    - Advertising & Marketing regular program eligibility
+    - am I eligible for Advertising & Marketing regular program
+    - is bba in Advertising & Marketing regular
+    - what is a bba in Advertising & Marketing program
+    - what is bba in Advertising & Marketing regular  learning
+    - bba in Advertising & Marketing learning in cu
+    - is BBA in Advertising & Marketing offered by cu?
+    - information about in Advertising & Marketing
+    - eligibility criteria for bba in Advertising & Marketing offline
+    - bba in Advertising & Marketing offline
+    - Advertising & Marketing
+    - Marketing management program
+    - fee for bba in Advertising & Marketing
+    - what is the fee for bba in Advertising & Marketing
+    - what will be the fee for bba in Marketing
+    - Business Administration program in Advertising & Marketing
+    - i wish to apply for Advertising & Marketing course
+- intent: bba_bf_regu
+  examples: |
+    - Bachelor of Business Administration in Banking & Finance
+    - bba in Banking & Finance
+    - Banking & Finance management program
+    - bachelor of Business Administration in Banking & Finance regular programs in cu
+    - Banking & Finance regular program eligibility
+    - am I eligible for Banking & Finance regular program
+    - is bba in Banking & Finance regular
+    - what is a bba in Banking & Finance program
+    - what is bba in Banking & Finance regular  learning
+    - bba in Banking & Finance learning in cu
+    - is BBA in Banking & Finance offered by cu?
+    - information about in Banking & Finance
+    - eligibility criteria for bba in Banking & Finance offline
+    - bba in Banking & Finance offline
+    - Banking & Finance
+    - Finance
+    - banking
+    - Finance program
+    - fee for bba in Banking & Finance
+    - what is the fee for bba in Banking & Finance
+    - what will be the fee for bba in Finance
+    - Business Administration program in Banking & Finance
+    - i wish to apply for Banking & Finance course
+- intent: bba_ir_regu
+  examples: |
+    - Bachelor of Business Administration in Insurance & Risk Management
+    - bba in Insurance & Risk Management
+    - Insurance & Risk Management management program
+    - bachelor of Business Administration in Insurance & Risk Management regular programs in cu
+    - Insurance & Risk Management regular program eligibility
+    - am I eligible for Insurance & Risk Management regular program
+    - is bba in Insurance & Risk Management regular
+    - what is a bba in Insurance & Risk Management program
+    - what is bba in Insurance & Risk Management regular  learning
+    - bba in Insurance & Risk Management learning in cu
+    - is BBA in Insurance & Risk Management offered by cu?
+    - information about in Insurance & Risk Management
+    - eligibility criteria for bba in Insurance & Risk Management offline
+    - bba in Insurance & Risk Management offline
+    - Insurance & Risk Management
+    - Risk Management
+    - Risk Management course
+    - Insurance
+    - Risk Management program
+    - fee for bba in Insurance & Risk Management
+    - what is the fee for bba in Insurance & Risk Management
+    - what will be the fee for bba in Insurance
+    - Business Administration program in Insurance and Risk Management
+    - i wish to apply for insurance and risk management course
+- intent: bba_te_regu
+  examples: |
+    - Bachelor of Business Administration in Tourism & Event Management
+    - bba in Tourism & Event
+    - Insurance & Risk Management program
+    - bachelor of Business Administration in Tourism & Event regular programs in cu
+    - Tourism & Event regular program eligibility
+    - am I eligible for Tourism & Event regular program
+    - is bba in Tourism & Event regular
+    - what is a bba in Tourism & Event program
+    - what is bba in Tourism & Event regular learning
+    - bba in Tourism & Event learning in cu
+    - is BBA in Tourism & Event offered by cu?
+    - information about in Tourism & Event
+    - eligibility criteria for bba in Tourism & Event offline
+    - bba in Tourism & Event Management offline
+    - Tourism & Event Management
+    - Event Management
+    - Event Management course
+    - bba in Tourism
+    - Event Management program
+    - fee for bba in Tourism & Event Management
+    - what is the fee for bba in Tourism & Event Management
+    - what will be the fee for bba in Tourism & Event Management
+    - Business Administration program in Tourism & Event Management
+    - i wish to apply for Tourism & Event management course
+- intent: bba_fx_regu
+  examples: |
+    - Bachelor of Business Administration in Forex Management
+    - bba in Forex
+    - Forex Management program
+    - bachelor of Business Administration in Forex regular programs in cu
+    - Forex regular program eligibility
+    - am I eligible for Forex regular program
+    - is bba in Forex regular
+    - what is a bba in Forex program
+    - what is bba in Forex regular learning
+    - bba in Forex learning in cu
+    - is BBA in Forex offered by cu?
+    - information about in Forex
+    - eligibility criteria for bba in Forex offline
+    - bba in Forex Management offline
+    - Forex Management
+    - Forex Management course
+    - fee for bba in Forex  Management
+    - what is the fee for bba in Forex Management
+    - what will be the fee for bba in Forex management
+    - Business Administration program in Forex Management
+    - i wish to apply for Forex management course
+- intent: bba_ba_regu
+  examples: |
+    - Bachelor of Business Administration in Business Analytics in collaboration with SAS
+    - bba in Business Analytics in collaboration with SAS
+    - Business Analytics in collaboration with SAS Management program
+    - bachelor of Business Administration in Business Analytics in collaboration with SAS regular programs in cu
+    - Business Analytics in collaboration with SAS regular program eligibility
+    - am I eligible for Business Analytics regular program
+    - is bba in Business Analytics regular
+    - what is a bba in Business Analytics program
+    - what is bba in Business Analytics regular learning
+    - bba in Business Analytics learning in cu
+    - is BBA in Business Analytics offered by cu?
+    - information about in Business Analytics
+    - eligibility criteria for bba in Business Analytics offline
+    - bba in Business Analytics Management offline
+    - Business Analytics Management
+    - Business Analytics Management with sas
+    - bba in Business Analytics Management course with sas
+    - bba in Business Analytics
+    - Business Analytics Management program
+    - fee for bba in Business Analytics  Management
+    - what is the fee for bba in Business Analytics Management
+    - what will be the fee for bba in Business Analytics management
+    - Business Administration program in Business Analytics Management
+    - i wish to apply for Business Analytics management course
+- intent: bba_dm_regu
+  examples: |
+    - Bachelor of Business Administration in Digital Marketing
+    - bba in Digital Marketing
+    - Digital Marketing Management program
+    - bachelor of Business Administration in Digital Marketing regular programs in cu
+    - Business Analytics in Digital Marketing program eligibility
+    - am I eligible for bba in Digital Marketing regular program
+    - is bba in Digital Marketing regular
+    - what is a bba in Digital Marketing program
+    - what is bba in Digital Marketing regular learning
+    - bba in Digital Marketing learning in cu
+    - is BBA in Digital Marketing offered by cu?
+    - information about in Digital Marketing
+    - eligibility criteria for bba in Digital Marketing offline
+    - bba in Digital Marketing Management offline
+    - Digital Marketing Management
+    - Digital Marketing Management Hons
+    - bba hons in Digital Marketing course
+    - Business Digital Marketing program
+    - fee for bba in Digital Marketing  Management
+    - what is the fee for bba in Digital Marketing
+    - what will be the fee for bba in Digital Marketing
+    - Business Administration program in Digital Marketing
+    - i wish to apply for Digital Marketing course
+- intent: mba_hfmie_regu
+  examples: |
+    - Master of Business Administration in HR Finance regular
+    - Master of Business Administration in HR Marketing regular
+    - Master of Business Administration in International Business regular
+    - Master of Business Administration in Entrepreneurship regular
+    - mba in HR Finance regular
+    - post graduation in business administration
+    - mba in HR Marketing regular
+    - mba in International Business regular
+    - mba in HR Entrepreneurship regular
+    - mba in hr regular
+    - mba in human resource regular
+    - specialization in mba regular
+    - how many specialization are there in mba regular
+    - international business in mba regular
+    - mba in Entrepreneurship regular
+    - mba in Finance regular
+    - mba in Marketing regular
+- intent: mba_thm_regu
+  examples: |
+    - Master of Business Administration in Tourism and Hospitality Management
+    - MBA Tourism and Hospitality Management
+    - mba Tourism and hospitality management
+    - Tourism and hospitality management regular
+    - mba in tourism regular
+    - mba in hospitality management regular
+    - post graduation in hospitality management
+    - mba in Tourism and Hospitality Management
+    - mba  in Tourism and Hospitality Management eligibility
+    - eligibility of Tourism and Hospitality Management
+    - am I eligible for mba  in Tourism and Hospitality Management program
+    - is mba Tourism and Hospitality Management
+    - what is a mba Tourism and Hospitality Management
+    - what is mba Tourism and Hospitality Management
+    - mba regular Tourism and Hospitality Management in cu
+    - is mba in Tourism and Hospitality Management regular offered by cu?
+    - information about Tourism and Hospitality Management
+    - eligibility criteria for Tourism and Hospitality Management
+    - fee for offline mba Tourism and Hospitality Management
+    - apply for mba in tourism and Hospitality Management
+- intent: mba_ir_regu
+  examples: |
+    - Master of Business Administration International Relations
+    - MBA International Relations
+    - mba International Relations
+    - management program in International Relations regular
+    - mba in International Relations regular
+    - post graduation in International Relations
+    - mba in International Relations
+    - mba  in International Relations management eligibility
+    - eligibility of International Relations Management
+    - am I eligible for mba  in International Relations Management program
+    - is mba International Relations Management
+    - what is a mba International Relations Management
+    - what is mba International Relations Management
+    - mba regular International Relations Management in cu
+    - is mba in International Relations regular offered by cu?
+    - information about International Relations
+    - eligibility criteria for International Relations
+    - fee for offline mba International Relations
+    - apply for mba in International Relations
+- intent: mba_cassm_regu
+  examples: |
+    - Master in CASSM
+    - MBA in Advanced Studies in Social Sciences
+    - MBA program at Centre for Advanced Studies in Social Sciences and Management
+    - mba with IDC
+    - management program in CASSM
+    - mba in CASSM
+    - mba in CASSM regular
+    - post graduation in CASSM regular
+    - The MBA program at Centre for Advanced Studies in Social Sciences with IDC
+    - mba in Centre for Advanced Studies in Social Sciences
+    - mba  in Centre for Advanced Studies in Social Sciences management eligibility
+    - eligibility of Centre for Advanced Studies in Social Sciences
+    - am I eligible for mba  with CASSM
+    - what is a mba CASSM  Management
+    - is mba in CASSM regular offered by cu?
+    - information about CASSM
+    - eligibility criteria for CASSM
+    - fee for offline mba CASSM
+    - apply for mba in CASSM
+    - IDC
+- intent: mba_ba_ibm_regu
+  examples: |
+    - Masters of Business Administration (Business Analytics) in association with IBM
+    - Master of Business Administration Business Analytics in association with IBM
+    - MBA Business Analytics in association with IBM
+    - Business Analytics in association with IBM
+    - management program in Business Analytics in association with IBM
+    - mba inBusiness Analytics in association with IBM
+    - mba in Business Analytics in association with IBM
+    - post graduation in Business Analytics in association with IBM
+    - mba  in Business Analytics in association with IBM eligibility
+    - eligibility of International Business Analytics in association with IBM
+    - am I eligible for mba  inBusiness Analytics in association with IBM program
+    - is mba  Business Analytics in association with IBM
+    - what is a mba Business Analytics in association with IBM
+    - what is mba Business Analytics in association with IBM
+    - mba regular Business Analytics in association with IBM
+    - is mba in Business Analytics in association with IBM
+    - information about Business Analytics in association with IBM
+    - eligibility criteria for Business Analytics in association with IBM
+    - fee for offline mba Business Analytics in association with IBM
+    - apply for mba in Business Analytics in association with IBM
+- intent: mba_bf_sbi_regu
+  examples: |
+    - Master of Business Administration (Banking and Financial Engineering) in association with SBI and Tally
+    - Master of Business Administration Banking and Financial in association with SBI and Tally
+    - MBA Business Analytics in association with SBI and Tally
+    - Banking and Financial in association with SBI and Tally
+    - post graduation courses Banking and Financial in association with SBI and Tally
+    - management program in Banking and Financial in association with SBI and Tally
+    - mba in Business Banking and Financial Banking and Financial in association with IBM
+    - mba in Banking and Financial in association with SBI and Tally
+    - post graduation in Banking and Financial in association with SBI and Tally
+    - mba Banking and Financial Analytics in association with SBI and Tally
+    - mba  in Banking and Financial in association with SBI and Tally eligibility
+    - eligibility of Banking and Financial in association with IBM
+    - am I eligible for mba  in Banking and Financial in association with SBI and Tally program
+    - is mba  Banking and Financial in association with SBI and Tally
+    - what is a mba Banking and Financial in association with SBI and Tally
+    - what is mba Banking and Financial in association with SBI and Tally
+    - mba regular Banking and Financial in association with SBI and Tally
+    - is mba in Banking and Financial in association with SBI and Tally
+    - information about Banking and Financial in association with SBI and Tally
+    - eligibility criteria for Banking and Financial in association with SBI and Tally
+    - fee for offline mba Banking and Financials in association with SBI and Tally
+    - apply for mba in Banking and Financial in association with SBI and Tally
+    - SBI and Tally
+- intent: mba_hr_aon_regu
+  examples: |
+    - Master of Business Administration Strategic HR in association with AON
+    - MBA Strategic HR in association with AON
+    - Strategic HR in association with AON
+    - post graduation courses mba in Strategic HR in association with AON
+    - management program in Strategic HR in association with AON
+    - mba Strategic HR in association with AON
+    - mba in Strategic HR in association with AON
+    - post graduation in Strategic HR in association with AON
+    - mba  in Strategic HR in association with AON eligibility
+    - eligibility of Strategic HR in association with AON
+    - am I eligible for mba  in Strategic HR in association with AON
+    - is mba  Strategic HR in association with AON
+    - what is a mba Strategic HR in association with AON
+    - what is mba Strategic HR in association with AON
+    - mba regular Strategic HR in association with AON
+    - is mba in Strategic HR in association with AON
+    - information about Strategic HR in association with AON
+    - eligibility criteria for Strategic HR in association with AON
+    - fee for offline mba Strategic HR in association with AON
+    - apply for mba in Strategic HR in association with AON
+    - AON
+- intent: mba_fin_nse_regu
+  examples: |
+    - Master of Business Administration FinTech in Association with NSE
+    - mba in fintech in associated with Fintech NSE
+    - MBA Fintech Financial Technology in collaboration with NSE Academy
+    - Strategic HR Financial Technology in collaboration with NSE Academy
+    - post graduation courses mba Financial Technology in collaboration with NSE Academy
+    - management program in Financial Technology in collaboration with NSE Academy
+    - mba Strategic HR Financial Technology in collaboration with NSE Academy
+    - mba in Strategic HR Financial Technology in collaboration with NSE Academy
+    - post graduation in Strategic HR Financial Technology in collaboration with NSE Academy
+    - mba Financial Technology in collaboration with NSE Academy
+    - mba fintech in associated with Fintech NSE
+    - eligibility of fintech in associated with Fintech NSE
+    - am I eligible for mba  fintech in associated with Fintech NSE
+    - is mba fintech in associated with Fintech NSE
+    - what is a mba fintech in associated with Fintech NSE
+    - what is mba fintech in associated with Fintech NSE
+    - mba regular fintech in associated with Fintech NSE
+    - information about fintech in associated with Fintech NSE
+    - eligibility criteria for fintech in associated with Fintech NSE
+    - fee for offline mba fintech in associated with Fintech NSE
+    - apply for mba in fintech in associated with Fintech NSE
+    - Fintech NSE
+    - fintech
+    - NSE academy
+- intent: mba_dsai_saas_regu
+  examples: |
+    - mba in Data Science & Artificial Intelligence in association with SAS
+    - Master of Business Administration in Data Science & Artificial Intelligence in association with SAS
+    - Strategic Data Science & Artificial Intelligence in association with SAS
+    - post graduation courses mba Data Science & Artificial Intelligence in association with SAS
+    - management program in Data Science & Artificial Intelligence in association with SAS
+    - mba Data Science & Artificial Intelligence in association with SAS
+    - post graduation in Data Science & Artificial Intelligence in association with SAS
+    - eligibility of Data Science & Artificial Intelligence in association with SAS
+    - am I eligible for mba Data Science & Artificial Intelligence in association with SAS
+    - is mba Data Science & Artificial Intelligence in association with SAS
+    - what is a mba Data Science & Artificial Intelligence in association with SAS
+    - what is mba Data Science & Artificial Intelligence in association with SAS
+    - mba regular Data Science & Artificial Intelligence in association with SAS
+    - is Data Science & Artificial Intelligence in association with SAS
+    - information about Data Science & Artificial Intelligence in association with SAS
+    - eligibility criteria for Data Science & Artificial Intelligence in association with SAS
+    - fee for offline mba Data Science & Artificial Intelligence in association with SAS
+    - apply for mba in Data Science & Artificial Intelligence in association with SAS
+    - SAS
+- intent: mba_lsc_cii_regu
+  examples: |
+    - Master of Business Administration Logistics and Supply Chain Management in collaboration with CII
+    - mba in logistic and supply chain management  in collaboration with CII
+    - CII institute of technology
+    - mba in supply chain management
+    - mba in logistics and supply chain management
+    - supply chain management
+    - logistics
+    - post graduation in Logistics and Supply Chain Management in collaboration with CII
+    - mba Logistics and Supply Chain Management in collaboration with CII
+    - eligibility of Logistics and Supply Chain Management in collaboration with CII
+    - am I eligible for mba Logistics and Supply Chain Management in collaboration with CII
+    - is mba Logistics and Supply Chain Management in collaboration with CII
+    - what is a mba Logistics and Supply Chain Management in collaboration with CII
+    - what is mba Logistics and Supply Chain Management in collaboration with CII
+    - mba regular Logistics and Supply Chain Management in collaboration with CII
+    - is Logistics and Supply Chain Management in collaboration with CII
+    - information about Logistics and Supply Chain Management in collaboration with CII
+    - eligibility criteria for Logistics and Supply Chain Management in collaboration with CII
+    - fee for offline mba Logistics and Supply Chain Management in collaboration with CII
+    - apply for mba in Logistics and Supply Chain Management in collaboration with CII
+    - i apply for mba in Logistics and Supply Chain Management
+- intent: mba_dm_saas_regu
+  examples: |
+    - Master of Business Administration Digital Marketing
+    - mba in digital marketing from cu
+    - mba regular in digital marketing
+    - Master of digital marketing
+    - MBA digital marketing
+    - mba digital marketing
+    - management program in digital marketing
+    - mba in digital marketing
+    - mba in digital marketing regular
+    - post graduation in digital marketing
+    - mba  in digital marketing management eligibility
+    - eligibility of digital marketing
+    - am I eligible for mba  in digital marketing
+    - is mba digital marketing in cu?
+    - what is a mba digital marketing
+    - what is mba digital marketing
+    - mba regular digital marketing university
+    - is mba in digital marketing regular offered by cu?
+    - information about digital marketing
+    - eligibility criteria for digital marketing
+    - fee for offline mba digital marketing
+    - apply for mba in digital marketing
+- intent: mba_hls_regu
+  examples: |
+    - Master of Business Administration Healthcare and Life Sciences
+    - mba in Healthcare and Life Sciences from cu
+    - mba regular in Healthcare and Life Sciences
+    - Master of Healthcare and Life Sciences
+    - MBA Healthcare and Life Sciences
+    - Healthcare and Life Sciences
+    - management program in Healthcare and Life Sciences
+    - mba in Healthcare and Life Sciences regular
+    - post graduation in Healthcare and Life Sciences
+    - mba  in Healthcare and Life Sciences eligibility
+    - eligibility of Healthcare and Life Sciences
+    - am I eligible for mba  in Healthcare and Life Sciences
+    - is mba Healthcare and Life Sciences in cu?
+    - what is a mba Healthcare and Life Sciences
+    - is mba inHealthcare and Life Sciences regular offered by cu?
+    - information about Healthcare and Life Sciences
+    - eligibility criteria for Healthcare and Life Sciences
+    - fee for offline mba in Healthcare and Life Sciences
+    - apply for mba in Healthcare and Life Sciences
+- intent: phd_bm_regu
+  examples: |
+    - Doctor of Philosophy in Business Management
+    - phd in business management
+    - to apply for doctorate in business management
+    - enroll for phd in business management
+    - eligibility for PHD in business management
+    - fee for phd in business management
+    - information about phd in business management course
+    - what is doctor of business management program in cu
+    - i wish to apply for phd in business management course
+- intent: mba_regu
+  examples: |
+    - regular mba program
+    - regular mba from cu
+    - what is the eligibility for regular mba
+    - offline mba
+    - how do i apply for regular mba
+    - regular mba courses in cu
+    - fee for regular mba
+    - i wish to apply for regular mba from cu
+    - how do i enroll for regular mba courses from chandigarh university
+    - mba regular
+    - masters of business administration regular course
+- intent: comp_regu
+  examples: |
+    - computing courses regular
+    - computer application program regular
+    - regular courses of computer application
+    - computing regular courses
+- intent: bach_comp_regu
+  examples: |
+    - bachelors in computer applications regular
+    - regular bca from cu
+    - BCA regular learning Program
+    - bca regular
+    - Bachelor of Computer Applications regular
+    - bca regular program eligibility
+    - am I eligible for bca regular program
+    - is bca program regular
+    - what is a bca regular program
+    - what is bca regular  learning
+    - bca regular learning in cu
+    - is BCA regular offered by cu?
+    - information about bca regular
+    - eligibility criteria for bca regular
+    - what is the fee for bca regular course
+- intent: mast_comp_regu
+  examples: |
+    - masters in computer applications regular
+    - regular mca from cu
+    - MCA regular in computer applications learning Program
+    - masters of Computer Applications regular
+    - am I eligible for mca computer applications regular program
+    - is mca  computer applications program regular
+    - what is a mca computer applications regular program
+    - what is mca  computer applications regular  learning
+    - mca in computer applications learning in cu
+    - is mca computer applications offered by cu?
+    - information about mca computer applications regular
+    - eligibility criteria for mca computer applications regular
+    - what is the fee for mca computer applications regular course
+- intent: phd_comp
+  examples: |
+    - Doctorate programs in computer application in cu
+    - doctorate program for computer applications
+    - phd courses for computer applications
+- intent: bca_regu
+  examples: |
+    - bca regular in general
+    - regular bca in general
+    - bca regular in general from cu
+- intent: bca_arvr_regu
+  examples: |
+    - bca i ar vr regular
+    - augmented reality virtual reality
+    - ar vr bca course from cu
+    - Bachelor of Computer Applications Augmented Reality and Virtual Reality
+    - regular bca in ar vr
+    - Computer Applications Augmented Reality and Virtual Reality
+    - what is a bca Augmented Reality and Virtual Reality regular program
+    - what is bca Augmented Reality and Virtual Reality  regular  learning
+    - bca  Virtual Reality learning in cu
+    - is BCA Augmented Reality and Virtual Reality regular offered by cu?
+    - information about bca ar vr regular
+    - eligibility criteria for bca in ar vr regular
+    - what is the fee for bca ar vr regular course
+- intent: bca_uiux_regu
+  examples: |
+    - bca in ui ux regular
+    - Bachelor of Computer Applications User Interface User Experience Design
+    - regular bca in ui ux
+    - Computer Applications User Interface User Experience Design
+    - what is a bca User Interface User Experience Design regular program
+    - what is bca User User Interface Experience Design  regular  learning
+    - bca  user interface learning in cu
+    - is BCA user interface regular offered by cu?
+    - information about bca ui ux regular
+    - eligibility criteria for bca in ui ux regular
+    - what is the fee for bca ui ux regular course
+- intent: mca_regu
+  examples: |
+    - mca regular program eligibility
+    - am I eligible for mca regular
+    - is mca regular in cu?
+    - is MCA regular offered by cu?
+    - can you tell me about MCA regular course
+    - Tell me about mca program regular
+    - mca offline
+    - mca regular
+    - general mca regular
+    - master in computer application regular
+    - details about regular mca
+    - am i eligible for regular mca
+    - how do i apply for regular mca
+    - what is the fee for regular mca
+- intent: mca_ccd_regu
+  examples: |
+    - MCA Cloud Computing and DevOps regular
+    - mca devops regular course
+    - master of computer application in devops
+    - regular mca with devops and cloud computing
+    - mca in cloud computing
+    - am I eligible for MCA Cloud Computing and DevOps regular
+    - is mca in Cloud Computing and DevOps  regular in cu?
+    - is MCA in Cloud Computing and DevOps regular  by cu?
+    - can you tell me about mca in Cloud Computing and DevOps  regular
+    - Tell me about mca in Cloud Computing and DevOps  regular
+    - mca in Cloud Computing and DevOps regular
+    - mca in Cloud Computing and DevOps
+    - details about mca in Cloud Computing and DevOps
+    - am i eligible for mca in Cloud Computing and DevOps  regular
+    - how do i apply for mca in Cloud Computing and DevOps  regular
+    - what is the fee for mca in Cloud Computing and DevOps  regular
+- intent: mca_aiml_regu
+  examples: |
+    - mca in  Artificial Intelligence & Machine Learning regular
+    - masters in Artificial Intelligence & Machine Learning regular
+    - mca in machine learning
+    - mca in artificial intelligence
+    - am I eligible for MCA Artificial Intelligence & Machine Learning regular
+    - is mca in Artificial Intelligence & Machine Learning regular in cu?
+    - is MCA in Artificial Intelligence & Machine Learning offered by cu?
+    - can you tell me about mca in Artificial Intelligence & Machine Learning regular regular
+    - Tell me about mca in Artificial Intelligence & Machine Learning regular regular
+    - mca in Artificial Intelligence & Machine Learning  regular
+    - details about mca in Artificial Intelligence & Machine Learning  regular
+    - am i eligible for mca in Artificial Intelligence & Machine Learning  regular
+    - how do i apply for mca in Artificial Intelligence & Machine Learning  regular
+    - what is the fee for mca in Artificial Intelligence & Machine Learning regular
+- intent: doc_comp
+  examples: |
+    - Doctor of Philosophy Computer Applications
+    - phd in Computer Applications
+    - doctorate in Computer Applications
+    - doctor of Philosophy Computer Applications course
+    - how do i apply for Doctor of Philosophy Computer Applications
+    - tell me about Doctor of Philosophy Computer Applications regular course
+    - do you know anything about Doctor of Philosophy Computer Applications
+    - what is the fee of Doctor of Philosophy Computer Applications
+    - whats the eligibility for in Doctor of Philosophy Computer Applications
+- intent: bach_business_regu
+  examples: |
+    - Under-Graduate University School of Business Courses
+    - bachelor programs in commerce regular from cu
+    - ugc commerce regular courses
+    - regular business courses
+    - bcom regular
+    - b.com regular
+    - B.COM regular
+- intent: bcom_regu
+  examples: |
+    - bcom hons. regular
+    - Bachelor of Commerce hons regular
+    - B.Com Hons regular
+    - what is bcom hons.regular
+    - is bcom hons.regular offered by cu?
+    - can you tell me about bcom hons.regular
+    - Tell me about bcom hons.regular program
+    - fee for b.com  bcom hons.regular program
+    - how do i apply for b.com hons.regular course
+- intent: bcom_acca_regu
+  examples: |
+    - bcom hons. with acca regular
+    - Bachelor of Commerce hons with acca regular
+    - B.Com Hons with acca  regular
+    - what is bcom hons. with acca regular
+    - is bcom hons.with acca regular offered by cu?
+    - can you tell me about bcom hons.with acca regular
+    - Tell me about bcom hons.with acca regular program
+    - fee for bcom hons.with acca regular program
+    - how do i apply for b.com with acca hons.regular course
+- intent: mast_business_regu
+  examples: |
+    - Master in Commerce business regular
+    - post graduation in mcom regular program
+    - post graduation in mcom
+    - mcom business regular course
+    - mcom regular
+    - fee for mcom regular
+    - eligibility for mcom
+- intent: mcom_regu
+  examples: |
+    - Master in Commerce Honors regular
+    - mcom hons. regular program
+    - MCOM hons regular course from cu
+    - am I eligible for mcom hons regular program
+    - what is m.com hons  regular
+    - is M.com hons regular program in cu
+    - is M.COM hons regular program offered by cu?
+    - mcom hons regular program
+    - regular program mcom hons
+    - regular mcom hons
+    - how to enroll for mcom hons  regular program
+    - fee for mcom hons regular program
+    - mcom hons from chandigarh university regular
+    - eligibility for mcom hons regular
+- intent: doc_com_regu
+  examples: |
+    - Doctorate Programs of Business
+    - doDoctorate Programs of Business
+    - Doctor of Philosophy of Commerce
+    - phd programs in business
+    - do cu have Doctorate Programs in business?
+    - phd in commerce
+    - doctorate in commerce
+    - can i do phd in commerce from chandigarh university
+    - how can i apply for PHD in commerce programs
+    - i wish to apply for phd in commerce programs
+    - P.H.D in commerce
+    - fee for phd in business
+- intent: bcom
+  examples: |
+    - b.com from cu
+    - B.COM in chandigarh university
+    - BCOM
+    - B.COM
+    - fee for bcom
+    - eligibility for bcom
+    - apply for bcom
+    - bachelor of commerce
+    - i wish to apply for bcom from cu
+    - how much for bcom
+- intent: bsc_regu
+  examples: |
+    - bachelor in science regular
+    - bsc science regular
+    - BSC regular from cu
+    - bsc regular
+    - tell me about bsc regular from cu
+    - eligibility for bsc regular
+    - whats the fee for bsc regular course
+    - what is the fee for bsc regular from chandigarh university
+    - how can i apply for bsc regular course
+    - fee for bsc regular
+- intent: bach_bsc_regu
+  examples: |
+    - bachelor programs in bsc regular
+    - under graduate course in bsc regular
+    - ugc course in bsc regular
+- intent: bsc_phy_regu
+  examples: |
+    - Bachelor of Science(Hons) - Physics regular course
+    - bsc hons in physics regular
+    - bachelor of science physics regular
+    - bsc science physics regular
+    - BSC hons physics regular from cu
+    - bsc  hons physics regular
+    - tell me about bsc  hons physics regular from cu
+    - eligibility for bsc  hons physics regular
+    - whats the fee for bsc  hons physics regular course
+    - what is the fee for bsc  hons physics regular from chandigarh university
+    - how can i apply for bsc  hons physics regular course
+    - fee for bsc  hons physics regular
+- intent: bsc_chem_regu
+  examples: |
+    - Bachelor of Science(Hons) - Chemistry regular course
+    - bsc hons in Chemistry regular
+    - bachelor of science Chemistry regular
+    - bsc science Chemistry regular
+    - BSC hons Chemistry regular from cu
+    - bsc  hons Chemistry regular
+    - tell me about bsc  hons Chemistry regular from cu
+    - eligibility for bsc  hons Chemistry regular
+    - whats the fee for bsc  hons Chemistry regular course
+    - what is the fee for bsc  hons Chemistry regular from chandigarh university
+    - how can i apply for bsc  hons Chemistry regular course
+    - fee for bsc  hons Chemistry regular
+- intent: bsc_math_regu
+  examples: |
+    - Bachelor of Science(Hons) - Mathematics regular course
+    - bsc hons in Mathematics regular
+    - bachelor of Mathematics physics regular
+    - bsc science Mathematics regular
+    - BSC hons Mathematics regular from cu
+    - bsc  hons Mathematics regular
+    - tell me about bsc  hons Mathematics regular from cu
+    - eligibility for bsc  hons Mathematics regular
+    - whats the fee for bsc  hons Mathematics regular course
+    - what is the fee for bsc  hons Mathematics regular from chandigarh university
+    - how can i apply for bsc  hons Mathematics regular course
+    - fee for bsc  hons Mathematics regular
+- intent: bsc_csm_regu
+  examples: |
+    - Bachelor of Science Computer Science, Statistics and Mathematics (CSM) course
+    - bsc hons in Computer Science, Statistics and Mathematics regular
+    - bachelor of science Computer Science, Statistics and Mathematics regular
+    - bsc science Computer Science, Statistics and Mathematics regular
+    - BSC hons Computer Science, Statistics and Mathematics regular from cu
+    - bsc  hons Computer Science, Statistics and Mathematics regular
+    - tell me about bsc  hons Computer Science, Statistics and Mathematics regular from cu
+    - eligibility for bsc  hons Computer Science, Statistics and Mathematics regular
+    - whats the fee for bsc  hons Computer Science, Statistics and Mathematics regular course
+    - what is the fee for bsc  hons Computer Science, Statistics and Mathematics regular from chandigarh university
+    - how can i apply for bsc  hons Computer Science, Statistics and Mathematics regular course
+    - fee for bsc  hons Computer Science, Statistics and Mathematics regular
+- intent: mast_msc_regu
+  examples: |
+    - masters programs in msc regular
+    - post graduate course in msc regular
+    - masters course in msc regular
+    - pg course in msc regular
+- intent: msc_phy_regu
+  examples: |
+    - master of Science(Hons) - Physics regular course
+    - msc hons in physics regular
+    - master of science physics regular
+    - msc science physics regular
+    - msc hons physics regular from cu
+    - msc  hons physics regular
+    - tell me about msc  hons physics regular from cu
+    - eligibility for msc  hons physics r  egular
+    - whats the fee for msc  hons physics regular course
+    - what is the fee for msc  hons physics regular from chandigarh university
+    - how can i apply for msc  hons physics regular course
+    - fee for msc  hons physics regular
+- intent: msc_chem_regu
+  examples: |
+    - master of Science(Hons) - Chemistry regular course
+    - msc hons in Chemistry regular
+    - master of science Chemistry regular
+    - msc science Chemistry regular
+    - msc hons Chemistry regular from cu
+    - msc  hons Chemistry regular
+    - tell me about msc  hons Chemistry regular from cu
+    - eligibility for msc  hons Chemistry regular
+    - whats the fee for msc  hons Chemistry regular course
+    - what is the fee for msc  hons Chemistry regular from chandigarh university
+    - how can i apply for msc  hons Chemistry regular course
+    - fee for msc  hons Chemistry regular
+- intent: msc_math_regu
+  examples: |
+    - master of Science(Hons) - Mathematics regular course
+    - msc hons in Mathematics regular
+    - msc in maths regular
+    - master of science Mathematics regular
+    - msc science Mathematics regular
+    - msc hons Mathematics regular from cu
+    - msc  hons Mathematics regular
+    - tell me about msc  hons Mathematics regular from cu
+    - eligibility for msc  hons Mathematics regular
+    - whats the fee for msc  hons Mathematics regular course
+    - what is the fee for msc  hons Mathematics regular from chandigarh university
+    - how can i apply for msc  hons Mathematics regular course
+    - fee for msc  hons Mathematics regular
+- intent: msc_ds_regu
+  examples: |
+    - master of Science in Data Science regular course
+    - msc hons in Data Science regular
+    - msc in Data Science regular
+    - master of science Data Science regular
+    - msc science Data Science regular
+    - msc hons Data Science regular from cu
+    - msc  hons Data Science regular
+    - tell me about msc  hons Data Science regular from cu
+    - eligibility for msc  hons Data Science regular
+    - whats the fee for msc  hons Data Science regular course
+    - what is the fee for msc  Data Science regular from chandigarh university
+    - how can i apply for msc Data Science regular course
+    - fee for msc  Data Science regular
+- intent: msc_ic_regu
+  examples: |
+    - master of Science in Industrial Chemistry regular course
+    - msc hons in Industrial Chemistry regular
+    - M.Sc. Industrial Chemistry regular
+    - master of science Industrial Chemistry regular
+    - msc science Industrial Chemistry regular
+    - msc Industrial Chemistry regular from cu
+    - msc  Industrial Chemistry regular
+    - tell me about msc Industrial Chemistry regular from cu
+    - eligibility for msc Industrial Chemistry regular
+    - whats the fee for msc Industrial Chemistry regular course
+    - what is the fee for msc Industrial Chemistry regular from chandigarh university
+    - how can i apply for msc Industrial Chemistry regular course
+    - fee for msc Industrial Chemistry regular
+    - industrial chemistry
+- intent: doc_bsc_regu
+  examples: |
+    - doctorate programs for bachelors of science
+    - phd programs of bachelor in science
+    - phd in bsc
+- intent: doc_phy_regu
+  examples: |
+    - Doctor of Philosophy Physics
+    - phd in physics
+    - fee for phd in physics
+    - eligibility for phd in physics
+    - how do i apply for Doctor of Philosophy physics
+    - tell me about Doctor of Philosophy physics regular course
+    - do you know anything about Doctor of Philosophy physics
+    - what is the fee of Doctor of Philosophy physics
+    - whats the eligibility for in Doctor of Philosophy physics
+- intent: doc_chem_regu
+  examples: |
+    - Doctor of Philosophy Chemistry
+    - phd in Chemistry
+    - fee for phd in Chemistry
+    - eligibility for phd in Chemistry
+    - how do i apply for Doctor of Philosophy Chemistry
+    - tell me about Doctor of Philosophy Chemistry regular course
+    - do you know anything about Doctor of Philosophy Chemistry
+    - what is the fee of Doctor of Philosophy Chemistry
+    - whats the eligibility for in Doctor of Philosophy Chemistry
+- intent: doc_math_regu
+  examples: |
+    - Doctor of Philosophy Mathematics
+    - phd in Mathematics
+    - fee for phd in Mathematics
+    - eligibility for phd in Mathematics
+    - how do i apply for Doctor of Philosophy Mathematics
+    - tell me about Doctor of Philosophy Mathematics regular course
+    - do you know anything about Doctor of Philosophy Mathematics
+    - what is the fee of Doctor of Philosophy Mathematics
+    - whats the eligibility for in Doctor of Philosophy Mathematics
+- intent: stu_serv
+  examples: |
+    - what type of facilities be provided by chandigarh university
+    - student services
+    - services and facilities for the students
+    - what amenities will get after taking the admission
+    - what i can get in cu
+    - benefits for the students
+    - services for the students
+    - what type of facilities will be provided for the students
+- intent: trans_faci
+  examples: |
+    - transportation facility
+    - transport
+    - do we have transport facility available
+    - how much do you charge for transport
+    - what will be the fee for transport
+    - where can i visit for transport pass
+    - bus available for students
+    - bus
+    - bus for students
+    - bus pass
+    - i need my bus pass
+    - students bus pass
+- intent: bank_faci
+  examples: |
+    - banking facility
+    - do we have atms in the campus?
+    - banks in campus
+    - sbi bank in campus
+    - sbi bank
+    - hdfc bank
+    - how many banks are there in campus
+    - where is the atm
+    - bank
+    - atm facility
+- intent: med_faci
+  examples: |
+    - medical facility
+    - do we have medical facility available in cu
+    - i am hurt where can i get medical
+    - is there a medical doctor
+    - doctor
+    - medical in cu
+    - doctors in cu
+    - medical emergency whom to contact
+    - medical emergency contact number
+- intent: exp_faci
+  examples: |
+    - exposure and industrial visits
+    - industrial visits in cu
+    - do we have any industrial trips
+- intent: mve_faci
+  examples: |
+    - Mentoring and Value Inculcation
+    - Mentoring
+- intent: ejr_faci
+  examples: |
+    - Subway
+    - Domino
+    - La Pino'z, Nescafe
+    - Rasna Buzz
+    - Corner Café,
+    - Food Republic
+    - grab and go salads sandwiches
+    - i am hungry
+    - need food
+    - how many cafes are there in cu
+    - how many restaurants are there in cu
+    - restaurants
+    - cafes
+    - pizza please
+    - get me a coffe
+    - burger
+    - pizza
+    - sandwich
+    - vegetarian
+    - non veg
+    - veg
+- intent: ul_faci
+  examples: |
+    - University Library
+    - library
+    - where is library
+- intent: media_faci
+  examples: |
+    - media facility
+    - media education
+    - radio service
+    - cu radio
+    - broadcasting
+
+#- intent: agent_interfere
+#  examples: |
+#    - live chatting
+#    - chatting live
+#    - chatting
+#    - chit chat
+#
+#- intent: resume_bot
+#  examples: |
+#    - back again
+#    - come home

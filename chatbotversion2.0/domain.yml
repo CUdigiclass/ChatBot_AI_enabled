@@ -1,0 +1,1821 @@
+version: '3.1'
+intents:
+- BAELEET
+- BA_ODL
+- BBAACCA
+- BBA_ODL
+- BCA_ODL
+- BCELEET
+- BCOM_ODL
+- BCSLEET
+- BELEET
+- BGELEET
+- BOMLEET
+- BOPLEET
+- CU_CONTACT
+- Courses_cu
+- Doc_prog
+- IBM
+- Industry_Collab_management
+- LEET_Programs
+- MA(E)_ODL
+- MAECO_online
+- MAJMC_online
+- MAPSYCH_ODL
+- MAPSYCH_online
+- MBA_ODL
+- MCA_ODL
+- MCOM_ODL
+- MOFLEET
+- ODL
+- aboutcu
+- academic_cal_gen
+- academic_cal_gen_even
+- academic_cal_gen_odd
+- academic_cal_odl
+- academic_cal_onln
+- academic_calender
+- adm_Pro
+- adm_ofc
+- affirm
+- apply_leet
+- apply_odl
+- apply_online
+- apply_regu
+- ask_again
+- ask_which_course
+- ba
+- ba_online
+- bach_bsc_regu
+- bach_business_regu
+- bach_comp_regu
+- bachelor_iodl_prog
+- bachelor_management
+- bachelor_online
+- bajmc_online
+- bank_faci
+- bba
+- bba_am_regu
+- bba_ba_regu
+- bba_bf_regu
+- bba_dm_regu
+- bba_fx_regu
+- bba_ir_regu
+- bba_online
+- bba_onln_op
+- bba_regu
+- bba_te_regu
+- bbaa_online
+- bca
+- bca_arvr_regu
+- bca_online
+- bca_regu
+- bca_uiux_regu
+- bcom
+- bcom_acca_regu
+- bcom_regu
+- be_cse_bda_ibm
+- be_cse_bda_leet_ibm
+- be_cse_cc_ibm
+- be_cse_iot_ibm
+- be_cse_is_ibm
+- be_cse_leet_aiml_ibm
+- be_cse_leet_cc_ibm
+- be_cse_leet_iot_ibm
+- be_cse_leet_is_ibm
+- be_cse_saiml_ibm
+- bot_challenge
+- bsc_chem_regu
+- bsc_csm_regu
+- bsc_math_regu
+- bsc_phy_regu
+- bsc_regu
+- business
+- comp_regu
+- con_pro
+- contact_onln_odl
+- cse
+- cse_bt
+- cse_csbs
+- cse_dev
+- cse_gg
+- cse_ibm
+- dept_devp
+- discard
+- dmc
+- do_you_know
+- doc_bsc_regu
+- doc_business_regu
+- doc_chem_regu
+- doc_com_regu
+- doc_comp
+- doc_management
+- doc_math_regu
+- doc_phy_regu
+- dp_civil
+- dp_cse
+- dp_ece
+- dp_ee
+- dp_me
+- ejr_faci
+- engg_place
+- engg_regu
+- engineering
+- enquiry
+- exp_faci
+- goodbye
+- greet
+- greet_bot
+- greet_user
+- help
+- helpdesk
+- helpdesk_academics
+- hotel_place
+- how_to_apply
+- human_handoff
+- inte_be_me_ae
+- inte_be_me_civil
+- inte_be_me_cse
+- inte_be_me_cse_ai_ibm
+- inte_be_me_cse_cc_virtusa
+- inte_be_me_cse_is_ibm
+- inte_be_me_ece
+- inte_be_me_ee
+- inte_be_me_ibm
+- inte_be_me_me
+- inte_be_me_regu
+- inte_me_phd
+- inte_regu
+- jt_pt
+- lead_recuit
+- leet_aps
+- leet_engg
+- leet_ibm
+- leet_pharma
+- ma
+- ma_eng_online
+- ma_odl_op
+- ma_onln_op
+- management_courses
+- mange_place
+- mast_business_regu
+- mast_comp_regu
+- mast_msc_regu
+- masters_iodl_prog
+- masters_online
+- mba
+- mba_ba_ibm_regu
+- mba_bf_sbi_regu
+- mba_cassm_regu
+- mba_dm_saas_regu
+- mba_dsai_saas_regu
+- mba_fin_nse_regu
+- mba_hfmie_regu
+- mba_hls_regu
+- mba_hr_aon_regu
+- mba_ir_regu
+- mba_lsc_cii_regu
+- mba_online
+- mba_regu
+- mba_thm_regu
+- mca
+- mca_aiml_regu
+- mca_ccd_regu
+- mca_online
+- mca_regu
+- mcom
+- mcom_online
+- mcom_onln_op
+- mcom_regu
+- mcomacca_online
+- me_AI_regu
+- me_ae_regu
+- me_aiml_regu
+- me_cse_cc_regu
+- me_cse_regu
+- me_ctme_regu
+- me_ece_regu
+- me_ee_ev_regu
+- me_ee_regu
+- me_env_pt
+- me_env_regu
+- me_fulltime
+- me_ge_regu
+- me_hsee_regu
+- me_id_pt
+- me_me_regu
+- me_partime
+- me_ra_regu
+- me_rsgise_regu
+- me_se_regu
+- me_te_regu
+- med_faci
+- media_faci
+- mood_great
+- mood_unhappy
+- msc
+- msc_chem_regu
+- msc_ds_regu
+- msc_ic_regu
+- msc_math_regu
+- msc_onln_op
+- msc_phy_regu
+- mscdsc_online
+- mscmaths_online
+- mve_faci
+- nlu_fallback
+- odl_admission_gui
+- odl_admission_pol
+- odl_evaluation_sys
+- odl_option
+- official_website
+- online_cu_programs
+- online_option
+- pgc_regu
+- phar_place
+- phd_bm_regu
+- phd_comp
+- phy_place
+- place
+- place_day
+- place_track
+- post_grad_management
+- reg_ugic
+- regu_aero_engg
+- regu_aids_engg
+- regu_auto_engg
+- regu_bio_engg
+- regu_chem_enggi
+- regu_civil_engg
+- regu_cse
+- regu_ece
+- regu_ee
+- regu_fte
+- regu_iiot_engg
+- regu_it
+- regu_me
+- regu_mechonicse
+- regu_r&a_engg
+- regular_courses
+- scope_12th
+- slm
+- song
+- stu_serv
+- thank
+- trans_faci
+- ugc_regu
+- ul_faci
+#- agent_interfere
+#- resume_bot
+forms:
+  enquiry_form:
+    required_slots:
+    - full_name
+    - email
+    - mobile
+    - program
+    - city
+    - dob
+#  user_info_form:
+#    required_slots:
+#    - full_name
+#    - mobile
+
+
+slots:
+  full_name:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: enquiry_form
+        requested_slot: full_name
+  email:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: enquiry_form
+        requested_slot: email
+  mobile:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: enquiry_form
+        requested_slot: mobile
+  program:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: enquiry_form
+        requested_slot: program
+  city:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: enquiry_form
+        requested_slot: city
+  dob:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: enquiry_form
+        requested_slot: dob
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: Here is something you can do https://www.verywellmind.com/how-to-make-yourself-feel-better-right-now-5093352
+  - text: Here's a little song I wrote. <br/>You might want to sing it note for note <br/>Don't worry, be happy <br/>In every life we have some trouble <br/>But when you worry, you make it double <br/>Don't worry, be happy <br/>Don't worry, be happy now :)
+  utter_goodbye:
+  - text: Nice here! Have a good day. I am here if you need to know anything.
+  - text: Bye Bye, I'll be here for you
+  utter_ask:
+  - text: Nice to hear that :) ,what can I do for you?
+  utter_ask_again:
+  - text: Okay, what is it ?
+  utter_song:
+  - text: Song name is Don't Worry Be Happy by Bobby McFerrin
+  utter_iamabot:
+  - text: I am Cu-Sevak, I am a bot:).
+  utter_out_of_scope:
+  - text: I am sorry, I am not trained for this question yet :( <br/>Could you please rephrase or you may contact our support team <a href='tel:1800121288800'>+1800121288800</a>
+    buttons:
+    - title: Courses Online
+      payload: /online_cu_programs
+    - title: Regular Programs
+      payload: /regular_courses
+    - title: Distance Learning
+      payload: /ODL
+    - title: Lateral Entry Programs
+      payload: /LEET_Programs
+    - title: About Placement
+      payload: /place
+    - title: Contact Details
+      payload: /CU_CONTACT
+    - title: Admission Enquiry
+      payload: /enquiry
+  utter_greet_user:
+  - text: Nice name, how's your day today?
+  utter_greet_bot:
+  - text: |-
+      I am doing fine. Thank you! 
+      May I know your name, please write the name below?
+  utter_help:
+  - text: Yeah, I can help you with various things related to Our Chandigarh University for Example.
+    buttons:
+    - title: Courses Online
+      payload: /online_cu_programs
+    - title: Regular Programs
+      payload: /regular_courses
+    - title: Distance Learning
+      payload: /ODL
+    - title: Lateral Entry Programs
+      payload: /LEET_Programs
+    - title: About Placement
+      payload: /place
+    - title: Contact Details
+      payload: /CU_CONTACT
+    - title: Admission Enquiry
+      payload: /enquiry
+  utter_human_handoff:
+  - text: I understand you, don't worry. <br/> You may do a post enquiry below or you may call us at our toll free number <a href='tel:1800121288800'>+1800121288800</a>
+    buttons:
+    - title: Admission Enquiry
+      payload: /enquiry
+  utter_thank:
+  - text: |-
+      Your Most Welcome:) 
+      Is there anything else?
+  utter_please_rephrase:
+  - text: I'm sorry, I didn't quite understand that. For detailed information regarding your query, kindly call our dedicated 24*7 helpline at 1800121288800.
+    buttons:
+    - title: Courses Online
+      payload: /online_cu_programs
+    - title: Regular Programs
+      payload: /regular_courses
+    - title: Distance Learning
+      payload: /ODL
+    - title: Lateral Entry Programs
+      payload: /LEET_Programs
+    - title: About Placement
+      payload: /placement
+    - title: About University
+      payload: /aboutcu
+    - title: Academic Calender
+      payload: /academic_calender
+    - title: Contact Details
+      payload: /CU_CONTACT
+    - title: Admission Enquiry
+      payload: /enquiry
+  utter_aboutcu:
+  - text: |-
+      Chandigarh University was founded in 2012. 
+       It is a not-for-profit university underpinned by ethical, professional and transparent e-governance. Ranked among Asia’s fastest growing universities, Chandigarh University has accomplished distinctive milestones in the field of higher education.
+      To know more about our university
+    buttons:
+    - title: About CU
+      payload: /official_website
+    - title: Placement
+      payload: /place
+    - title: Admission Enquiry
+      payload: /enquiry
+    - title: Academic Calender
+      payload: /academic_calender
+    - title: Student Services/Facilities
+      payload: /stu_serv
+    - title: Contact
+      payload: /CU_CONTACT
+  utter_official_website:
+  - text: Please click here to visit :- https://www.cuchd.in/about/
+  utter_CU_CONTACT:
+  - text: "Chandigarh University <br/>NH-05 Chandigarh-Ludhiana <br/>Highway, Mohali, Punjab (INDIA) <br/> Admission Helpline <a href='tel:1800121288800'>+1800121288800</a> <br/> General Enquiry <a href='tel:+91-8146948000'>+91-8146948000</a> <br/> Technical Support : CUCET <a href='tel:+91-8146947000'>+91-8146947000</a> <br/> Whatsapp No. <a href='tel:+91-9611092092'>+91-9611092092</a> <br/>Email:- cucet@cumail.in"
+    buttons:
+    - title: For Online/Distance Admission
+      payload: /contact_onln_odl
+  utter_do_you_know:
+  - text: |-
+      I am sorry, I don't know. Please tell me who you are? 
+       Please reply in full example:-
+       My name is Sevak 
+       or 
+       People call me Sevak
+  utter_wel:
+  - text: Welcome ,how may i be at your service for today?
+  - text: Namaskar, How's your day going?
+  utter_Courses_cu:
+  - text: Chandigarh University Offers Various programs online and offline. Please find below links for the same.
+    buttons:
+    - title: Online Courses
+      payload: /online_option
+    - title: Regular Programs
+      payload: /regular_courses
+    - title: Distance Learning
+      payload: /odl_option
+  utter_ODL:
+  - text: <strong>Chandigarh University</strong> (Punjab) adheres to create excellence in Distance & Online Learning by providing the best through technology interface. CU-VERSE is future-ready Learning Management System (LMS), one such step between the institution and learner that will spread the quality education at an affordable cost. <br/>https://www.cuidol.in/
+    buttons:
+    - title: Click here for more
+      payload: /odl_option
+  utter_BA_ODL:
+  - text: <strong>Bachelor of Arts (B.A.)</strong> <br/>Program Link click here to visit:- https://www.cuidol.in/ba.php
+  utter_BBA_ODL:
+  - text: <strong>Bachelor Of Business Administration</strong> <br/>Program Link click here to visit:- https://www.cuidol.in/bba.php
+  utter_BCOM_ODL:
+  - text: <strong>Bachelors Of Commerce</strong> <br/>Program Link click here to visit:- https://www.cuidol.in/bcom.php
+  utter_BCA_ODL:
+  - text: <strong>Bachelor of Computer Applications (BCA)</strong> <br/>Program Link click here to visit:- https://www.cuidol.in/bca.php
+  utter_MA(E)_ODL:
+  - text: <strong>Master of English (M.A. English)</strong> <br/>Program Link click here to visit:- https://www.cuidol.in/ma.php
+  utter_MAPSYCH_ODL:
+  - text: <strong>Master of Arts in Psychology</strong> <br/>Program Link click here to visit:- https://www.cuidol.in/mapsych.php
+  utter_MBA_ODL:
+  - text: <strong>Master of Business Administration (MBA)</strong> <br/>Program Link click here to visit:- https://www.cuidol.in/mba.php
+  utter_MCOM_ODL:
+  - text: <strong>Master of Commerce</strong> <br/>Program Link click here to visit:- https://www.cuidol.in/mcom.php
+  utter_MCA_ODL:
+  - text: <strong>Master of Computer Application</strong> <br/>Program Link https://www.cuidol.in/mca.php
+  utter_ask_which_course:
+  - text: |-
+      Cu offer various courses in Regular, Online, Open And Distance Learning. For Any specific programs ,please reply 
+      Online BBA, Online BCA, Open and Distance MA , odl bca etc.
+    buttons:
+    - title: For Online Courses
+      payload: /online_option
+    - title: For Regular Programs
+      payload: /regular_courses
+    - title: For Open And Distance
+      payload: /odl_option
+    - title: Lateral Entry Programs
+      payload: /LEET_Programs
+  utter_online_cu_programs:
+  - text: |-
+      You may Visit below for our Various Online Programs:- https://www.onlinecu.in/index.php 
+      Here is the List of Programs available:-
+    buttons:
+    - title: Click here for more
+      payload: /online_option
+  utter_scope_12th:
+  - text: I have listed various programs below offered by cu:-
+    buttons:
+    - title: For Online Courses
+      payload: /online_option
+    - title: For Regular Programs
+      payload: /regular_courses
+    - title: For Open And Distance
+      payload: /odl_option
+    - title: Lateral Entry Programs
+      payload: /LEET_Programs
+  utter_how_to_apply:
+  - text: Kindly choose one the following programs to proceed
+    buttons:
+    - title: Regular Programs
+      payload: /apply_regu
+    - title: Online Programs
+      payload: /apply_online
+    - title: Open and Distance Programs
+      payload: /apply_odl
+  utter_apply_regu:
+  - text: For Regular Programs in Cu. <br/> Please visit https://cucet.cuchd.in/application-process.php
+    buttons:
+    - title: Admission Procedure
+      payload: /adm_Pro
+    - title: Counseling Procedure
+      payload: /con_pro
+    - title: Admission Offices
+      payload: /adm_ofc
+  utter_apply_online:
+  - text: For Online Programs in Cu. <br/> Please visit https://apply.onlinecu.in/index.aspx?type=onlinecu
+  utter_apply_odl:
+  - text: For Open and Distance Programs in Cu. <br/> Please visit https://www.cuidol.in/apply.aspx
+    buttons:
+    - title: Admission Guidelines
+      payload: /odl_admission_gui
+    - title: Admission Policy
+      payload: /odl_admission_pol
+    - title: Evaluation System
+      payload: /odl_evaluation_sys
+  utter_odl_admission_gui:
+  - text: Admission Guidelines for Distance Learning <br/>PLease visit:- https://www.cuidol.in/admission-guideline.php
+  utter_odl_admission_pol:
+  - text: Admission Policies  for Distance Learning <br/>PLease visit:- https://www.cuidol.in/admission-policy.php
+  utter_odl_evaluation_sys:
+  - text: Evaluation System Guidelines for Distance Learning <br/>PLease visit:- https://www.cuidol.in/evaluation-system.php
+  utter_adm_Pro:
+  - text: To Apply for admission, register via CUCET. For more details, visit <br/>https://www.cuchd.in/admissions/how-to-apply.php
+  utter_con_pro:
+  - text: For counseling procedure, visit:- <br/>https://cucet.cuchd.in/counselling-process.php
+  utter_adm_ofc:
+  - text: 'We have admission offices in major cities. To check, click on the link below: <br/>https://www.cuchd.in/contact/'
+  utter_bajmc_online:
+  - text: <strong>Bachelor of Arts - Journalism & Mass Communication (BA-JMC)</strong> <br/>Programme link https://www.onlinecu.in/ba-journalism-and-mass-communication.php
+  utter_bba_online:
+  - text: <strong>Bachelor of Business Administration (BBA)</strong> <br/>Programme link https://www.onlinecu.in/bba.php
+  utter_bbaa_online:
+  - text: <strong>BBA - Business Analytics Degree</strong> <br/>Programme link https://www.onlinecu.in/bba-business-analytics.php
+  utter_BBAACCA:
+  - text: <strong>Bachelor Of Business Administration(With ACCA)</strong> <br/>Programme link https://www.onlinecu.in/bba-acca.php
+  utter_mcomacca_online:
+  - text: <strong>Masters Of Commerce (With ACCA)</strong> <br/>Program Link https://www.onlinecu.in/mcom-acca.php
+  utter_bca_online:
+  - text: <strong>Bachelor of Computer Applications (BCA)</strong> <br/>Programme link https://www.onlinecu.in/bca.php
+  utter_MAJMC_online:
+  - text: <strong>Master of Arts - Journalism & Mass Communication (MA-JMC)</strong> <br/>Programme link https://www.onlinecu.in/ma-journalism-and-mass-communication.php
+  utter_mcom_online:
+  - text: <strong>Master of Commerce (M.Com)</strong> <br/>Programme link https://www.onlinecu.in/m-com.php
+  utter_mba_online:
+  - text: |-
+      <strong>Master of Business Administration (MBA):-</strong> There are 5 Specializations running in MBA
+      <br/><strong>HR</strong>  <br/><strong>Marketing</strong>  <br/><strong>International Business</strong>  <br/><strong>Entrepreneurship</strong>  <br/><strong>Finance</strong> <br/>Programme link https://www.onlinecu.in/mba-general.php
+  utter_mscmaths_online:
+  - text: <strong>Master Of Science (Mathematics) Degree Program</strong> <br/>Programme link https://www.onlinecu.in/msc-mathematics.php
+  utter_ma_eng_online:
+  - text: <strong>Master Of Arts (English)</strong> <br/>Programme link https://www.onlinecu.in/ma-english.php
+  utter_MAECO_online:
+  - text: <strong>Master Of Arts (Economics)</strong> <br/>Programme link https://www.onlinecu.in/ma-economics.php
+  utter_mca_online:
+  - text: <strong>Master Of Computer Applications</strong> <br/>Programme link https://www.onlinecu.in/mca.php
+  utter_mscdsc_online:
+  - text: Master of Science Data Science (M.Sc. Data Science) <br/>Programme link https://www.onlinecu.in/msc-data-science.php
+  utter_ba_online:
+  - text: <strong>Online BA (Journalism)</strong> <br/>Programme link https://www.onlinecu.in/ba-journalism-and-mass-communication.php
+  utter_MAPSYCH_online:
+  - text: |-
+      M.A PSYCHOLOGY 
+      Programme link https://www.cuidol.in/mapsych.php
+  utter_bachelor_iodl_prog:
+  - text: Here are some Bachelors Open and Distance Learning Programs:-
+    buttons:
+    - title: Bachelor Of Arts
+      payload: /BA_ODL
+    - title: Bachelor Of Business Administration
+      payload: /BBA_ODL
+    - title: Bachelor Of Commerce
+      payload: /BCOM_ODL
+    - title: Bachelor Computer Applications
+      payload: /BCA_ODL
+  utter_bachelor_online:
+  - text: Here are some Bachelors Online Learning Programs:-
+    buttons:
+    - title: Bachelor Of Arts - Journalism & Mass Communication
+      payload: /bajmc_online
+    - title: BBA-Bachelor Of Business Administration
+      payload: /bba_online
+    - title: BBA- Business Analytics
+      payload: /bbaa_online
+    - title: Bachelor Of Business Administration With ACCA
+      payload: /BBAACCA
+    - title: BCA-Bachelor Of Computer Applications
+      payload: /bca_online
+  utter_masters_iodl_prog:
+  - text: Here are some Masters Open and Distance Learning Programs:-
+    buttons:
+    - title: Masters Of Arts(English)
+      payload: /MA(E)_ODL
+    - title: Masters Of Arts(Psychology)
+      payload: /MAPSYCH_ODL
+    - title: Masters Of Business Administration
+      payload: /MBA_ODL
+    - title: Master Of Commerce
+      payload: /MCOM_ODL
+    - title: Master Of Computer Applications
+      payload: /MCA_ODL
+  utter_masters_online:
+  - text: Here are some Masters Online Learning Programs:-
+    buttons:
+    - title: Master Of  Arts - Journalism & Mass Communication
+      payload: /MAJMC_online
+    - title: M.Com-Master Of Commerce
+      payload: /mcom_online
+    - title: Masters Of Commerce (With ACCA)
+      payload: /mcomacca_online
+    - title: MBA (Master Of Business Administration)
+      payload: /mba_online
+    - title: Master Of Science (Data Science)
+      payload: /mscdsc_online
+    - title: Master Of Science (Mathematics)
+      payload: /mscmaths_online
+    - title: Master Of Arts (English)
+      payload: /ma_eng_online
+    - title: Master Of Arts (Economics)
+      payload: /MAECO_online
+    - title: Master Of Computer Applications
+      payload: /mca_online
+  utter_regular_courses:
+  - text: <strong>Explore our Regular Programs</strong> <br/>Please go to the below link https://www.cuchd.in/
+    buttons:
+    - title: Engineering
+      payload: /engg_regu
+    - title: Management (BBA/MBA)
+      payload: /management_courses
+    - title: Lateral Entry Programs
+      payload: /LEET_Programs
+    - title: Business Programs (BCOM/MCOM/PHD)
+      payload: /business
+    - title: Basic Science Programs (BSC/MSC/PHD)
+      payload: /bsc_regu
+  utter_place:
+  - text: Chandigarh University's prodigious performance in the higher education sphere has been crucial in capturing over 9500+ Placement Offers from over 900+ companies. <br/>please go to the Placement https://www.cuchd.in/placements/ <br/>Please check for more below
+    buttons:
+    - title: Placement Tracker
+      payload: /place_track
+    - title: Career and Development
+      payload: /dept_devp
+    - title: Joint Placement Programme
+      payload: /jt_pt
+    - title: Best Placements in engineering
+      payload: /engg_place
+    - title: Best Management Placement
+      payload: /mange_place
+    - title: Best Hotel Management Placement
+      payload: /hotel_place
+    - title: Pharma Sciences Placements
+      payload: /phar_place
+    - title: Best Physics Placement
+      payload: /phy_place
+    - title: Placement Day
+      payload: /place_day
+    - title: Our Lead Recruiters
+      payload: /lead_recuit
+  utter_place_track:
+  - text: Check our placement tracker:- <br/>https://www.cuchd.in/placements/placement-tracker.php
+  utter_dept_devp:
+  - text: Please visit Career and Development:- <br/>https://www.cuchd.in/department-of-career-development/index.html
+  utter_jt_pt:
+  - text: Please visit Our Joint Placement Programme:- <br/>https://www.cuchd.in/placements/joint-placement-programme.php
+  utter_engg_place:
+  - text: Please visit placements in engineering:- <br/>https://www.cuchd.in/placements/placement_engineering.php
+  utter_mange_place:
+  - text: Please visit Management Placement:- <br/>https://www.cuchd.in/placements/placement_management.php
+  utter_hotel_place:
+  - text: Please visit Placements in Hotel management:- <br/>https://www.cuchd.in/placements/placement_hotel_management.php
+  utter_phar_place:
+  - text: Please Visit Pharma Sciences Placements:- <br/>https://www.cuchd.in/placements/placement-pharma-sciences.php
+  utter_phy_place:
+  - text: Please visit Physics Placements:- <br/>https://www.cuchd.in/placements/placement-physics.php
+  utter_place_day:
+  - text: Click here to visit Placement Day <br/>https://www.cuchd.in/placements/placement-day.php
+  utter_lead_recuit:
+  - text: Our Leading recruiters <br/>https://www.cuchd.in/placements/placement-overview.php
+  utter_LEET_Programs:
+  - text: There are several Leet programs that CU Offers in various areas such as:-
+    buttons:
+    - title: Engineering
+      payload: /leet_engg
+    - title: Pharmaceutical Sciences
+      payload: /leet_pharma
+    - title: Applied Health Sciences
+      payload: /leet_aps
+    - title: Lateral Entry Engineering Program with IBM
+      payload: /leet_ibm
+    - title: How To Apply
+      payload: /apply_leet
+  utter_leet_engg:
+  - text: Below are Engineering lateral Entry Bachelors Program
+    buttons:
+    - title: B.E. Lateral Entry Program
+      payload: /BELEET
+    - title: B.E. Lateral in Aerospace Engg
+      payload: /BAELEET
+    - title: B.E. Lateral in Chemical Engg
+      payload: /BCELEET
+    - title: B.E. Lateral in Graphics and Gaming Engg
+      payload: /BGELEET
+    - title: B.E. Lateral in Computer Science & Engg
+      payload: /BCSLEET
+  utter_apply_leet:
+  - text: |-
+      <strong>To Apply for Leet Programs. Please follow the below steps:-</strong>
+      <br/>Sign up or Register for CUCET with basic details (Name, Email ID, Mobile No., State, Gender and Password). Your Email ID will act as your Username.
+      <br/>Visit CUCET website- http://cucet.cuchd.in for registration.
+      <br/>Click here for more about CUCET :- https://cucet.cuchd.in/about-us.php <br/>CLick here for queries:- https://cucet.cuchd.in/faq.php
+  utter_BELEET:
+  - text: <strong>Bachelors' of Engineering (BE) Lateral Entry</strong> <br/>***CU also offers Scholarships programs. please check for more below*** https://www.cuchd.in/engineering/be-lateral-entry-program.php
+  utter_BAELEET:
+  - text: <strong>Bachelor of Aerospace Engineering Lateral</strong> <br/>***CU also offers Scholarships programs. please check for more below*** https://www.cuchd.in/engineering/be-lateral-entry-aerospace-engineering.php
+  utter_BCELEET:
+  - text: <strong>Bachelor of Chemical Engineering Lateral Entry Program</strong> <br/>***CU also offers Scholarships programs. please check for more below*** https://www.cuchd.in/engineering/be-lateral-entry-chemical-engineering.php
+  utter_BGELEET:
+  - text: <strong>Bachelor of Graphics and Gaming Engineering Lateral Entry Program</strong> <br/>***CU also offers Scholarships programs. please check for more below*** https://www.cuchd.in/engineering/be-lateral-entry-graphics-and-gaming-engineering.php
+  utter_BCSLEET:
+  - text: <strong>CSE Engineering Lateral Entry Program</strong> <br/>***CU also offers Scholarships programs. please check for more below*** https://www.cuchd.in/engineering/be-lateral-entry-computer-science-engineering.php
+  utter_leet_pharma:
+  - text: <strong>Bachelor of Pharmacy Lateral Entry</strong> <br/>***CU also offers Scholarships programs. please check for more below*** https://www.cuchd.in/pharma-sciences/bachelor-of-pharmacy-leet.php
+  utter_leet_aps:
+  - text: Below are Applied Health Science Lateral Entry Program
+    buttons:
+    - title: Bachelor Of Optometry
+      payload: /BOPLEET
+    - title: Bachelor Of Medical Lab Technology
+      payload: /BOMLEET
+    - title: Master Of Forensic Science -Lateral Entry
+      payload: /MOFLEET
+  utter_BOPLEET:
+  - text: <strong>Bachelor of Optometry</strong> <br/>***CU also offers Scholarships programs. please check for more below*** https://www.cuchd.in/applied-health-sciences/bachelor-of-optometry-leet.php
+  utter_BOMLEET:
+  - text: <strong>Bachelor of Medical Lab Technology</strong> <br/>***CU also offers Scholarships programs. please check for more below*** https://www.cuchd.in/applied-health-sciences/bachelor-of-mlt-leet.php
+  utter_MOFLEET:
+  - text: <strong>Master of Forensic Science</strong> <br/>***CU also offers Scholarships programs. please check for more below*** https://www.cuchd.in/applied-health-sciences/msc-in-fst-leet.php
+  utter_online_option:
+  - text: Tell me, which one?
+    buttons:
+    - title: Bachelor
+      payload: /bachelor_online
+    - title: Masters
+      payload: /masters_online
+  utter_odl_option:
+  - text: Tell me, which one?
+    buttons:
+    - title: Bachelor
+      payload: /bachelor_iodl_prog
+    - title: Masters
+      payload: /masters_iodl_prog
+  utter_ugc_regu:
+  - text: Kindly choose one of the following programs to proceed.
+    buttons:
+    - title: Aerospace Engineering
+      payload: /regu_aero_engg
+    - title: Automobile Engineering
+      payload: /regu_auto_engg
+    - title: BioTechnology Engineering
+      payload: /regu_bio_engg
+    - title: Chemical Engineering
+      payload: /regu_chem_enggi
+    - title: Civil Engineering
+      payload: /regu_civil_engg
+    - title: Computer Science & Engineering
+      payload: /regu_cse
+    - title: Electrical Engineering
+      payload: /regu_ee
+    - title: Electronics and Communication Engineering
+      payload: /regu_ece
+    - title: Information Technology
+      payload: /regu_it
+    - title: Mechanical Engineering
+      payload: /regu_me
+    - title: Mechatronics Engineering
+      payload: /regu_mechonicse
+    - title: Food Technology Engineering
+      payload: /regu_fte
+  utter_reg_ugic:
+  - text: Kindly choose one of the following programs to proceed.
+    buttons:
+    - title: B.E. Artificial Intelligence and Data Science
+      payload: /regu_aids_engg
+    - title: B.E. Robotics & Automation
+      payload: /regu_r&a_engg
+    - title: B.E. Industrial Internet of Things
+      payload: /regu_iiot_engg
+  utter_regu_aero_engg:
+  - text: |-
+      <strong>Aerospace Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-aerospace.php
+  utter_regu_auto_engg:
+  - text: <strong>Automobile Engineering</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/be-automobile-engineering.php
+  utter_regu_bio_engg:
+  - text: |-
+      <strong>BioTechnology Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-biotechnology.php
+  utter_regu_chem_enggi:
+  - text: |-
+      <strong>Chemical Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-chemical-engineering.php
+  utter_regu_civil_engg:
+  - text: |-
+      <strong>Civil Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-civil-engineering.php
+  utter_regu_cse:
+  - text: |-
+      <strong>Computer Science & Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-computer-science-engineering.php
+  utter_regu_ece:
+  - text: <strong>Electronics and Communication Engineering</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/be-electronics-communication-engineering.php
+  utter_regu_ee:
+  - text: <strong>Electrical Engineering</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/be-electrical-engineering.php
+  utter_regu_it:
+  - text: <strong>Information Technology</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/be-information-technology.php
+  utter_regu_me:
+  - text: <strong>Mechanical Engineering</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/be-mechanical-engineering.php
+  utter_regu_mechonicse:
+  - text: <strong>Mechatronics Engineering</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/be-mechatronics.php
+  utter_regu_fte:
+  - text: <strong>Food Technology Engineering</strong> <br/>nplease check for more below:- https://www.cuchd.in/engineering/be-food-technology.php
+  utter_regu_aids_engg:
+  - text: <strong>B.E. Artificial Intelligence and Data Science</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/be-artificial-intelligence-and-data-science.php
+  utter_regu_r&a_engg:
+  - text: <strong>B.E. Robotics & Automation</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/be-robotics-automation.php
+  utter_regu_iiot_engg:
+  - text: </strong>B.E. Industrial Internet of Things</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/be-industrial-internet-of-things.php
+  utter_engg_regu:
+  - text: </strong>Engineering Course</strong> <br/>Click for more:- https://www.cuchd.in/engineering/
+    buttons:
+    - title: Under-Graduate Engineering Courses
+      payload: /ugc_regu
+    - title: Under-Graduate Interdisciplinary Courses
+      payload: /reg_ugic
+    - title: Post Graduate Engineering Courses
+      payload: /pgc_regu
+    - title: Engineering Programs in Collaboration with IBM
+      payload: /cse_ibm
+    - title: IBM Integrated Engineering Program
+      payload: /inte_be_me_ibm
+    - title: Lateral Entry Engineering Program with IBM
+      payload: /leet_ibm
+    - title: Integrated Programs Offered by CU
+      payload: /inte_regu
+    - title: Doctorate Programs
+      payload: /Doc_prog
+    - title: Integrated M.E. + Ph.D. Program Offered
+      payload: /inte_me_phd
+    - title: CSE Specialization Programs
+      payload: /cse
+  utter_me_cse_cc_regu:
+  - text: <strong>Master of Engineering (CSE Cloud Computing with Virtusa)</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/virtusa-me-cse-cloud-computing.php
+  utter_me_ae_regu:
+  - text: <strong>Master of Engineering (Automobile Engineering)</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/me-automobile-engineering.php
+  utter_me_cse_regu:
+  - text: |-
+      <strong>Master of Engineering (Computer Science Engineering)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-computer-science-engineering.php
+  utter_me_ece_regu:
+  - text: |-
+      <strong>Master of Engineering (ECE)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-electronics-and-communication-engineering.php
+  utter_me_ee_regu:
+  - text: |-
+      <strong>Masters of Engineering (EE)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-electrical-engineering.php
+  utter_me_me_regu:
+  - text: <strong>Master of Engineering (ME)</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/me-mechanical-engineering.php
+  utter_me_aiml_regu:
+  - text: <strong>Master of Engineering (AI & ML)</strong> <br/>please check for more below:- https://www.cuchd.in/engineering/me-artificial-intelligence-and-machine-learning.php
+  utter_me_ee_ev_regu:
+  - text: |-
+      <strong>Master of Engineering (Electric Vehicles)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-electrical-engineering-electric-vehicles.php
+  utter_me_te_regu:
+  - text: |-
+      <strong>Master of Engineering (TE)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-transportation-engineering.php
+  utter_pgc_regu:
+  - text: Post Graduate Engineering Courses
+    buttons:
+    - title: Full Time
+      payload: /me_fulltime
+    - title: Part Time
+      payload: /me_partime
+  utter_me_partime:
+  - text: Post Graduate Program (Part Time)
+    buttons:
+    - title: Infrastructure Development (Part-Time)
+      payload: /me_id_pt
+    - title: Environmental Engineering (Part-Time)
+      payload: /me_env_pt
+  utter_me_fulltime:
+  - text: Post Graduate Program (Full Time)
+    buttons:
+    - title: M.E. Cloud Computing with Virtusa
+      payload: /me_cse_cc_regu
+    - title: M.E. Automobile Engineering
+      payload: /me_ae_regu
+    - title: M.E. Computer Science & Engineering
+      payload: /me_cse_regu
+    - title: M.E. Electronics and Communication Engineering
+      payload: /me_ece_regu
+    - title: M.E. Electrical Engineering
+      payload: /me_ee_regu
+    - title: M.E. Mechanical Engineering
+      payload: /me_me_regu
+    - title: M.E. Artificial Intelligence and Machine Learning
+      payload: /me_aiml_regu
+    - title: M.E. Electrical Engineering (Electric Vehicles)
+      payload: /me_ee_ev_regu
+    - title: M.E. Transportation Engineering
+      payload: /me_te_regu
+    - title: M.E. Geotechnical Engineering
+      payload: /me_ge_regu
+    - title: M.E. Construction Technology and Management Engineering
+      payload: /me_ctme_regu
+    - title: M.E. Structural Engineering
+      payload: /me_se_regu
+    - title: M.E. Health Safety and Environment Engineering
+      payload: /me_hsee_regu
+    - title: Master of Technology (Remote Sensing and Geographic Information System)
+      payload: /me_rsgise_regu
+    - title: M.E. Environmental Engineering
+      payload: /me_env_regu
+    - title: M.E. Artificial Intelligence
+      payload: /me_AI_regu
+    - title: M.E. Robotics and Automation
+      payload: /me_ra_regu
+  utter_me_ge_regu:
+  - text: |-
+      <strong>M.E. Geotechnical Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-geotechnical-engineering.php
+  utter_me_ctme_regu:
+  - text: |-
+      <strong>M.E. Construction Technology and Management Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-ctm-engineering.php
+  utter_me_se_regu:
+  - text: |-
+      <strong>M.E. Structural Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-structural-engineering.php
+  utter_me_id_pt:
+  - text: |-
+      <strong>Infrastructure Development (Part-Time)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/infrastructure-development-civil-engineering.php
+  utter_me_hsee_regu:
+  - text: |-
+      <strong>M.E. Health Safety and Environment Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-health-safety-environment.php
+  utter_me_rsgise_regu:
+  - text: |-
+      <strong>Master of Technology (Remote Sensing and Geographic Information System)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/remote-sensing-and-gis.php
+  utter_me_env_regu:
+  - text: |-
+      <strong>M.E. Environmental</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-environment-engineering.php
+  utter_me_env_pt:
+  - text: |-
+      <strong>M.E. Environmental (Part-Time)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-environment-engineering-pt.php
+  utter_me_AI_regu:
+  - text: |-
+      <strong>M.E. Artificial Intelligence</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-artificial-intelligence.php
+  utter_me_ra_regu:
+  - text: |-
+      <strong>M.E. Robotics and Automation</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/me-robotics.php
+  utter_engineering:
+  - text: Kindly choose one of the following programs to proceed.
+    buttons:
+    - title: Engineering (Regular/offline)
+      payload: /engg_regu
+    - title: Engineering (Lateral Entry)
+      payload: /leet_engg
+  utter_cse:
+  - text: <strong>Computer Science Engineering Specialization Programs</strong>
+    buttons:
+    - title: B.E. CSE Graphics and Gaming
+      payload: /cse_gg
+    - title: B.E. CSE Blockchain Technology
+      payload: /cse_bt
+    - title: B.E. Computer Science Engineering and Business System In association with TCS
+      payload: /cse_csbs
+    - title: B.E. CSE DevOps
+      payload: /cse_dev
+    - title: Computer Science Engineering in Collaboration with IBM
+      payload: /cse_ibm
+  utter_cse_gg:
+  - text: |-
+      <strong>B.E Computer Science Engineering (Graphic & Gaming)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-graphics-and-gaming.php
+  utter_cse_bt:
+  - text: |-
+      <strong>B.E Computer Science Engineering with specialization in Blockchain Technology</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-blockchain-technology.php
+  utter_cse_csbs:
+  - text: |-
+      <strong>B.E. Computer Science Engineering and Business Systems In association with TCS</strong>
+      <br/>please check for more below:- https://www.cuchd.in/TCS/
+  utter_cse_dev:
+  - text: |-
+      <strong>B.E. Computer Science Engineering specialization in DevOps</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-cse-dev-ops.php
+  utter_Doc_prog:
+  - text: <strong>Doctorate Programs</strong>
+    buttons:
+    - title: Doctor of Philosophy (Electrical Engineering)
+      payload: /dp_ee
+    - title: Doctor of Philosophy (Civil Engineering)
+      payload: /dp_civil
+    - title: Doctor of Philosophy (Mechanical Engineering)
+      payload: /dp_me
+    - title: Doctor of Philosophy (Electronics & Communication Engineering)
+      payload: /dp_ece
+    - title: Doctor of Philosophy (Computer Science Engineering)
+      payload: /dp_cse
+  utter_dp_ee:
+  - text: |-
+      <strong>Doctor of Philosophy (Electrical Engineering)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/doctorate-programs/phd-electrical-engineering.php
+  utter_dp_civil:
+  - text: |-
+      <strong>Doctor of Philosophy (Civil Engineering)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/doctorate-programs/phd-civil-engineering.php
+  utter_dp_me:
+  - text: |-
+      <strong>Doctor of Philosophy (Mechanical Engineering)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/doctorate-programs/phd-mechanical-engineering.php
+  utter_dp_ece:
+  - text: |-
+      <strong>Doctor of Philosophy (Electronics & Communication Engineering)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/doctorate-programs/phd-electronics-and-communication.php
+  utter_dp_cse:
+  - text: |-
+      <strong>Doctor of Philosophy (Computer Science Engineering)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/doctorate-programs/phd-computer-science.php
+  utter_ba:
+  - text: Kindly choose one of the following programs to proceed
+    buttons:
+    - title: BA Online
+      payload: /ba_online
+    - title: BA Open and Distance
+      payload: /BA_ODL
+  utter_bba_onln_op:
+  - text: Various Online Programs in BBA
+    buttons:
+    - title: Bachelor Of Business Administration (BBA)
+      payload: /bba_online
+    - title: Business Analytics (BBA)
+      payload: /bbaa_online
+    - title: Bachelor Of Business Administration (With ACCA)
+      payload: /BBAACCA
+  utter_bba:
+  - text: Kindly choose one of the following programs to proceed
+    buttons:
+    - title: BBA Online Programs
+      payload: /bba_onln_op
+    - title: BBA Open And Distance Learning Programs
+      payload: /BBA_ODL
+    - title: BBA Regular
+      payload: /bachelor_management
+  utter_bca:
+  - text: Kindly choose one of the following programs to proceed
+    buttons:
+    - title: BCA Online
+      payload: /bca_online
+    - title: BCA Open and Distance
+      payload: /BCA_ODL
+    - title: BCA Regular
+      payload: /bach_comp_regu
+  utter_ma_onln_op:
+  - text: Various Online Programs in MA
+    buttons:
+    - title: MA in Journalism & Mass Communication
+      payload: /MAJMC_online
+    - title: MA English
+      payload: /ma_eng_online
+    - title: MA Economics
+      payload: /MAECO_online
+  utter_ma:
+  - text: Kindly choose one of the following programs to proceed
+    buttons:
+    - title: MA Online Programs
+      payload: /ma_onln_op
+    - title: MA Distance Learning
+      payload: /ma_odl_op
+  utter_ma_odl_op:
+  - text: Various Open & distance Programs in MA
+    buttons:
+    - title: MA English
+      payload: /MA(E)_ODL
+    - title: MA Psychology
+      payload: /MAPSYCH_ODL
+  utter_mcom:
+  - text: Kindly choose one of the following programs to proceed
+    buttons:
+    - title: M.COM Online Programs
+      payload: /mcom_onln_op
+    - title: M.COM Distance Learning
+      payload: /MCOM_ODL
+  utter_mcom_onln_op:
+  - text: Various Online Programs in M.COM
+    buttons:
+    - title: Masters of Commerce
+      payload: /mcom_online
+    - title: Masters Of Commerce (With ACCA)
+      payload: /mcomacca_online
+  utter_mba:
+  - text: Kindly choose one of the following programs to proceed
+    buttons:
+    - title: MBA Online
+      payload: /mba_online
+    - title: MBA Distance Learning
+      payload: /MBA_ODL
+    - title: MBA Regular
+      payload: /mba_regu
+  utter_msc:
+  - text: Kindly choose one of the following programs to proceed
+    buttons:
+    - title: MSC Online
+      payload: /msc_onln_op
+  utter_msc_onln_op:
+  - text: Various Online Programs in MSc
+    buttons:
+    - title: MSC Mathematics
+      payload: /mscmaths_online
+    - title: MSC Data Science
+      payload: /mscdsc_online
+  utter_mca:
+  - text: Kindly choose one of the following programs to proceed
+    buttons:
+    - title: MCA Online Programs
+      payload: /mca_online
+    - title: MCA Distance Learning
+      payload: /MCA_ODL
+    - title: MCA Regular
+      payload: /mast_comp_regu
+  utter_helpdesk:
+  - text: "For issues related:- <br/> * Fee Payment <br/> * Credentials Issues (CUIMS,LMS,Outlook) <br/> * Refund <br/> * File Status/Admission Status <br/> Please contact: - helpdesk@cuidol.in  (BLOCK A3 ) <br/> or <a href='tel:9115408827'>9115408827</a>"
+    buttons:
+    - title: Helpdesk Academics
+      payload: /helpdesk_academics
+    - title: DMC Related Issues
+      payload: /dmc
+    - title: Self Learning Material
+      payload: /slm
+  utter_helpdesk_academics:
+  - text: "For issues related:- <br/> * Result Declaration <br/> * Exam Slots <br/> * Exam link not working/Opening <br/> * Academic Issues <br/> Please contact: - academics.support@cuidol.in  BLOCK A3  <br/> or Call us at <a href='tel:8447572824'>8447572824</a>  or <a href='tel:01141185717'>01141185717</a>"
+  utter_ask_full_name:
+  - text: Please write your full name?
+  utter_ask_email:
+  - text: So {full_name}, what is your email address?
+  utter_ask_mobile:
+  - text: what is your mobile number?
+  utter_ask_program:
+  - text: So {full_name}, which program do you wish to enquire about, please type the name
+  utter_ask_city:
+  - text: Your city name please?
+  utter_ask_dob:
+  - text: What is your Date of Birth. Please provide in DD/MM/YYYY
+  utter_slots_values:
+  - text: You are <strong>{full_name}</strong> <br/>Your email id is <strong>{email}</strong>. <br/>Your mobile number is <strong>{mobile}</strong>, interested in <strong>{program}</strong> <br/>You are residing in <strong>{city}</strong> and your date of birth is <strong>{dob}</strong>
+  utter_dmc:
+  - text: "For issues related:- <br/> * DMC <br/> * DMC Correction <br/> * Marksheet Related Issue <br/> * DMC Update <br/> Please contact: - dmc.odl@cuidol.in  (BLOCK A3 North Campus) <br/> or <a href='tel:7347006641'>7347006641</a>"
+  utter_slm:
+  - text: "For issues related:- <br/> * Self Learning Material <br/> * slm support <br/> * Study Material Not Received <br/> * Fees Issue <br/> * SLM Courier Issue <br/> Please contact: - slmsupport@cuidol.in  (BLOCK A3 ) <br/> or <a href='tel:8146651636'>8146651636</a>"
+  utter_inte_be_me_ae:
+  - text: |-
+      <strong>B.E. + M.E. Aerospace Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-me-aerospace-engineering-integrated.php
+  utter_inte_be_me_civil:
+  - text: |-
+      <strong>B.E. + M.E. Civil Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-me-civil-engineering-integrated.php
+  utter_inte_be_me_ece:
+  - text: |-
+      <strong>B.E. + M.E. Electronics and Communication Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-me-electronics-and-communication-engineering-integrated.php
+  utter_inte_be_me_ee:
+  - text: |-
+      <strong>B.E. + M.E. Electrical Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-me-electrical-engineering-integrated.php
+  utter_inte_be_me_me:
+  - text: |-
+      <strong>B.E. + M.E. Mechanical Engineering</strong>
+      <br/>please check for more below:- Dual Programme can be offered in following Disciplines <br/>B.E. (Mechanical Engg.) + M.E. (Thermal and Fluids Engineering) <br/>B.E. (Mechanical Engg.) + M.E. (Computer Aided Design and Automation) <br/>B.E. (Mechanical Engg.) + M.E. (Production and Industrial Engg.) <br/>New Multidisciplinary ME Programs that can be launched <br/>B. E + M.E. – Nanotechnology (Integrated with Chemical Engineering) <br/>https://www.cuchd.in/engineering/be-me-mechanical-engineering-integrated.php
+  utter_inte_be_me_cse:
+  - text: |-
+      <strong>B.E. + M.E. Computer Science and Engineering</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-me-computer-science-engineering-Integrated.php
+  utter_inte_be_me_cse_is_ibm:
+  - text: |-
+      <strong>B.E. + M.E. (CSE-Hons.) - Information Security in association with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-me-cse-information-technology-integrated.php
+  utter_inte_be_me_cse_ai_ibm:
+  - text: |-
+      <strong>B.E. + M.E. (CSE-Hons.) - Artificial Intelligence & Machine Learning in association with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-me-cse-aiml-integrated.php
+  utter_inte_be_me_cse_cc_virtusa:
+  - text: |-
+      <strong>B.E. + M.E. (Computer Science and Engineering) (Hons) (Cloud Computing) In collaboration with Virtusa</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/be-me-cse-aiml-integrated.php
+  utter_inte_me_phd:
+  - text: |-
+      <strong>Master of Engineering + Doctor of Philosophy (M.E. + Ph.D.)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/engineering/integrated-me-phd-program.php
+  utter_inte_regu:
+  - text: Integrated Programs Offered by CU
+    buttons:
+    - title: Integrated B.E. + M.E. Programs Offered
+      payload: /inte_be_me_regu
+    - title: Integrated M.E. + Ph.D. Program Offered
+      payload: /inte_me_phd
+  utter_inte_be_me_regu:
+  - text: Integrated B.E. + M.E. Programs Offered
+    buttons:
+    - title: B.E. + M.E. Aerospace Engineering
+      payload: /inte_be_me_ae
+    - title: B.E. + M.E. Civil Engineering
+      payload: /inte_be_me_civil
+    - title: B.E. + M.E. Electronics and Communication Engineering
+      payload: /inte_be_me_ece
+    - title: B.E. + M.E. Electrical Engineering
+      payload: /inte_be_me_ee
+    - title: B.E. + M.E. Mechanical Engineering
+      payload: /inte_be_me_me
+    - title: B.E. + M.E. Computer Science and Engineering
+      payload: /inte_be_me_cse
+    - title: B.E. + M.E. (CSE-Hons.) - Information Security in association with IBM
+      payload: /inte_be_me_cse_is_ibm
+    - title: B.E. + M.E. (CSE-Hons.) - Artificial Intelligence & Machine Learning in association with IBM
+      payload: /inte_be_me_cse_ai_ibm
+    - title: B.E. + M.E. CSE(Hons) Cloud Computing In collaboration with Virtusa
+      payload: /inte_be_me_cse_cc_virtusa
+  utter_inte_be_me_ibm:
+  - text: IBM Integrated Engineering Program
+    buttons:
+    - title: B.E. + M.E. (CSE-Hons.) - Information Security in association with IBM
+      payload: /inte_be_me_cse_is_ibm
+    - title: B.E. + M.E. (CSE-Hons.) - Artificial Intelligence & Machine Learning in association with IBM
+      payload: /inte_be_me_cse_ai_ibm
+  utter_cse_ibm:
+  - text: Engineering Programs in Collaboration with IBM
+    buttons:
+    - title: CSE Big Data and Analytics
+      payload: /be_cse_bda_ibm
+    - title: CSE in Cloud Computing
+      payload: /be_cse_cc_ibm
+    - title: CSE-Hons Information Security
+      payload: /be_cse_is_ibm
+    - title: CSE-Hons Artificial Intelligence and Machine Learning
+      payload: /be_cse_saiml_ibm
+    - title: CSE in Internet of Things
+      payload: /be_cse_iot_ibm
+  utter_leet_ibm:
+  - text: Lateral Entry Engineering Program with IBM
+    buttons:
+    - title: Lateral Entry CSE Big Data and Analytics
+      payload: /be_cse_bda_leet_ibm
+    - title: Lateral Entry CSE in Cloud Computing
+      payload: /be_cse_leet_cc_ibm
+    - title: Lateral Entry CSE-Hons Information Security
+      payload: /be_cse_leet_is_ibm
+    - title: Lateral Entry CSE-Hons Artificial Intelligence and Machine Learning
+      payload: /be_cse_leet_aiml_ibm
+    - title: Lateral Entry CSE in Internet of Things
+      payload: /be_cse_leet_iot_ibm
+  utter_IBM:
+  - text: IBM Affiliated Programs Offered bu CU <br/>Visit:- https://www.cuchd.in/IBM/
+    buttons:
+    - title: Engineering Programs in Collaboration with IBM
+      payload: /cse_ibm
+    - title: IBM Integrated Engineering Program
+      payload: /inte_be_me_ibm
+    - title: Lateral Entry Engineering Program with IBM
+      payload: /leet_ibm
+  utter_be_cse_bda_ibm:
+  - text: |-
+      <strong>CSE Big Data and Analytics in collaboration with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/IBM/big-data-analytics-courses.php
+  utter_be_cse_cc_ibm:
+  - text: |-
+      <strong>CSE in Cloud Computing in collaboration with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/IBM/cloud-computing-courses.php
+  utter_be_cse_is_ibm:
+  - text: |-
+      <strong>CSE-Hons Information Security in association with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/IBM/information-security-courses.php
+  utter_be_cse_saiml_ibm:
+  - text: |-
+      <strong>CSE-Hons Artificial Intelligence and Machine Learning in association with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/IBM/be-cse-artificial-intelligence-and-machine-learning.php
+  utter_be_cse_iot_ibm:
+  - text: |-
+      <strong>CSE in Internet of Things in association with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/IBM/be-cse-internet-of-things.php
+  utter_be_cse_bda_leet_ibm:
+  - text: |-
+      <strong>CSE (Hons.) IBM - Big Data Analytics (Lateral Entry) in association with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/IBM/be-cse-lateral-entry-program.php
+  utter_be_cse_leet_cc_ibm:
+  - text: |-
+      <strong>CSE (Hons.) IBM Cloud Computing (Lateral Entry) in association with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/IBM/be-cse-lateral-entry-program.php
+  utter_be_cse_leet_is_ibm:
+  - text: |-
+      <strong>Lateral Entry CSE in Information Security (Lateral Entry) in association with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/IBM/be-cse-lateral-entry-program.php
+  utter_be_cse_leet_aiml_ibm:
+  - text: |-
+      <strong> CSE in Artificial Intelligence and Machine Learning (Lateral Entry) in association with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/IBM/be-cse-lateral-entry-program.php
+  utter_be_cse_leet_iot_ibm:
+  - text: |-
+      <strong> CSE (Hons.) Internet of Things (Lateral Entry) in association with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/IBM/be-cse-lateral-entry-internet-of-things.php
+  utter_contact_onln_odl:
+  - text: Need any help  <a href='tel:1800 1213 88800'>+1800121388800</a> <br/>Miss Call Number <a href='tel:08033094410'>08033094410</a> <br/> Chat on WhatsApp with <a href='tel:917527030513'>917527030513</a> <br/>Email Us admissions@cuidol.in
+  utter_academic_calender:
+  - text: Please Check Academic Calender for the Same
+    buttons:
+    - title: General Academic Calender for Regular Education
+      payload: /academic_cal_gen
+    - title: Academic Calender for Open and Distance Education
+      payload: /academic_cal_odl
+    - title: Academic Calender for Online Education
+      payload: /academic_cal_onln
+  utter_academic_cal_gen:
+  - text: Please choose one of the following
+    buttons:
+    - title: Even Semester
+      payload: /academic_cal_gen_even
+    - title: Odd Semester
+      payload: /academic_cal_gen_odd
+  utter_academic_cal_gen_even:
+  - text: Visit:- https://www.cuchd.in/academics/academic-calendar.php
+  utter_academic_cal_gen_odd:
+  - text: Visit:- https://www.cuchd.in/academics/academic-calendar-odd.php
+  utter_academic_cal_odl:
+  - text: 'Visit: https://www.cuidol.in/academic-calendar.php'
+  utter_academic_cal_onln:
+  - text: 'Visit: https://www.onlinecu.in/academic-calendar.php'
+  utter_management_courses:
+  - text: 'Please visit: https://www.cuchd.in/management/'
+    buttons:
+    - title: Under Graduate Management Courses
+      payload: /bachelor_management
+    - title: Post Graduate Management Courses
+      payload: /post_grad_management
+    - title: Industry Collaborated Post Graduate Courses
+      payload: /Industry_Collab_management
+    - title: Doctorate Course
+      payload: /doc_management
+  utter_bachelor_management:
+  - text: Under Graduate Management Courses
+    buttons:
+    - title: BBA - Bachelor of Business Administration
+      payload: /bba_regu
+    - title: BBA - Marketing
+      payload: /bba_am_regu
+    - title: BBA - Banking & Finance
+      payload: /bba_bf_regu
+    - title: BBA - Insurance & Risk Management
+      payload: /bba_ir_regu
+    - title: BBA - Tourism & Event Management
+      payload: /bba_te_regu
+    - title: BBA - Forex Management
+      payload: /bba_fx_regu
+    - title: BBA - Business Analytics
+      payload: /bba_ba_regu
+    - title: BBA - Digital Marketing
+      payload: /bba_dm_regu
+  utter_post_grad_management:
+  - text: Post Graduate Management Courses
+    buttons:
+    - title: MBA - Masters of Business Administration (HR / Finance / Marketing / International Business / Entrepreneurship)
+      payload: /mba_hfmie_regu
+    - title: MBA - Tourism and Hospitality Management
+      payload: /mba_thm_regu
+    - title: MBA - International Relations
+      payload: /mba_ir_regu
+    - title: MBA - CASSM
+      payload: /mba_cassm_regu
+  utter_Industry_Collab_management:
+  - text: Industry Collaborated Courses
+    buttons:
+    - title: MBA - Business Analytics with IBM
+      payload: /mba_ba_ibm_regu
+    - title: MBA - Banking & Financial Engineering with SBI & Tally
+      payload: /mba_bf_sbi_regu
+    - title: MBA - Strategic HR with AON Consulting
+      payload: /mba_hr_aon_regu
+    - title: MBA - Fintech with NSE Academy
+      payload: /mba_fin_nse_regu
+    - title: MBA - Data Science and Artificial Intelligence with SAS
+      payload: /mba_dsai_saas_regu
+    - title: MBA - Logistics and Supply Chain Management with CII
+      payload: /mba_lsc_cii_regu
+    - title: MBA - Digital Marketing
+      payload: /mba_dm_saas_regu
+    - title: MBA - Healthcare and Life Sciences
+      payload: /mba_hls_regu
+  utter_doc_management:
+  - text: Doctorate Course
+    buttons:
+    - title: Doctor of Philosophy (Business Management)
+      payload: /phd_bm_regu
+  utter_bba_regu:
+  - text: |-
+      <strong>BBA - Bachelor of Business Administration</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/bachelor-of-business-administration.php
+  utter_bba_am_regu:
+  - text: |-
+      <strong>BBA - Marketing</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/bachelor-of-business-administration.php
+  utter_bba_bf_regu:
+  - text: |-
+      <strong>BBA - Banking & Finance</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/bba-banking-and-finance.php
+  utter_bba_ir_regu:
+  - text: |-
+      <strong>BBA - Insurance & Risk Management</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/bba-Insurance-and-Risk-Management.php
+  utter_bba_te_regu:
+  - text: |-
+      <strong>BBA - Tourism & Event Management</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/bba-tourism-and-event-management.php
+  utter_bba_fx_regu:
+  - text: |-
+      <strong>BBA - Forex Management</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/bba-forex-Management.php
+  utter_bba_ba_regu:
+  - text: |-
+      <strong>BBA - Business Analytics</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/bba-business-analytics.php
+  utter_bba_dm_regu:
+  - text: |-
+      <strong>BBA - Digital Marketing</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/bba-digital-marketing.php
+  utter_mba_hfmie_regu:
+  - text: |-
+      <strong>MBA - Masters of Business Administration with Specialization</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/mba-master-of-business-administration.php
+  utter_mba_thm_regu:
+  - text: |-
+      <strong>MBA - Tourism and Hospitality Management</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/MBA-tourism-and-hospitality-management.php
+  utter_mba_ir_regu:
+  - text: |-
+      <strong>MBA - International Relations</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/mba-master-of-business-international-relations.php
+  utter_mba_cassm_regu:
+  - text: |-
+      <strong>MBA in Association with IDC</strong>
+      <br/>please check for more below:- https://www.cuchd.in/cassm/mba-cassm.php
+  utter_mba_ba_ibm_regu:
+  - text: |-
+      <strong>MBA Business Analytics with IBM</strong>
+      <br/>please check for more below:- https://www.cuchd.in/IBM/MBA-business-analytics.php
+  utter_mba_bf_sbi_regu:
+  - text: |-
+      <strong>MBA Banking & Financial Engineering with SBI & Tally</strong>
+      <br/>please check for more below:- https://www.cuchd.in/bfe/
+  utter_mba_hr_aon_regu:
+  - text: |-
+      <strong>MBA Strategic HR with AON Consulting</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/mba-strategic-hr.php
+  utter_mba_fin_nse_regu:
+  - text: |-
+      <strong>MBA Fintech with NSE Academy</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/mba-fintech.php
+  utter_mba_dsai_saas_regu:
+  - text: |-
+      <strong>MBA Data Science and Artificial Intelligence with SAS</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/mba-data-science-and-artificial-intelligence.php
+  utter_mba_lsc_cii_regu:
+  - text: |-
+      <strong>MBA Logistics and Supply Chain Management</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/MBA-logistics-and-supply-chain-management.php
+  utter_mba_dm_saas_regu:
+  - text: |-
+      <strong>MBA Digital Marketing</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/mba-master-of-business-digital-marketing.php
+  utter_mba_hls_regu:
+  - text: |-
+      <strong>MBA Healthcare and Life Sciences</strong>
+      <br/>please check for more below:- https://www.cuchd.in/management/mba-data-science-and-artificial-intelligence.php
+  utter_phd_bm_regu:
+  - text: |-
+      <strong>Doctor of Philosophy (Business Management)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/doctorate-programs/phd-business-management.php
+  utter_mba_regu:
+  - text: Regular MBA
+    buttons:
+    - title: Post Graduate Management Courses
+      payload: /post_grad_management
+    - title: Industry Collaborated Post Graduate Courses
+      payload: /Industry_Collab_management
+  utter_comp_regu:
+  - text: 'Computer Application Courses Please visit: https://www.cuchd.in/computing/'
+    buttons:
+    - title: Under-Graduate Computing Courses
+      payload: /bach_comp_regu
+    - title: Post-Graduate Computing Courses
+      payload: /mast_comp_regu
+    - title: Doctorate Program
+      payload: /phd_comp
+  utter_bach_comp_regu:
+  - text: Under-Graduate Computing Courses
+    buttons:
+    - title: Bachelor of Computer Applications (BCA)
+      payload: /bca_regu
+    - title: BCA - Augmented Reality and Virtual Reality
+      payload: /bca_arvr_regu
+    - title: BCA - User Interface / User Experience Design)
+      payload: /bca_uiux_regu
+  utter_mast_comp_regu:
+  - text: Post-Graduate Computing Courses
+    buttons:
+    - title: Master of Computer Applications (MCA)
+      payload: /mca_regu
+    - title: MCA - Cloud Computing and DevOps
+      payload: /mca_ccd_regu
+    - title: MCA - Artificial Intelligence & Machine Learning
+      payload: /mca_aiml_regu
+  utter_phd_comp:
+  - text: Doctorate Program
+    buttons:
+    - title: Doctor of Philosophy (Computer Applications)
+      payload: /doc_comp
+  utter_bca_regu:
+  - text: |-
+      <strong>Bachelor of Computer Applications (BCA)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/computing/bachelor-of-computer-applications.php
+  utter_bca_arvr_regu:
+  - text: |-
+      <strong> BCA - Augmented Reality and Virtual Reality</strong>
+      <br/>please check for more below:- https://www.cuchd.in/computing/bca-ar-vr.php
+  utter_bca_uiux_regu:
+  - text: |-
+      <strong>BCA - User Interface User Experience Design (UI/UX) </strong>
+      <br/>please check for more below:- https://www.cuchd.in/computing/bca-ui-ux-design.php
+  utter_mca_regu:
+  - text: |-
+      <strong>Master of Computer Applications (MCA)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/computing/master-of-computer-applications.php
+  utter_mca_ccd_regu:
+  - text: |-
+      <strong>MCA - Cloud Computing and DevOps</strong>
+      <br/>please check for more below:- https://www.cuchd.in/computing/mca-cloud-computing-devops.php
+  utter_mca_aiml_regu:
+  - text: |-
+      <strong>MCA - Artificial Intelligence & Machine Learning</strong>
+      <br/>please check for more below:- https://www.cuchd.in/computing/mca-artificial-intelligence-and-machine-learning.php
+  utter_doc_comp:
+  - text: |-
+      <strong>Doctor of Philosophy (Computer Applications)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/doctorate-programs/phd-computer-applications.php
+  utter_business:
+  - text: An Array of Industry-Aligned University School of Business Programs for you
+    buttons:
+    - title: Under-Graduate University School of Business Courses
+      payload: /bach_business_regu
+    - title: Post-Graduate University School of Business Courses
+      payload: /mast_business_regu
+    - title: Doctorate Programs of Business
+      payload: /doc_business_regu
+  utter_bach_business_regu:
+  - text: Under-Graduate Programs in Commerce
+    buttons:
+    - title: B.Com Hons.
+      payload: /bcom_regu
+    - title: B.Com. Hons. with ACCA
+      payload: /bcom_acca_regu
+  utter_mast_business_regu:
+  - text: Post-Graduate University School of Business Courses
+    buttons:
+    - title: M.Com-(Hons)
+      payload: /mcom_regu
+  utter_doc_business_regu:
+  - text: Doctorate Programs of Business
+    buttons:
+    - title: Doctor of Philosophy (Commerce)
+      payload: /doc_com_regu
+  utter_bcom_regu:
+  - text: |-
+      <strong>Bachelor of Commerce (B.Com Hons.)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/commerce/bachelor-of-commerce.php
+  utter_bcom_acca_regu:
+  - text: |-
+      <strong>Bachelor of Commerce (B.Com. Hons. with ACCA)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/finance-and-accounting/bcom-acca.php
+  utter_mcom_regu:
+  - text: |-
+      <strong>Master in Commerce - Honors M.Com-(Hons)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/commerce/master-of-commerce.php
+  utter_doc_com_regu:
+  - text: |-
+      <strong>Doctor of Philosophy (Commerce)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/doctorate-programs/phd-commerce.php
+  utter_bcom:
+  - text: Kindly choose one of the following programs to proceed
+    buttons:
+    - title: B.COM distance learning
+      payload: /BCOM_ODL
+    - title: 'B.COM regular '
+      payload: /bach_business_regu
+  utter_bsc_regu:
+  - text: <strong>Basic Sciences Programs</strong> <br/>click here to visit https://www.cuchd.in/basic-sciences/
+    buttons:
+    - title: Under-Graduate Courses
+      payload: /bach_bsc_regu
+    - title: Post-Graduate Courses
+      payload: /mast_msc_regu
+    - title: Doctorate Programs
+      payload: /doc_bsc_regu
+  utter_bach_bsc_regu:
+  - text: Under-Graduate BSC Programs
+    buttons:
+    - title: Bachelor of Science(Hons) - Physics
+      payload: /bsc_phy_regu
+    - title: Bachelor of Science(Hons) - Chemistry
+      payload: /bsc_chem_regu
+    - title: Bachelor of Science(Hons) - Mathematics
+      payload: /bsc_math_regu
+    - title: Bachelor of Science Computer Science, Statistics and Mathematics (CSM)
+      payload: /bsc_csm_regu
+  utter_mast_msc_regu:
+  - text: Post-Graduate MSC Programs
+    buttons:
+    - title: Master of Science - Chemistry
+      payload: /msc_phy_regu
+    - title: Master of Science - Physics
+      payload: /msc_chem_regu
+    - title: Master of Science - Mathematics
+      payload: /msc_math_regu
+    - title: Master of Science - Data Science
+      payload: /msc_ds_regu
+    - title: M.Sc. Industrial Chemistry
+      payload: /msc_ic_regu
+  utter_doc_bsc_regu:
+  - text: Doctorate Programs
+    buttons:
+    - title: Doctor of Philosophy (Physics)
+      payload: /doc_phy_regu
+    - title: Doctor of Philosophy (Chemistry)
+      payload: /doc_chem_regu
+    - title: Doctor of Philosophy (Mathematics)
+      payload: /doc_math_regu
+  utter_bsc_phy_regu:
+  - text: |-
+      <strong>BSC(Hons) - Physics</strong>
+      <br/>please check for more below:- https://www.cuchd.in/basic-sciences/bsc-physics.php
+  utter_bsc_chem_regu:
+  - text: |-
+      <strong>BSC(Hons) - Chemistry</strong>
+      <br/>please check for more below:- https://www.cuchd.in/basic-sciences/bsc-chemistry.php
+  utter_bsc_math_regu:
+  - text: |-
+      <strong>BSC(Hons) - Mathematics</strong>
+      <br/>please check for more below:- https://www.cuchd.in/basic-sciences/bsc-mathematics.php
+  utter_bsc_csm_regu:
+  - text: |-
+      <strong>BSC in Computer Science, Statistics and Mathematics (CSM)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/basic-sciences/bsc-csm.php
+  utter_msc_phy_regu:
+  - text: |-
+      <strong>Master of Science - Physics</strong>
+      <br/>please check for more below:- https://www.cuchd.in/basic-sciences/msc-physics.php
+  utter_msc_chem_regu:
+  - text: |-
+      <strong>Master of Science - Chemistry</strong>
+      <br/>please check for more below:- https://www.cuchd.in/basic-sciences/msc-chemistry.php
+  utter_msc_math_regu:
+  - text: |-
+      <strong>Master of Science - Mathematics</strong>
+      <br/>please check for more below:- https://www.cuchd.in/basic-sciences/MSC-applied-mathematics.php
+  utter_msc_ds_regu:
+  - text: |-
+      <strong>Master of Science - Data Science</strong>
+      <br/>please check for more below:- https://www.cuchd.in/basic-sciences/msc-data-sciences.php
+  utter_msc_ic_regu:
+  - text: |-
+      <strong>M.Sc. Industrial Chemistry</strong>
+      <br/>please check for more below:- https://www.cuchd.in/basic-sciences/msc-industrial-chemistry.php
+  utter_doc_phy_regu:
+  - text: |-
+      <strong> Doctor of Philosophy (Physics)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/doctorate-programs/phd-physics.php
+  utter_doc_chem_regu:
+  - text: |-
+      <strong> Doctor of Philosophy (Chemistry)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/doctorate-programs/phd-chemistry.php
+  utter_doc_math_regu:
+  - text: |-
+      <strong> Doctor of Philosophy (Mathematics)</strong>
+      <br/>please check for more below:- https://www.cuchd.in/doctorate-programs/phd-mathematics.php
+  utter_stu_serv:
+  - text: Student Services
+    buttons:
+    - title: Transport Facility
+      payload: /trans_faci
+    - title: Banking Facility
+      payload: /bank_faci
+    - title: Medical Facility
+      payload: /med_faci
+    - title: Exposure/Industrial Visits
+      payload: /exp_faci
+    - title: Mentoring and Value Inculcation
+      payload: /mve_faci
+    - title: Eating Joints and Retails
+      payload: /ejr_faci
+    - title: University Library
+      payload: /ul_faci
+    - title: UIMS Media Centre
+      payload: /media_faci
+  utter_trans_faci:
+  - text: <strong>Transport Facility</strong> <br/>Safety and added comfort, both are the prime concerns of Chandigarh University. please check for more below:- https://www.cuchd.in/student-services/transport-facility.php
+  utter_bank_faci:
+  - text: <strong>Banking Facility</strong> <br/>At Chandigarh University, we provide the best banking facilities to our students. <br/>To cater to their banking needs, we have on campus fully air-conditioned and fully computerized branches of State Bank of India and HDFC Bank which is based on the CBS platform. The eligible students of Chandigarh University can also avail of the facility of Educational Loan from the ( on-campus ) branch of SBI. Also, to meet the daily requirements of cash, we have ATMS of SBI, HDFC and PNB installed at different locations on the campus.
+  utter_med_faci:
+  - text: <strong>Medical Facility</strong> <br/>To deal with any kind of medical emergency, registered Medical Doctor is available. <br/>University is extra cautious during this pandemic and regular temperature screenings are done. To deal with any kind of medical emergency, a registered Medical Doctor is available on the campus during working hours and there is a separate OPD room for girls and boys along with the three Ambulances inside the campus. Medical Supervisors are also available 24*7 for the students inside their hostels. <br/>Also, you may carry the basic Prescribed Medical Kit with you when you report to the campus. <br/>For any emergency or enquiry please contact <strong>E-mail</strong> medical.assistant@cumail.in <strong>Mobile</strong> <a href='tel:7087989898'>+7087989898</a> , <a href='tel:0160-3014421'>+0160-3014421</a>
+  utter_exp_faci:
+  - text: <strong>Exposure/Industrial Visits</strong> <br/><strong>INDUSTRIAL VISITS</strong> Industrial visits sensitize students to the real-time challenges that organizations face in the business world. It is considered as a strategic way of inculcating knowledge by bringing them across the on-going employment practices. With an aim to go beyond academics, visiting a company gives a practical perspective opposite to theoretical knowledge. <br/><strong>EXCURSION TRIPS</strong> Excursion Trip enhances students learning experience by providing them with opportunities to participate in curriculum-related activities conducted away from the normal college routine. Chandigarh University's excursion trips are an influential part of the curriculum, giving significant meaning to education. These trips are well planned, developing qualities of self-confidence and leadership amongst students.
+  utter_mve_faci:
+  - text: <strong>Mentoring and Value Inculcation</strong> <br/>The Mentoring agenda at CU is exclusive that works on the principle of assisting and empowering the Mentee. <br/>The Counselling Department of CU offers a supportive process to students that help them to become aware of their academic strengths and limitations
+  utter_ejr_faci:
+  - text: <strong>EATING JOINTS & RETAIL</strong> <br/>We have many outlets across campus including restaurants, delis and cafés in easy to reach locations. <br/>There are also many more exciting choices and offers in all of our outlets including Subway, Domino's, La Pino'z, Nescafe, Rasna Buzz, Corner Café, Food Republic, grab and go salads, sandwiches at a great value.
+  utter_media_faci:
+  - text: <strong>UIMS Media Centre</strong> <br/>Continuing the trend and creating the legacy in the field of Media Education <br/>Check out https://youtu.be/VjrMij8p838?list=TLGGvwlblVPWtHMxMzA5MjAyMw
+  utter_ul_faci:
+  - text: <strong>University Library</strong> <br/>The Learning Resource Centre of Chandigarh University consists <br/>Check out https://www.cuchd.in/student-services/libraries.php
+actions:
+- utter_bsc_regu
+- utter_engg_place
+- utter_academic_cal_gen_even
+- utter_academic_cal_gen
+- utter_bachelor_iodl_prog
+- utter_mast_msc_regu
+- utter_aboutcu
+- utter_msc_ds_regu
+- utter_trans_faci
+- utter_stu_serv
+- utter_place
+- utter_engg_regu
+- utter_academic_calender
+- utter_cse_ibm
+- utter_regular_courses
+- utter_be_cse_bda_ibm
+- utter_BCOM_ODL
+- utter_official_website
+- utter_help
+- utter_ODL
+- utter_odl_option
+- utter_regu_aero_engg
+- utter_BOPLEET
+- utter_leet_ibm
+- utter_MBA_ODL
+- utter_leet_engg
+- utter_BA_ODL
+- utter_be_cse_leet_cc_ibm
+- utter_how_to_apply
+- utter_apply_odl
+- utter_LEET_Programs
+- utter_IBM
+- utter_BAELEET
+- utter_masters_iodl_prog
+- utter_odl_admission_gui
+- utter_be_cse_bda_leet_ibm
+- utter_ugc_regu
+- utter_leet_aps
+- utter_mcomacca_online
+- utter_bajmc_online
+- utter_online_cu_programs
+- utter_bachelor_online
+- utter_MAJMC_online
+- utter_bba_online
+- utter_online_option
+- utter_masters_online
+- action_weather_api
+#- action_pause_conversation
+#- action_resume_conversation
+#- action_ask_name
+#- action_ask_mobile_number
+#- action_save_info
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false

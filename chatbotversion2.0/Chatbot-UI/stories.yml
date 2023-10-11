@@ -1,0 +1,1503 @@
+  version: "3.1"
+
+  stories:
+
+  - story: happy path
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_great
+    - action: utter_ask
+
+  - story: sad path 1
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+
+  - story: song
+    steps:
+    - intent: song
+    - action: utter_song
+
+  - story: introduction
+    steps:
+    - intent: greet_user
+    - action: utter_greet_user
+    - intent: mood_great
+    - action: utter_ask
+
+  - story: goodbye
+    steps:
+    - intent: thank
+    - action: utter_thank
+    - intent: discard
+    - action: utter_goodbye
+
+  - story: welcome_1
+    steps:
+    - intent: thank
+    - action: utter_thank
+    - intent: affirm
+    - action: utter_ask_again
+
+  - story: ask again
+    steps:
+    - intent: ask_again
+    - action: utter_ask_again
+
+  - story: welcome_2
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_great
+    - action: utter_ask
+
+  - story: About University
+    steps:
+    - intent: aboutcu
+    - action: utter_aboutcu
+
+  - story: CU contact
+    steps:
+    - intent: CU_CONTACT
+    - action: utter_CU_CONTACT
+
+  - story: distance and open learning
+    steps:
+    - intent: ODL
+    - action: utter_ODL
+
+  - story: BA ODL program
+    steps:
+    - intent: BA_ODL
+    - action: utter_BA_ODL
+
+  - story: BBA ODL program
+    steps:
+    - intent: BBA_ODL
+    - action: utter_BBA_ODL
+
+  - story: BCOM ODL program
+    steps:
+    - intent: BCOM_ODL
+    - action: utter_BCOM_ODL
+
+  - story: BCA ODL program
+    steps:
+    - intent: BCA_ODL
+    - action: utter_BCA_ODL
+
+  - story: MA in English ODL program
+    steps:
+    - intent: MA(E)_ODL
+    - action: utter_MA(E)_ODL
+
+  - story: MA in Psycology ODL program
+    steps:
+    - intent: MAPSYCH_ODL
+    - action: utter_MAPSYCH_ODL
+
+  - story: MBA in ODL program
+    steps:
+    - intent: MBA_ODL
+    - action: utter_MBA_ODL
+
+  - story: MCOM in ODL program
+    steps:
+    - intent: MCOM_ODL
+    - action: utter_MCOM_ODL
+
+  - story: MCA in ODL program
+    steps:
+    - intent: MCA_ODL
+    - action: utter_MCA_ODL
+
+  - story: for online cu programs
+    steps:
+    - intent: online_cu_programs
+    - action: utter_online_cu_programs
+
+  - story: for scope after 12th
+    steps:
+    - intent: scope_12th
+    - action: utter_scope_12th
+
+  - story: for how to apply
+    steps:
+    - intent: how_to_apply
+    - action: utter_how_to_apply
+
+  - story: BA-JMC
+    steps:
+    - intent: bajmc_online
+    - action: utter_bajmc_online
+
+  - story: BBA Online
+    steps:
+    - intent: bba_online
+    - action: utter_bba_online
+
+  - story: BCA online
+    steps:
+    - intent: bca_online
+    - action: utter_bca_online
+
+  - story: MA JMC online
+    steps:
+    - intent: MAJMC_online
+    - action: utter_MAJMC_online
+
+  - story: MCOM online
+    steps:
+    - intent: mcom_online
+    - action: utter_mcom_online
+
+  - story: MBA online
+    steps:
+    - intent: mba_online
+    - action: utter_mba_online
+
+  - story: msc maths online
+    steps:
+    - intent: mscmaths_online
+    - action: utter_mscmaths_online
+
+  - story: MA English
+    steps:
+    - intent: ma_eng_online
+    - action: utter_ma_eng_online
+
+  - story: MA Economics
+    steps:
+    - intent: MAECO_online
+    - action: utter_MAECO_online
+
+  - story: MCA Online
+    steps:
+    - intent: mca_online
+    - action: utter_mca_online
+
+  - story: MSC Data Science online
+    steps:
+    - intent: mscdsc_online
+    - action: utter_mscdsc_online
+
+  - story: BA Online
+    steps:
+    - intent: ba_online
+    - action: utter_ba_online
+
+  - story: MA PSYHCOLOGY online
+    steps:
+    - intent: MAPSYCH_online
+    - action: utter_MAPSYCH_online
+
+  - story: Do you know
+    steps:
+    - intent: do_you_know
+    - action: utter_do_you_know
+    - intent: greet_user
+    - action: utter_wel
+
+#  - story: I know you
+#    steps:
+#    - slot_was_set:
+#      - name: true
+#    - intent: do_you_know
+#    - action: utter_my_name
+
+  - story: Courses CU Offer
+    steps:
+    - intent: Courses_cu
+    - action: utter_Courses_cu
+
+  - story: bachelor_odl
+    steps:
+    - intent: bachelor_iodl_prog
+    - action: utter_bachelor_iodl_prog
+
+  - story: bachelor_online
+    steps:
+    - intent: bachelor_online
+    - action: utter_bachelor_online
+
+  - story: masters iodl prog
+    steps:
+    - intent: masters_iodl_prog
+    - action: utter_masters_iodl_prog
+
+  - story: masters online
+    steps:
+    - intent: masters_online
+    - action: utter_masters_online
+
+  - story: regular programs
+    steps:
+    - intent: regular_courses
+    - action: utter_regular_courses
+
+  - story: place
+    steps:
+    - intent: place
+    - action: utter_place
+
+  - story: LEET Programs
+    steps:
+    - intent: LEET_Programs
+    - action: utter_LEET_Programs
+
+  - story: Apply LEET
+    steps:
+    - intent: apply_leet
+    - action: utter_apply_leet
+
+  - story: LEET in Engg
+    steps:
+    - intent: leet_engg
+    - action: utter_leet_engg
+
+  - story: BE-LEET
+    steps:
+    - intent: BELEET
+    - action: utter_BELEET
+
+  - story: BAELEET
+    steps:
+    - intent: BAELEET
+    - action: utter_BAELEET
+
+  - story: BCELEET
+    steps:
+    - intent: BCELEET
+    - action: utter_BCELEET
+
+  - story: BGELEET
+    steps:
+    - intent: BGELEET
+    - action: utter_BGELEET
+
+  - story: BCSLEET
+    steps:
+    - intent: BCSLEET
+    - action: utter_BCSLEET
+
+  - story: leet_pharma
+    steps:
+    - intent: leet_pharma
+    - action: utter_leet_pharma
+
+  - story: lEET_Applied_Science
+    steps:
+    - intent: leet_aps
+    - action: utter_leet_aps
+
+  - story: lEET_APS_BOPLEET
+    steps:
+    - intent: BOPLEET
+    - action: utter_BOPLEET
+
+  - story: lEET_APS_BOMLEET
+    steps:
+    - intent: BOMLEET
+    - action: utter_BOMLEET
+
+  - story: lEET_APS_MOFLEET
+    steps:
+    - intent: MOFLEET
+    - action: utter_MOFLEET
+
+  - story: BBAACCA
+    steps:
+    - intent: BBAACCA
+    - action: utter_BBAACCA
+
+  - story: bbaa_online
+    steps:
+    - intent: bbaa_online
+    - action: utter_bbaa_online
+
+  - story: mcomacca_online
+    steps:
+    - intent: mcomacca_online
+    - action: utter_mcomacca_online
+
+  - story: online options
+    steps:
+    - intent: online_option
+    - action: utter_online_option
+
+  - story: odl_option
+    steps:
+    - intent: odl_option
+    - action: utter_odl_option
+
+  - story: official_website
+    steps:
+    - intent: official_website
+    - action: utter_official_website
+
+  - story: regu aero engg
+    steps:
+    - intent: regu_aero_engg
+    - action: utter_regu_aero_engg
+
+  - story: regu auto engg
+    steps:
+    - intent: regu_auto_engg
+    - action: utter_regu_auto_engg
+
+  - story: regu bio engg
+    steps:
+    - intent: regu_bio_engg
+    - action: utter_regu_bio_engg
+
+  - story: regu chemical engg
+    steps:
+    - intent: regu_chem_enggi
+    - action: utter_regu_chem_enggi
+
+  - story: regu civil engg
+    steps:
+    - intent: regu_civil_engg
+    - action: utter_regu_civil_engg
+
+  - story: regu computer scince
+    steps:
+    - intent: regu_cse
+    - action: utter_regu_cse
+
+  - story: regu electrical engg
+    steps:
+    - intent: regu_ee
+    - action: utter_regu_ee
+
+  - story: Electronics and Communication Engineering
+    steps:
+    - intent: regu_ece
+    - action: utter_regu_ece
+
+  - story: Information Technology
+    steps:
+    - intent: regu_it
+    - action: utter_regu_it
+
+  - story: Mechanical Engineering
+    steps:
+    - intent: regu_me
+    - action: utter_regu_me
+
+  - story: Mechatronics Engineering
+    steps:
+    - intent: regu_mechonicse
+    - action: utter_regu_mechonicse
+
+  - story: Food Technology Engineering
+    steps:
+    - intent: regu_fte
+    - action: utter_regu_fte
+
+  - story: B.E. Artificial Intelligence and Data Science
+    steps:
+    - intent: regu_aids_engg
+    - action: utter_regu_aids_engg
+
+  - story: B.E. Robotics & Automation
+    steps:
+    - intent: regu_r&a_engg
+    - action: utter_regu_r&a_engg
+
+  - story: B.E. Industrial Internet of Things
+    steps:
+    - intent: regu_iiot_engg
+    - action: utter_regu_iiot_engg
+
+  - story: engg_regu
+    steps:
+    - intent: engg_regu
+    - action: utter_engg_regu
+
+  - story: reg_ugic
+    steps:
+    - intent:  reg_ugic
+    - action: utter_reg_ugic
+
+  - story: ugc_regu
+    steps:
+    - intent: ugc_regu
+    - action: utter_ugc_regu
+
+  - story: pgc_regu
+    steps:
+    - intent: pgc_regu
+    - action: utter_pgc_regu
+
+  - story: me_cse_cc_regu
+    steps:
+    - intent: me_cse_cc_regu
+    - action: utter_me_cse_cc_regu
+
+  - story: me_ae_regu
+    steps:
+    - intent: me_ae_regu
+    - action: utter_me_ae_regu
+
+  - story: me_cse_regu
+    steps:
+    - intent: me_cse_regu
+    - action: utter_me_cse_regu
+
+  - story: me_ece_regu
+    steps:
+    - intent: me_ece_regu
+    - action: utter_me_ece_regu
+
+  - story: me_ee_regu
+    steps:
+    - intent: me_ee_regu
+    - action: utter_me_ee_regu
+
+  - story: me_me_regu
+    steps:
+    - intent: me_me_regu
+    - action: utter_me_me_regu
+
+  - story: me_aiml_regu
+    steps:
+    - intent: me_aiml_regu
+    - action: utter_me_aiml_regu
+
+  - story: me_ee_ev_regu
+    steps:
+    - intent: me_ee_ev_regu
+    - action: utter_me_ee_ev_regu
+
+  - story: me_te_regu
+    steps:
+    - intent: me_te_regu
+    - action: utter_me_te_regu
+
+  - story: me_ge_regu
+    steps:
+    - intent: me_ge_regu
+    - action: utter_me_ge_regu
+
+  - story: me_ctme_regu
+    steps:
+    - intent: me_ctme_regu
+    - action: utter_me_ctme_regu
+
+  - story: me_se_regu
+    steps:
+    - intent: me_se_regu
+    - action: utter_me_se_regu
+
+  - story: me_partime
+    steps:
+    - intent: me_partime
+    - action: utter_me_partime
+
+  - story: me_fulltime
+    steps:
+    - intent: me_fulltime
+    - action: utter_me_fulltime
+
+  - story: me_id_pt
+    steps:
+    - intent: me_id_pt
+    - action: utter_me_id_pt
+
+  - story: me_hsee_regu
+    steps:
+    - intent: me_hsee_regu
+    - action: utter_me_hsee_regu
+
+  - story: me_rsgise_regu
+    steps:
+    - intent: me_rsgise_regu
+    - action: utter_me_rsgise_regu
+
+  - story: me_env_regu
+    steps:
+    - intent: me_env_regu
+    - action: utter_me_env_regu
+
+  - story: me_env_pt
+    steps:
+    - intent: me_env_pt
+    - action: utter_me_env_pt
+
+  - story: me_AI_regu
+    steps:
+    - intent: me_AI_regu
+    - action: utter_me_AI_regu
+
+  - story: me_ra_regu
+    steps:
+    - intent: me_ra_regu
+    - action: utter_me_ra_regu
+
+  - story: engineering in cu
+    steps:
+    - intent: engineering
+    - action: utter_engineering
+
+  - story: engineering in cu
+    steps:
+    - intent: cse
+    - action: utter_cse
+
+  - story: doctorate
+    steps:
+    - intent: Doc_prog
+    - action: utter_Doc_prog
+
+  - story: dp_ee
+    steps:
+    - intent: dp_ee
+    - action: utter_dp_ee
+
+  - story: dp_civil
+    steps:
+    - intent: dp_civil
+    - action: utter_dp_civil
+
+  - story: dp_me
+    steps:
+    - intent: dp_me
+    - action: utter_dp_me
+
+  - story: dp_ece
+    steps:
+    - intent: dp_ece
+    - action: utter_dp_ece
+
+  - story: dp_cse
+    steps:
+    - intent: dp_cse
+    - action: utter_dp_cse
+
+  - story: ba
+    steps:
+    - intent: ba
+    - action: utter_ba
+
+  - story: bba
+    steps:
+    - intent: bba
+    - action: utter_bba
+
+  - story: bba_onln_op
+    steps:
+    - intent: bba_onln_op
+    - action: utter_bba_onln_op
+
+  - story: bca
+    steps:
+    - intent: bca
+    - action: utter_bca
+
+  - story: ma_onln_op
+    steps:
+    - intent: ma_onln_op
+    - action: utter_ma_onln_op
+
+  - story: ma_odl_op
+    steps:
+    - intent: ma_odl_op
+    - action: utter_ma_odl_op
+
+  - story: ma
+    steps:
+    - intent: ma
+    - action: utter_ma
+
+  - story: mcom
+    steps:
+    - intent: mcom
+    - action: utter_mcom
+
+  - story: mcom_onln_op
+    steps:
+    - intent: mcom_onln_op
+    - action: utter_mcom_onln_op
+
+  - story: msc_onln_op
+    steps:
+    - intent: msc_onln_op
+    - action: utter_msc_onln_op
+
+  - story: msc
+    steps:
+    - intent: msc
+    - action: utter_msc
+
+  - story: mca
+    steps:
+    - intent: mca
+    - action: utter_mca
+
+  - story: helpdesk
+    steps:
+    - intent: helpdesk
+    - action: utter_helpdesk
+
+  - story: helpdesk_academics
+    steps:
+    - intent: helpdesk_academics
+    - action: utter_helpdesk_academics
+
+  - story: dmc
+    steps:
+    - intent: dmc
+    - action: utter_dmc
+
+  - story: slm
+    steps:
+    - intent: slm
+    - action: utter_slm
+
+  - story: apply_regu
+    steps:
+    - intent: apply_regu
+    - action: utter_apply_regu
+
+  - story: apply_online
+    steps:
+    - intent: apply_online
+    - action: utter_apply_online
+
+  - story: apply_odl
+    steps:
+    - intent: apply_odl
+    - action: utter_apply_odl
+
+  - story: apply_odl
+    steps:
+    - intent: apply_odl
+    - action: utter_apply_odl
+
+  - story: adm_Pro
+    steps:
+    - intent: adm_Pro
+    - action: utter_adm_Pro
+
+  - story: adm_ofc
+    steps:
+    - intent: adm_ofc
+    - action: utter_adm_ofc
+
+  - story: con_pro
+    steps:
+    - intent: con_pro
+    - action: utter_con_pro
+
+  - story: inte_regu
+    steps:
+    - intent: inte_regu
+    - action: utter_inte_regu
+
+  - story: inte_me_phd
+    steps:
+    - intent: inte_me_phd
+    - action: utter_inte_me_phd
+
+  - story: inte_be_me_regu
+    steps:
+    - intent: inte_be_me_regu
+    - action: utter_inte_be_me_regu
+
+  - story: inte_be_me_ae
+    steps:
+    - intent: inte_be_me_ae
+    - action: utter_inte_be_me_ae
+
+  - story: inte_be_me_civil
+    steps:
+    - intent: inte_be_me_civil
+    - action: utter_inte_be_me_civil
+
+  - story: inte_be_me_ece
+    steps:
+    - intent: inte_be_me_ece
+    - action: utter_inte_be_me_ece
+
+  - story: inte_be_me_ee
+    steps:
+    - intent: inte_be_me_ee
+    - action: utter_inte_be_me_ee
+
+  - story: inte_be_me_me
+    steps:
+    - intent: inte_be_me_me
+    - action: utter_inte_be_me_me
+
+  - story: inte_be_me_cse
+    steps:
+    - intent: inte_be_me_cse
+    - action: utter_inte_be_me_cse
+
+  - story: inte_be_me_cse_is_ibm
+    steps:
+    - intent: inte_be_me_cse_is_ibm
+    - action: utter_inte_be_me_cse_is_ibm
+
+  - story: inte_be_me_cse_ai_ibm
+    steps:
+    - intent: inte_be_me_cse_ai_ibm
+    - action: utter_inte_be_me_cse_ai_ibm
+
+  - story: inte_be_me_cse_cc_virtusa
+    steps:
+    - intent: inte_be_me_cse_cc_virtusa
+    - action: utter_inte_be_me_cse_cc_virtusa
+
+  - story: inte_be_me_ibm
+    steps:
+    - intent: inte_be_me_ibm
+    - action: utter_inte_be_me_ibm
+
+  - story: IBM
+    steps:
+    - intent: IBM
+    - action: utter_IBM
+
+
+  - story: be_cse_bda_ibm
+    steps:
+    - intent: be_cse_bda_ibm
+    - action: utter_be_cse_bda_ibm
+
+  - story: be_cse_cc_ibm
+    steps:
+    - intent: be_cse_cc_ibm
+    - action: utter_be_cse_cc_ibm
+
+  - story: be_cse_is_ibm
+    steps:
+    - intent: be_cse_is_ibm
+    - action: utter_be_cse_is_ibm
+
+  - story: be_cse_saiml_ibm
+    steps:
+    - intent: be_cse_saiml_ibm
+    - action: utter_be_cse_saiml_ibm
+
+  - story: be_cse_iot_ibm
+    steps:
+    - intent: be_cse_iot_ibm
+    - action: utter_be_cse_iot_ibm
+
+  - story: be_cse_bda_leet_ibm
+    steps:
+    - intent: be_cse_bda_leet_ibm
+    - action: utter_be_cse_bda_leet_ibm
+
+  - story: be_cse_leet_cc_ibm
+    steps:
+    - intent: be_cse_leet_cc_ibm
+    - action: utter_be_cse_leet_cc_ibm
+
+  - story: be_cse_leet_is_ibm
+    steps:
+    - intent: be_cse_leet_is_ibm
+    - action: utter_be_cse_leet_is_ibm
+
+  - story: be_cse_leet_aiml_ibm
+    steps:
+    - intent: be_cse_leet_aiml_ibm
+    - action: utter_be_cse_leet_aiml_ibm
+
+  - story: be_cse_leet_iot_ibm
+    steps:
+    - intent: be_cse_leet_iot_ibm
+    - action: utter_be_cse_leet_iot_ibm
+
+  - story: cse_ibm
+    steps:
+    - intent: cse_ibm
+    - action: utter_cse_ibm
+
+  - story: cse
+    steps:
+    - intent: cse
+    - action: utter_cse
+
+  - story: cse_gg
+    steps:
+    - intent: cse_gg
+    - action: utter_cse_gg
+
+  - story: cse_bt
+    steps:
+    - intent: cse_bt
+    - action: utter_cse_bt
+
+  - story: cse_csbs
+    steps:
+    - intent: cse_csbs
+    - action: utter_cse_csbs
+
+  - story: cse_dev
+    steps:
+    - intent: cse_dev
+    - action: utter_cse_dev
+
+  - story: Lateral Entry IBM
+    steps:
+    - intent: leet_ibm
+    - action: utter_leet_ibm
+
+  - story: contact_onln_odl
+    steps:
+    - intent: contact_onln_odl
+    - action: utter_contact_onln_odl
+
+  - story: academic_calender
+    steps:
+    - intent: academic_calender
+    - action: utter_academic_calender
+
+  - story: academic_cal_gen
+    steps:
+    - intent: academic_cal_gen
+    - action: utter_academic_cal_gen
+
+  - story: academic_cal_gen_odd
+    steps:
+    - intent: academic_cal_gen_odd
+    - action: utter_academic_cal_gen_odd
+
+  - story: academic_cal_gen_even
+    steps:
+    - intent: academic_cal_gen_even
+    - action: utter_academic_cal_gen_even
+
+  - story: academic_cal_onln
+    steps:
+    - intent: academic_cal_onln
+    - action: utter_academic_cal_onln
+
+  - story: academic_cal_odl
+    steps:
+    - intent: academic_cal_odl
+    - action: utter_academic_cal_odl
+
+  - story: management_courses
+    steps:
+    - intent: management_courses
+    - action: utter_management_courses
+
+  - story: bachelor_management
+    steps:
+    - intent: bachelor_management
+    - action: utter_bachelor_management
+
+  - story: post_grad_management
+    steps:
+    - intent: post_grad_management
+    - action: utter_post_grad_management
+
+  - story: Industry_Collab_management
+    steps:
+    - intent: Industry_Collab_management
+    - action: utter_Industry_Collab_management
+
+  - story: doc_management
+    steps:
+    - intent: doc_management
+    - action: utter_doc_management
+
+  - story: bba_regu
+    steps:
+    - intent: bba_regu
+    - action: utter_bba_regu
+
+  - story: bba_am_regu
+    steps:
+    - intent: bba_am_regu
+    - action: utter_bba_am_regu
+
+  - story: bba_bf_regu
+    steps:
+    - intent: bba_bf_regu
+    - action: utter_bba_bf_regu
+
+  - story: bba_ir_regu
+    steps:
+    - intent: bba_ir_regu
+    - action: utter_bba_ir_regu
+
+  - story: bba_te_regu
+    steps:
+    - intent: bba_te_regu
+    - action: utter_bba_te_regu
+
+  - story: bba_fx_regu
+    steps:
+    - intent: bba_fx_regu
+    - action: utter_bba_fx_regu
+
+  - story: bba_ba_regu
+    steps:
+    - intent: bba_ba_regu
+    - action: utter_bba_ba_regu
+
+  - story: bba_dm_regu
+    steps:
+    - intent: bba_dm_regu
+    - action: utter_bba_dm_regu
+
+  - story: mba_ba_ibm_regu
+    steps:
+    - intent: mba_ba_ibm_regu
+    - action: utter_mba_ba_ibm_regu
+
+  - story: mba_bf_sbi_regu
+    steps:
+    - intent: mba_bf_sbi_regu
+    - action: utter_mba_bf_sbi_regu
+
+  - story: mba_hr_aon_regu
+    steps:
+    - intent: mba_hr_aon_regu
+    - action: utter_mba_hr_aon_regu
+
+  - story: mba_fin_nse_regu
+    steps:
+    - intent: mba_fin_nse_regu
+    - action: utter_mba_fin_nse_regu
+
+  - story: mba_dsai_saas_regu
+    steps:
+    - intent: mba_dsai_saas_regu
+    - action: utter_mba_dsai_saas_regu
+
+  - story: mba_lsc_cii_regu
+    steps:
+    - intent: mba_lsc_cii_regu
+    - action: utter_mba_lsc_cii_regu
+
+  - story: mba_dm_saas_regu
+    steps:
+    - intent: mba_dm_saas_regu
+    - action: utter_mba_dm_saas_regu
+
+  - story: mba_hls_regu
+    steps:
+    - intent: mba_hls_regu
+    - action: utter_mba_hls_regu
+
+  - story: phd_bm_regu
+    steps:
+    - intent: phd_bm_regu
+    - action: utter_phd_bm_regu
+
+  - story: mba_cassm_regu
+    steps:
+    - intent: mba_cassm_regu
+    - action: utter_mba_cassm_regu
+
+  - story: mba_thm_regu
+    steps:
+    - intent: mba_thm_regu
+    - action: utter_mba_thm_regu
+
+  - story: mba_ir_regu
+    steps:
+    - intent: mba_ir_regu
+    - action: utter_mba_ir_regu
+
+  - story: mba_hfmie_regu
+    steps:
+    - intent: mba_hfmie_regu
+    - action: utter_mba_hfmie_regu
+
+  - story: mba_regu
+    steps:
+    - intent: mba_regu
+    - action: utter_mba_regu
+
+  - story: odl_admission_gui
+    steps:
+    - intent: odl_admission_gui
+    - action: utter_odl_admission_gui
+
+  - story: odl_admission_pol
+    steps:
+    - intent: odl_admission_pol
+    - action: utter_odl_admission_pol
+
+  - story: odl_evaluation_sys
+    steps:
+    - intent: odl_evaluation_sys
+    - action: utter_odl_evaluation_sys
+
+  - story: mba programs
+    steps:
+    - intent: mba
+    - action: utter_mba
+
+  - story: comp_regu
+    steps:
+    - intent: comp_regu
+    - action: utter_comp_regu
+
+  - story: bach_comp_regu
+    steps:
+    - intent: bach_comp_regu
+    - action: utter_bach_comp_regu
+
+  - story: mast_comp_regu
+    steps:
+    - intent: mast_comp_regu
+    - action: utter_mast_comp_regu
+
+  - story: phd_comp
+    steps:
+    - intent: phd_comp
+    - action: utter_phd_comp
+
+  - story: bca_regu
+    steps:
+    - intent: bca_regu
+    - action: utter_bca_regu
+
+  - story: bca_arvr_regu
+    steps:
+    - intent: bca_arvr_regu
+    - action: utter_bca_arvr_regu
+
+  - story: bca_uiux_regu
+    steps:
+    - intent: bca_uiux_regu
+    - action: utter_bca_uiux_regu
+
+  - story: mast_comp_regu
+    steps:
+    - intent: mast_comp_regu
+    - action: utter_mast_comp_regu
+
+  - story: doc_comp
+    steps:
+    - intent: doc_comp
+    - action: utter_doc_comp
+
+  - story: place_track
+    steps:
+      - intent: place_track
+      - action: utter_place_track
+
+  - story: dept_devp
+    steps:
+    - intent: dept_devp
+    - action: utter_dept_devp
+
+  - story: jt_pt
+    steps:
+    - intent: jt_pt
+    - action: utter_jt_pt
+
+  - story: engg_place
+    steps:
+    - intent: engg_place
+    - action: utter_engg_place
+
+  - story: mange_place
+    steps:
+    - intent: mange_place
+    - action: utter_mange_place
+
+  - story: hotel_place
+    steps:
+    - intent: hotel_place
+    - action: utter_hotel_place
+
+  - story: phar_place
+    steps:
+    - intent: phar_place
+    - action: utter_phar_place
+
+  - story: phy_place
+    steps:
+    - intent: phy_place
+    - action: utter_phy_place
+
+  - story: place_day
+    steps:
+    - intent: place_day
+    - action: utter_place_day
+
+  - story: lead_recuit
+    steps:
+    - intent: lead_recuit
+    - action: utter_lead_recuit
+
+  - story: mca_aiml_regu
+    steps:
+      - intent: mca_aiml_regu
+      - action: utter_mca_aiml_regu
+
+  - story: mca_ccd_regu
+    steps:
+    - intent: mca_ccd_regu
+    - action: utter_mca_ccd_regu
+
+  - story: mca_regu
+    steps:
+    - intent: mca_regu
+    - action: utter_mca_regu
+
+  - story: business
+    steps:
+    - intent: business
+    - action: utter_business
+
+  - story: bach_business_regu
+    steps:
+    - intent: bach_business_regu
+    - action: utter_bach_business_regu
+
+  - story: bcom_acca_regu
+    steps:
+    - intent: bcom_acca_regu
+    - action: utter_bcom_acca_regu
+
+  - story: mast_business_regu
+    steps:
+    - intent: mast_business_regu
+    - action: utter_mast_business_regu
+
+  - story: doc_business_regu
+    steps:
+    - intent: doc_business_regu
+    - action: utter_doc_business_regu
+
+  - story: doc_com_regu
+    steps:
+    - intent: doc_com_regu
+    - action: utter_doc_com_regu
+
+  - story: bcom_regu
+    steps:
+    - intent: bcom_regu
+    - action: utter_bcom_regu
+
+  - story: bcom
+    steps:
+    - intent: bcom
+    - action: utter_bcom
+
+  - story: mcom_regu
+    steps:
+    - intent: mcom_regu
+    - action: utter_mcom_regu
+
+  - story: bsc_regu
+    steps:
+    - intent: bsc_regu
+    - action: utter_bsc_regu
+
+  - story: bach_bsc_regu
+    steps:
+    - intent: bach_bsc_regu
+    - action: utter_bach_bsc_regu
+
+  - story: mast_msc_regu
+    steps:
+    - intent: mast_msc_regu
+    - action: utter_mast_msc_regu
+
+  - story: doc_bsc_regu
+    steps:
+    - intent: doc_bsc_regu
+    - action: utter_doc_bsc_regu
+
+  - story: bsc_phy_regu
+    steps:
+    - intent: bsc_phy_regu
+    - action: utter_bsc_phy_regu
+
+  - story: bsc_chem_regu
+    steps:
+    - intent: bsc_chem_regu
+    - action: utter_bsc_chem_regu
+
+  - story: bsc_math_regu
+    steps:
+    - intent: bsc_math_regu
+    - action: utter_bsc_math_regu
+
+  - story: bsc_csm_regu
+    steps:
+    - intent: bsc_csm_regu
+    - action: utter_bsc_csm_regu
+
+  - story: msc_phy_regu
+    steps:
+    - intent: msc_phy_regu
+    - action: utter_msc_phy_regu
+
+  - story: msc_math_regu
+    steps:
+    - intent: msc_math_regu
+    - action: utter_msc_math_regu
+
+  - story: msc_chem_regu
+    steps:
+    - intent: msc_chem_regu
+    - action: utter_msc_chem_regu
+
+  - story: msc_ds_regu
+    steps:
+    - intent: msc_ds_regu
+    - action: utter_msc_ds_regu
+
+  - story: msc_ic_regu
+    steps:
+    - intent: msc_ic_regu
+    - action: utter_msc_ic_regu
+
+  - story: doc_bsc_regu
+    steps:
+    - intent: doc_bsc_regu
+    - action: utter_doc_bsc_regu
+
+  - story: doc_phy_regu
+    steps:
+    - intent: doc_phy_regu
+    - action: utter_doc_phy_regu
+
+  - story: doc_chem_regu
+    steps:
+    - intent: doc_chem_regu
+    - action: utter_doc_chem_regu
+
+  - story: doc_math_regu
+    steps:
+    - intent: doc_math_regu
+    - action: utter_doc_math_regu
+
+  - story: stu_serv
+    steps:
+    - intent: stu_serv
+    - action: utter_stu_serv
+
+  - story: trans_faci
+    steps:
+    - intent: trans_faci
+    - action: utter_trans_faci
+
+  - story: bank_faci
+    steps:
+    - intent: bank_faci
+    - action: utter_bank_faci
+
+  - story: med_faci
+    steps:
+    - intent: med_faci
+    - action: utter_med_faci
+
+  - story: exp_faci
+    steps:
+    - intent: exp_faci
+    - action: utter_exp_faci
+
+  - story: mve_faci
+    steps:
+    - intent: mve_faci
+    - action: utter_mve_faci
+
+  - story: ejr_faci
+    steps:
+    - intent: ejr_faci
+    - action: utter_ejr_faci
+
+  - story: ul_faci
+    steps:
+    - intent: ul_faci
+    - action: utter_ul_faci
+
+  - story: media_faci
+    steps:
+    - intent: media_faci
+    - action: utter_media_faci
+
+  - story: interactive_story_1
+    steps:
+    - intent: online_cu_programs
+    - action: utter_online_cu_programs
+    - intent: online_option
+    - action: utter_online_option
+    - intent: bachelor_online
+    - action: utter_bachelor_online
+    - intent: bajmc_online
+    - action: utter_bajmc_online
+    - intent: help
+    - action: utter_help
+    - intent: online_cu_programs
+    - action: utter_online_cu_programs
+    - intent: online_option
+    - action: utter_online_option
+    - intent: bachelor_online
+    - action: utter_bachelor_online
+    - intent: bba_online
+    - action: utter_bba_online
+    - intent: masters_online
+    - action: utter_masters_online
+    - intent: MAJMC_online
+    - action: utter_MAJMC_online
+    - intent: masters_online
+    - action: utter_masters_online
+    - intent: MAJMC_online
+    - action: utter_MAJMC_online
+    - intent: mcomacca_online
+    - action: utter_mcomacca_online
+    - intent: mscdsc_online
+    - action: utter_mscdsc_online
+
+  - story: interactive_story_2
+    steps:
+    - intent: regular_courses
+    - action: utter_regular_courses
+    - intent: engg_regu
+    - action: utter_engg_regu
+    - intent: ugc_regu
+    - action: utter_ugc_regu
+    - intent: regu_aero_engg
+    - action: utter_regu_aero_engg
+    - intent: help
+    - action: utter_help
+    - intent: ODL
+    - action: utter_ODL
+    - intent: odl_option
+    - action: utter_odl_option
+    - intent: bachelor_iodl_prog
+    - action: utter_bachelor_iodl_prog
+    - intent: BA_ODL
+    - action: utter_BA_ODL
+    - intent: masters_iodl_prog
+    - action: utter_masters_iodl_prog
+    - intent: MBA_ODL
+    - action: utter_MBA_ODL
+    - intent: LEET_Programs
+    - action: utter_LEET_Programs
+    - intent: leet_engg
+    - action: utter_leet_engg
+    - intent: BAELEET
+    - action: utter_BAELEET
+    - intent: leet_aps
+    - action: utter_leet_aps
+    - intent: BOPLEET
+    - action: utter_BOPLEET
+    - intent: IBM
+    - action: utter_IBM
+    - intent: leet_ibm
+    - action: utter_leet_ibm
+    - intent: be_cse_bda_leet_ibm
+    - action: utter_be_cse_bda_leet_ibm
+    - intent: be_cse_leet_cc_ibm
+    - action: utter_be_cse_leet_cc_ibm
+    - intent: aboutcu
+    - action: utter_aboutcu
+    - intent: official_website
+    - action: utter_official_website
+    - intent: academic_calender
+    - action: utter_academic_calender
+    - intent: academic_cal_gen
+    - action: utter_academic_cal_gen
+    - intent: academic_cal_gen_even
+    - action: utter_academic_cal_gen_even
+    - intent: how_to_apply
+    - action: utter_how_to_apply
+    - intent: apply_odl
+    - action: utter_apply_odl
+    - intent: odl_admission_gui
+    - action: utter_odl_admission_gui
+    - intent: regu_fte
+    - action: utter_regu_fte
+    - intent: mba_hr_aon_regu
+    - action: utter_mba_hr_aon_regu
+    - intent: leet_pharma
+    - action: utter_leet_pharma
+    - intent: engg_place
+    - action: utter_engg_place
+    - intent: academic_cal_onln
+    - action: utter_academic_cal_onln
+    - intent: con_pro
+    - action: utter_con_pro
+
+  - story: interactive_story_3
+    steps:
+    - intent: aboutcu
+    - action: utter_aboutcu
+    - intent: official_website
+    - action: utter_official_website
+
+  - story: interactive_story_4
+    steps:
+    - action: utter_bachelor_iodl_prog
+    - intent: BCOM_ODL
+    - action: utter_BCOM_ODL
+    - intent: regular_courses
+    - action: utter_regular_courses
+    - intent: bsc_regu
+    - action: utter_bsc_regu
+    - intent: mast_msc_regu
+    - action: utter_mast_msc_regu
+    - intent: msc_ds_regu
+    - action: utter_msc_ds_regu
+    - intent: regular_courses
+    - action: utter_regular_courses
+    - intent: engg_regu
+    - action: utter_engg_regu
+    - intent: cse_ibm
+    - action: utter_cse_ibm
+    - intent: be_cse_saiml_ibm
+    - action: utter_cse_ibm
+    - intent: be_cse_bda_ibm
+    - action: utter_be_cse_bda_ibm
+    - intent: affirm
+    - intent: affirm
+    - intent: aboutcu
+    - action: utter_aboutcu
+    - intent: stu_serv
+    - action: utter_stu_serv
+    - intent: trans_faci
+    - action: utter_trans_faci
+    - intent: aboutcu
+    - action: utter_aboutcu
+    - intent: place
+    - action: utter_place
+    - intent: engg_place
+    - action: utter_engg_place
+    - intent: aboutcu
+    - action: utter_aboutcu
+    - intent: academic_calender
+    - action: utter_academic_calender
+    - intent: academic_cal_gen
+    - action: utter_academic_cal_gen
+    - intent: academic_cal_gen_even
+    - action: utter_academic_cal_gen_even
+
+  - story: interactive_story_5
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_great
+    - action: utter_ask
+    - intent: help
+    - action: utter_help
+    - intent: ODL
+    - action: utter_ODL
+    - intent: odl_option
+    - action: utter_odl_option
+    - intent: thank
+    - action: utter_thank
+    - intent: discard
+    - action: utter_goodbye
+    - intent: LEET_Programs
+    - action: utter_LEET_Programs
+    - intent: management_courses
+    - action: utter_management_courses
